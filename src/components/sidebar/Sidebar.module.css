@@ -1,0 +1,71 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+  }
+  
+  .sidebar {
+    width: 260px;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 6px 0 0 6px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 1001;
+  }
+  
+  .title {
+    color: #28a745;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+  }
+  
+  .navItem a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    padding: 10px 0;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navItem:hover a {
+    color: #28a745;
+  }
+  
+  .activeBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background-color: #28a745;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .navItem:hover .activeBar {
+    opacity: 1;
+  }
+  

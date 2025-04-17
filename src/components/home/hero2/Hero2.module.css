@@ -1,0 +1,113 @@
+.hero2 {
+    padding: 80px 20px;
+    background: #f1f8e9;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #263238;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #546e7a;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .primary {
+    background: linear-gradient(135deg, #1b5e20, #4caf50);
+    color: white;
+  }
+  
+  .secondary {
+    border: 2px solid #1b5e20;
+    background: white;
+    color: #1b5e20;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* center it */
+    margin-top: 40px;
+    padding-right: 40px; /* nudge it a bit to the right */
+  }
+  
+  .circle {
+    background: rgba(139, 195, 74, 0.1);
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .centerEmoji {
+    font-size: 5rem;
+  }
+  
+  .icon {
+    position: absolute;
+    background: linear-gradient(135deg, #1b5e20, #4caf50);
+    padding: 12px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .topLeft {
+    top: -20px;
+    left: -20px;
+  }
+  
+  .topRight {
+    top: -20px;
+    right: -20px;
+  }
+  
+  .bottomLeft {
+    bottom: -20px;
+    left: -20px;
+  }
+  
+  .bottomRight {
+    bottom: -20px;
+    right: -20px;
+  }
+  

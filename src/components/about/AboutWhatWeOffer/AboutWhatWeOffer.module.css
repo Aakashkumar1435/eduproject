@@ -1,0 +1,60 @@
+:root {
+    --primary-green: #1cb754;
+    --dark-green: #0a7e39;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .sectionTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--dark-green);
+    font-size: 2rem;
+  }
+  
+  .scrollWrapper {
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .cardGrid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(300px, 1fr);
+    gap: 30px;
+    padding: 10px 0;
+    min-width: 100%;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cardHeader {
+    background-color: var(--primary-green);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cardIcon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .cardBody {
+    padding: 20px;
+  }
+  

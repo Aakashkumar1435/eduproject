@@ -1,0 +1,21 @@
+.container {
+    height: 50px;
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically center the items */
+    justify-content: space-between; /* Space between text and icons */
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+.imgContainer {
+    display: inline-block; /* Ensure icons are inline */
+    width: 25px; /* Set appropriate size */
+    height: 25px;
+    position: relative; /* Needed for Next.js Image with 'fill' prop */
+    opacity: 0.8; /* Slight transparency for icons */
+}
+
+.social {
+    display: flex; /* Align icons in a row */
+    align-items: center; /* Vertically center the icons */
+    gap: 10px; /* Add spacing between icons */
+}

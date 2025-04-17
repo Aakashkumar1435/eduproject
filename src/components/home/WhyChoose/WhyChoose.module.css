@@ -1,0 +1,110 @@
+.why {
+    background: #f1f8e9;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .heading h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #263238;
+  }
+  
+  .heading h2 span {
+    background: linear-gradient(135deg, #1b5e20, #4caf50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .heading p {
+    font-size: 1.1rem;
+    color: #546e7a;
+    margin-bottom: 60px;
+  }
+  
+  /* Horizontal scrolling */
+  .cards {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .cards::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb {
+    background: #a5d6a7;
+    border-radius: 10px;
+  }
+  
+  
+  .card {
+    flex: 0 0 320px;
+    scroll-snap-align: start;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    position: relative;
+    border-left: 5px solid #4caf50;
+    transition: background-color 0.4s ease;
+    background-size: 200% 100%;
+    background-position: left center;
+  }
+  
+  .card h3 {
+    font-weight: 800; /* make heading bold */
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #263238;
+  }
+  
+  .card:hover {
+    background: linear-gradient(to right, #e6f4dc 50%, white 50%);
+    background-position: right center;
+    background-size: 200% 100%;
+    transition: background-position 0.5s ease;
+  }
+  
+  .card.leaveGreen {
+    background: linear-gradient(to left, #c8e6c9 50%, white 50%);
+    background-position: left center;
+    background-size: 200% 100%;
+    transition: background-position 2s ease;
+  }
+  
+  
+  .icon {
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #1b5e20, #4caf50);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #263238;
+  }
+  
+  .card p {
+    color: #546e7a;
+    font-size: 1rem;
+  }
+  

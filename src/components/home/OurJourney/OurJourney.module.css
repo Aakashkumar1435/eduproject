@@ -1,0 +1,297 @@
+:root {
+    --primary: #4caf50;
+    --primary-light: #80e27e;
+    --primary-dark: #087f23;
+    --white: #ffffff;
+    --light-grey: #f5f5f5;
+    --dark-grey: #333333;
+    --timeline-color: #e0e0e0;
+  }
+  
+  .journeySection {
+    padding: 5rem 2rem;
+    background-color: #f1f8e9;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .sectionTitle {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+  
+  .sectionTitle h2 {
+    font-size: 2.5rem;
+    color: var(--dark-grey);
+    display: inline-block;
+    padding-bottom: 1rem;
+    position: relative;
+  }
+  
+  .sectionTitle h2::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 4px;
+    background: var(--primary);
+    bottom: 0;
+    left: 15%;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+  }
+  
+  .sectionTitle h2:hover::after {
+    transform: scaleX(1.3);
+  }
+  
+  .storyIntro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    color: var(--dark-grey);
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  
+  .highlight {
+    color: var(--primary);
+    font-weight: 600;
+  }
+  
+  .timeline {
+    position: relative;
+    margin: 2rem auto;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: var(--timeline-color);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+    border-radius: 2px;
+  }
+  
+  .timelineItem {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+  }
+  
+  .timelineItem:nth-child(odd) {
+    left: 0;
+    text-align: right;
+  }
+  
+  .timelineItem:nth-child(even) {
+    left: 50%;
+    text-align: left;
+  }
+  
+  .timelineItem::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 50%;
+    top: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .timelineItem:nth-child(odd)::after {
+    right: -10px;
+  }
+  
+  .timelineItem:nth-child(even)::after {
+    left: -10px;
+  }
+  
+  .timelineItem:hover::after {
+    transform: scale(1.5);
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
+  }
+  
+  .timelineContent {
+    padding: 20px;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .timelineItem:hover .timelineContent {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+  
+  .timelineDate {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    background: rgba(76, 175, 80, 0.1);
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .timelineTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--dark-grey);
+  }
+  
+  .timelineDescription {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .timelineIcon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+  }
+  
+  .visionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  
+  .visionCard {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .visionCard:hover {
+    transform: translateY(-10px);
+    border-bottom: 3px solid var(--primary);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .visionIcon {
+    font-size: 3rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .visionCard:hover .visionIcon {
+    transform: rotateY(180deg);
+  }
+  
+  .visionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--dark-grey);
+  }
+  
+  .visionDescription {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .decoration {
+    position: absolute;
+    opacity: 0.05;
+    z-index: 0;
+  }
+  
+  .decoration1 {
+    top: 5%;
+    left: 5%;
+    font-size: 10rem;
+    transform: rotate(-15deg);
+  }
+  
+  .decoration2 {
+    bottom: 10%;
+    right: 5%;
+    font-size: 12rem;
+    transform: rotate(15deg);
+  }
+  
+  .ctaContainer {
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .ctaButton {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--white);
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--primary);
+  }
+  
+  .ctaButton:hover {
+    background: var(--white);
+    color: var(--primary);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+  }
+  
+  @media (max-width: 768px) {
+    .timeline::before {
+      left: 31px;
+    }
+  
+    .timelineItem {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+      text-align: left;
+    }
+  
+    .timelineItem:nth-child(odd) {
+      left: 0;
+      text-align: left;
+    }
+  
+    .timelineItem:nth-child(even) {
+      left: 0;
+    }
+  
+    .timelineItem::after {
+      left: 21px;
+    }
+  
+    .timelineItem:nth-child(odd)::after {
+      right: auto;
+      left: 21px;
+    }
+  }

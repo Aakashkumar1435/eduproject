@@ -1,0 +1,118 @@
+.navbarContainer {
+    width: 100%;
+    z-index: 40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--background); /* adjust if using custom Tailwind theme */
+    border-bottom: 1px solid #e5e7eb; /* light border like Tailwind's default */
+  }
+  
+  .navbarInner {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 4rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .navbarInner {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .navMenu {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  
+  .navMenuList {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .navLink {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .navLink:hover {
+    background-color: #a7f3d0; /* ✅ light green (Tailwind green-200) */
+    color: #065f46; /* ✅ text becomes darker green */
+  }
+  
+  .navLink:hover {
+    background-color: #d1d5db; /* Tailwind's gray-300 */
+    font-size: 1rem;
+  }
+  
+  .logo {
+    border-radius: 9999px;
+  }
+  
+  .authButtons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .mobileToggle {
+    display: flex;
+    width: 3rem;
+    flex-shrink: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .mobileMenu {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 100%;
+    background-color: var(--background); /* use fallback color if var not defined */
+    border-top: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .mobileLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125rem;
+  }
+  
+  .activeLink {
+    background-color: #22c55e; /* green highlight */
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  }
+  
