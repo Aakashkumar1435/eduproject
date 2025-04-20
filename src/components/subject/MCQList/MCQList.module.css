@@ -1,0 +1,75 @@
+.wrapper {
+    padding: 24px;
+    background-color: #e6f4ea;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #15803d;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #14532d;
+    margin-bottom: 24px;
+  }
+  
+  .chapterBox {
+    background: white;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+  
+  .chapterItem {
+    border-bottom: 1px solid #d1fae5;
+    padding: 12px 0;
+  }
+  
+  .chapterHeader {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: bold;
+    color: #064e3b;
+  }
+  
+  .testCount {
+    background-color: #bbf7d0;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: #166534;
+  }
+  
+  .testList {
+    margin-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .testItem {
+    background-color: #d1fae5;
+    padding: 10px;
+    border-radius: 8px;
+    color: #065f46;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .testItem:hover {
+    background-color: #bbf7d0;
+  }
+  .testMeta {
+    font-size: 0.9rem;
+    color: #064e3b;
+    margin-top: 4px;
+  }
+  
+  

@@ -11,7 +11,7 @@ export default function DashboardPage() {
     <>
       <DashboardHeader onMenuClick={() => setSidebarOpen(true)} />
       <Sidebar isOpen={isSidebarOpen} onClose={() => setSidebarOpen(false)} />
-      <DashboardContent /> {/* 👈 Render it here */}
+      <DashboardContent /> 
     </>
   );
 }
