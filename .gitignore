@@ -1,46 +1,49 @@
-# Root-level ignores
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+
+# Ignore node_modules in server folder
+/server/node_modules/
+/server/package-lock.json
+# Uncomment and adjust the following lines as per your needs for Yarn
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
-node_modules/
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
+.pnpm-debug.log*
 
-# Ignore build outputs (common in fullstack apps)
-dist/
-build/
+# env files (can opt-in for committing if needed)
+.env*
 
-# Logs
-logs
-*.log
-log.txt
+# vercel
+.vercel
 
-# IDEs and editors
-.vscode/
-.idea/
-*.swp
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
-# OS-specific
-ehthumbs.db
-Desktop.ini
-
-# Next.js specific (client folder)
-client/.next/
-client/out/
-client/node_modules/
-client/package-lock.json
-client/yarn.lock
-client/pnpm-lock.yaml
-
-# Backend specific (client/server)
-client/server/node_modules/
-client/server/dist/
-client/server/build/
-client/server/package-lock.json
-client/server/yarn.lock
-client/server/pnpm-lock.yaml
-
-# Optional: coverage and testing
-coverage/
-*.lcov
+# clerk configuration (can include secrets)
+/.clerk/
