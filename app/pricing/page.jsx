@@ -1,0 +1,27 @@
+import React from "react";
+import PricingPage from "@/components/pricing/pricingPage/PricingPage";
+import FAQ from "@/components/pricing/FAQ/FAQ";
+import OtherCourses from "@/components/pricing/OtherCourses/OtherCourses";
+import HowToJoin from "@/components/pricing/HowToJoin/HowToJoin";
+
+export default function Page() {
+  return (
+    <main className="bg-[#e6f4ea] min-h-screen w-full">
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <PricingPage />
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <FAQ />
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <OtherCourses />
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <HowToJoin />
+      </section>
+    </main>
+  );
+}

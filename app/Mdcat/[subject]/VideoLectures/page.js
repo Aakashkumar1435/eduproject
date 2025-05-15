@@ -1,11 +1,11 @@
 import React from 'react'
 import { Navbar } from '@/app/components/Mdcat/Navbar';
-import MdcatLectures from '@/app/components/Mdcat/VideoLectures/MdcatVideoLectureBody';
+import VideoLectures from '@/app/components/Mdcat/VideoLectures/VideoLecture';
 function MdcatVideoLectures() {
   return (
     <div>
       <Navbar />
-      <MdcatLectures />
+      <VideoLectures />
     </div>
   )
 }

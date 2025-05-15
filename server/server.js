@@ -3,6 +3,8 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './db.js';
 import apiRoutes from './routes/api/index.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 dotenv.config();
 
@@ -12,6 +14,12 @@ app.use(cors({
   credentials: true,               // 🔥 Allow cookies
 }));
 app.use(express.json());
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Serve the 'video' folder as static from the 'server' directory
+app.use('/videos', express.static(path.join(__dirname, 'video')));
 
 const PORT = process.env.PORT || 5000;
 

@@ -90,7 +90,7 @@ export default function MdcatTests() {
 
           {/* Chemistry */}
           <div
-            onClick={() => handleSubjectClick("chemistry")}
+            onClick={() => handleSubjectClick("Chemistry")}
             className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-indigo-900 cursor-pointer"
             role="button"
             aria-label="Navigate to Chemistry"
@@ -118,7 +118,7 @@ export default function MdcatTests() {
 
           {/* English */}
           <div
-            onClick={() => handleSubjectClick("english")}
+            onClick={() => handleSubjectClick("English")}
             className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-pink-500 cursor-pointer"
             role="button"
             aria-label="Navigate to English"
@@ -146,7 +146,7 @@ export default function MdcatTests() {
 
           {/* Physics */}
           <div
-            onClick={() => handleSubjectClick("physics")}
+            onClick={() => handleSubjectClick("Physics")}
             className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-amber-500 cursor-pointer"
             role="button"
             aria-label="Navigate to Physics"
@@ -174,7 +174,7 @@ export default function MdcatTests() {
 
           {/* Logical Reasoning */}
           <div
-            onClick={() => handleSubjectClick("logical-reasoning")}
+            onClick={() => handleSubjectClick("Logical-Reasoning")}
             className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-blue-500 cursor-pointer"
             role="button"
             aria-label="Navigate to Logical Reasoning"
@@ -237,11 +237,11 @@ export default function MdcatTests() {
           </div>
 
           {/* Empty slots with subtle styling */}
-          <div className="bg-white bg-opacity-50 rounded-xl border border-dashed border-gray-300 p-5 flex flex-col items-center justify-center hover:border-indigo-300 transition-colors duration-300 hidden md:flex">
+          <div className="bg-white bg-opacity-50 rounded-xl border border-dashed border-gray-300 p-5 flex flex-col items-center justify-center hover:border-indigo-300 transition-colors duration-300 md:flex">
             <span className="text-gray-400 text-sm">Coming Soon</span>
           </div>
 
-          <div className="bg-white bg-opacity-50 rounded-xl border border-dashed border-gray-300 p-5 flex flex-col items-center justify-center hover:border-indigo-300 transition-colors duration-300 hidden md:flex">
+          <div className="bg-white bg-opacity-50 rounded-xl border border-dashed border-gray-300 p-5 flex flex-col items-center justify-center hover:border-indigo-300 transition-colors duration-300 md:flex">
             <span className="text-gray-400 text-sm">Coming Soon</span>
           </div>
         </div>

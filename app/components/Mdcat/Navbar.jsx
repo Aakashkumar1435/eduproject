@@ -10,11 +10,14 @@ import {
   User,
   LogOut,
 } from "lucide-react";
+import { useParams } from "next/navigation";
 
 export const Navbar = () => {
   const [userId, setUserId] = useState(null);
   const [userName, setUserName] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const params = useParams();
+  const subject = params.subject;
 
   // Check for userId in localStorage on component mount
   useEffect(() => {
@@ -60,21 +63,21 @@ export const Navbar = () => {
                 <span>Home</span>
               </Link>
               <Link
-                href="/Mdcat/VideoLectures"
+                href= {`/Mdcat/${subject}/VideoLectures`}
                 className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
               >
                 <Video className="mr-2" size={18} />
                 <span>Video Lectures</span>
               </Link>
               <Link
-                href="/Mdcat/Notes"
+                href= {`/Mdcat/${subject}/Notes`}
                 className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
               >
                 <BookOpen className="mr-2" size={18} />
                 <span>Notes</span>
               </Link>
               <Link
-                href="/Mdcat/Tests"
+                href={`/Mdcat/${subject}/Tests`}
                 className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
               >
                 <FileText className="mr-2" size={18} />

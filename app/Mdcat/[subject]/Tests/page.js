@@ -16,7 +16,7 @@ export default function SubjectTests() {
   const router = useRouter();
   const params = useParams();
   const subjectName = params?.subject;
-  const { userId } = useUser(); // Get userId from context
+  const userId = localStorage.getItem("userId");
 
   const [loading, setLoading] = useState(true);
   const [chapters, setChapters] = useState([]);
@@ -26,6 +26,12 @@ export default function SubjectTests() {
 
   // Fetch data when component mounts or subject changes
   useEffect(() => {
+    if(!userId) {
+      // Redirect to login if userId is not found
+      // Also store redirectAfterLogin
+      localStorage.setItem("redirectAfterLogin", `/Mdcat/${subjectName}/Tests`);
+      router.push("/User-Sign-In");
+    }
     const fetchData = async () => {
       setLoading(true);
       try {
@@ -159,7 +165,7 @@ export default function SubjectTests() {
               );
               const progressResult = await progressResponse.json();
 
-              console.log("Progress result:", progressResult); // Debugging line
+              console.log("Progress result:", progressResponse); // Debugging line
 
               if (progressResult.success && progressResult.percentage != null) {
                 progressData[testId] = progressResult.percentage;

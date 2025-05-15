@@ -12,22 +12,6 @@ const Navbar = () => {
 
   // Get user data from localStorage on component mount
   useEffect(() => {
-    const getUserData = () => {
-      try {
-        const userData = localStorage.getItem('user');
-        if (userData) {
-          const user = JSON.parse(userData);
-          setUserId(user.id);
-          setUserName(user.name || "");
-        }
-      } catch (error) {
-        console.error("Error retrieving user data:", error);
-      }
-    };
-
-    // Initial data fetch
-    getUserData();
-
     // Scroll event listener
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);

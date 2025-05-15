@@ -7,6 +7,7 @@ import authRoutes from '../authRoutes.js';
 import mcqRoutes from '../mcqRoutes.js';
 import progressRoutes from '../progressRoutes.js';
 import notesRoutes from '../notesRoutes.js';
+import videoRoutes from '../videoRoutes.js';
 
 const router = express.Router();
 
@@ -19,5 +20,7 @@ router.use('/mcqs', mcqRoutes);
 router.use('/progress', progressRoutes);
 router.use('/user', authRoutes);
 router.use('/notes', notesRoutes);
+router.use('/videos', videoRoutes);
+// router.use('/summarize', )
 
 export default router;

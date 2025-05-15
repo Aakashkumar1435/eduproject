@@ -42,7 +42,7 @@ export default function Impact() {
   }, []);
   
   const startCountAnimation = () => {
-    const duration = 2000; // ms
+    const duration = 2000;
     const frameRate = 30;
     const totalFrames = duration / (1000 / frameRate);
     let frame = 0;
