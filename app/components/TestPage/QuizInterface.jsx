@@ -1,14 +1,11 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { AlertCircle } from "lucide-react";
-import { useUser } from '@/app/context/UserContext'
+import { AlertCircle, CheckCircle } from "lucide-react";
 
 // Import components
 import QuizHeader from "./QuizHeader";
 import ProgressBar from "./ProgressBar";
-// import TopControls from "./TopControls";
-import SavedQuestionsSection from "./SavedQuestionsSection";
 import QuestionDisplay from "./QuestionDisplay";
 import OptionsSection from "./OptionsSection";
 import FeedbackMessage from "./FeedbackMessage";
@@ -30,14 +27,12 @@ export default function QuizInterface() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [correctAnswers, setCorrectAnswers] = useState({});
-  const [savedQuestions, setSavedQuestions] = useState([]);
   const [timeSpent, setTimeSpent] = useState(0);
   const [startTime, setStartTime] = useState(null);
   const [timeRemaining, setTimeRemaining] = useState(null);
   const [showExitConfirmation, setShowExitConfirmation] = useState(false);
   const [showFinishConfirmation, setShowFinishConfirmation] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-  const [showSavedSection, setShowSavedSection] = useState(false);
   const [answerFeedback, setAnswerFeedback] = useState(null);
 
   const timerInterval = useRef(null);
@@ -191,22 +186,6 @@ export default function QuizInterface() {
     }
   };
 
-  // const toggleSaveQuestion = () => {
-  //   if (mcqs.length === 0) return;
-
-  //   const currentQuestionId =
-  //     mcqs[currentQuestionIndex]._id || mcqs[currentQuestionIndex].id;
-
-  //   // Fix: Properly toggle saved state
-  //   if (savedQuestions.includes(currentQuestionId)) {
-  //     setSavedQuestions(
-  //       savedQuestions.filter((id) => id !== currentQuestionId)
-  //     );
-  //   } else {
-  //     setSavedQuestions([...savedQuestions, currentQuestionId]);
-  //   }
-  // };
-
   const handleExit = () => {
     setShowExitConfirmation(true);
   };
@@ -242,18 +221,16 @@ export default function QuizInterface() {
     setSubmitting(true);
 
     try {
+      // Calculate total score
+      const totalQuestions = mcqs.length;
+      const correctCount = Object.values(correctAnswers).filter(isCorrect => isCorrect).length;
+      const score = Math.round((correctCount / totalQuestions) * 100);
 
-    // Calculate total score
-
-    const totalQuestions = mcqs.length;
-    const correctCount = Object.values(correctAnswers).filter(isCorrect => isCorrect).length;
-    const score = Math.round((correctCount / totalQuestions) * 100);
-
-    const submissionData = {
-      percentage: score,
-      totalScore: correctCount,
-      timeSpent: timeSpent,
-    };
+      const submissionData = {
+        percentage: score,
+        totalScore: correctCount,
+        timeSpent: timeSpent,
+      };
 
       const response = await fetch(`http://localhost:5000/api/progress/saveProgress?testId=${testID}&userId=${userId}`, {
         method: "POST",
@@ -267,6 +244,9 @@ export default function QuizInterface() {
         throw new Error("Failed to submit test");
       }
 
+      // Navigate to results page
+      router.push(`/test-results/${testID}`);
+
     } catch (error) {
       console.error("Error submitting test:", error);
     } finally {
@@ -274,35 +254,27 @@ export default function QuizInterface() {
     }
   };
 
-  const goToSavedQuestion = (id) => {
-    const index = mcqs.findIndex((q) => (q._id || q.id) === id);
-    if (index !== -1) {
-      setCurrentQuestionIndex(index);
-      setShowSavedSection(false);
-    }
-  };
-
   if (loading) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-green-600"></div>
-        <p className="ml-2 text-green-800">Loading test...</p>
+      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-4 border-green-500 border-t-transparent"></div>
+        <p className="ml-4 text-green-400 text-lg">Loading test...</p>
       </div>
     );
   }
 
   if (mcqs.length === 0) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="max-w-md p-6 bg-white rounded-lg shadow-md text-center">
-          <AlertCircle className="mx-auto text-red-500 w-8 h-8 mb-3" />
-          <h2 className="text-lg font-semibold mb-2">No Questions Available</h2>
-          <p className="text-gray-600 mb-4">
+      <div className="min-h-screen bg-gray-900 flex items-center justify-center p-4">
+        <div className="max-w-md p-8 bg-gray-800 rounded-xl shadow-xl text-center">
+          <AlertCircle className="mx-auto text-red-500 w-12 h-12 mb-4" />
+          <h2 className="text-xl font-bold mb-3 text-white">No Questions Available</h2>
+          <p className="text-gray-300 mb-6">
             Unable to load questions for this test.
           </p>
           <button
             onClick={() => router.back()}
-            className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
+            className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors shadow-lg"
           >
             Go Back
           </button>
@@ -312,9 +284,6 @@ export default function QuizInterface() {
   }
 
   const currentQuestion = mcqs[currentQuestionIndex];
-  const isQuestionSaved = savedQuestions.includes(
-    currentQuestion._id || currentQuestion.id
-  );
   const isLastQuestion = currentQuestionIndex === mcqs.length - 1;
   const isFirstQuestion = currentQuestionIndex === 0;
   const answeredCount = Object.keys(selectedAnswers).length;
@@ -322,7 +291,7 @@ export default function QuizInterface() {
     mcqs.length > 0 ? Math.floor((answeredCount / mcqs.length) * 100) : 0;
 
   return (
-    <div className="min-h-screen bg-white flex flex-col">
+    <div className="min-h-screen bg-gray-900 flex flex-col">
       {/* Header */}
       <QuizHeader
         testName={testData?.name}
@@ -336,47 +305,34 @@ export default function QuizInterface() {
       <ProgressBar progressPercentage={progressPercentage} />
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col max-w-5xl mx-auto w-full px-4 py-4">
+      <div className="flex-1 flex flex-col max-w-4xl mx-auto w-full px-4 py-6">
         {error && (
-          <div className="mb-4 p-2 bg-red-50 border border-red-200 rounded text-red-700 text-sm flex items-center">
-            <AlertCircle size={14} className="mr-2" />
-            {error}
+          <div className="mb-4 p-4 bg-red-900/30 border border-red-700 rounded-lg text-red-300 flex items-center">
+            <AlertCircle size={20} className="mr-3 flex-shrink-0" />
+            <span>{error}</span>
           </div>
         )}
 
-        {/* Top Controls
-        <TopControls 
-          currentQuestionIndex={currentQuestionIndex}
-          totalQuestions={mcqs.length}
-          savedQuestions={savedQuestions}
-          isQuestionSaved={isQuestionSaved}
-          toggleSaveQuestion={toggleSaveQuestion}
-          setShowSavedSection={setShowSavedSection}
-        /> */}
-
-        {/* Saved Questions Section (Conditionally Rendered)
-        {showSavedSection && (
-          <SavedQuestionsSection 
-            savedQuestions={savedQuestions}
-            goToSavedQuestion={goToSavedQuestion}
-            mcqs={mcqs}
+        <div className="bg-gray-800 rounded-xl shadow-xl p-6 md:p-8">
+          {/* Question */}
+          <QuestionDisplay 
+            question={currentQuestion} 
+            questionNumber={currentQuestionIndex + 1}
+            totalQuestions={mcqs.length}
           />
-        )} */}
 
-        {/* Question */}
-        <QuestionDisplay question={currentQuestion} />
+          {/* Options */}
+          <OptionsSection
+            currentQuestion={currentQuestion}
+            currentQuestionIndex={currentQuestionIndex}
+            selectedAnswers={selectedAnswers}
+            answerFeedback={answerFeedback}
+            handleAnswerSelect={handleAnswerSelect}
+          />
 
-        {/* Options */}
-        <OptionsSection
-          currentQuestion={currentQuestion}
-          currentQuestionIndex={currentQuestionIndex}
-          selectedAnswers={selectedAnswers}
-          answerFeedback={answerFeedback}
-          handleAnswerSelect={handleAnswerSelect}
-        />
-
-        {/* Feedback Message */}
-        <FeedbackMessage answerFeedback={answerFeedback} />
+          {/* Feedback Message */}
+          <FeedbackMessage answerFeedback={answerFeedback} />
+        </div>
 
         {/* Navigation Buttons */}
         <NavigationButtons
@@ -395,7 +351,6 @@ export default function QuizInterface() {
           mcqs={mcqs}
           currentQuestionIndex={currentQuestionIndex}
           selectedAnswers={selectedAnswers}
-          savedQuestions={savedQuestions}
           correctAnswers={correctAnswers}
           goToQuestion={goToQuestion}
           progressPercentage={progressPercentage}

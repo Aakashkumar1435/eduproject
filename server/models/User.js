@@ -5,7 +5,10 @@ const userSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true },
     phone: { type: String, unique: false },
     password: { type: String, required: false },
-    isPremium: { type: Boolean, default: false }, // Check if user is premium
+    avatar: {type: String},
+    point: {type: Number, default: 0},
+    level: {type: Number, default: 1},
+    isPremium: { type: Boolean, default: false },
     subscription: { type: mongoose.Schema.Types.ObjectId, ref: "Subscription", default: null },
     createdAt: { type: Date, default: Date.now }
 });

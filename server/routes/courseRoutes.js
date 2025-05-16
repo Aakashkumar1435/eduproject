@@ -3,13 +3,6 @@ import Course from "../models/Course.js";
 
 const router = express.Router();
 
-router.get("/", async (req, res) => {
-  try {
-    const courses = await Course.find();
-    res.json(courses);
-  } catch (err) {
-    res.status(500).json({ error: "Failed to fetch courses" });
-  }
-});
+router.get("/", getCourse);
 
 export default router;
