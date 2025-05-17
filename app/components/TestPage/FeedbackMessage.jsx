@@ -6,7 +6,9 @@ export default function FeedbackMessage({ answerFeedback }) {
   
   return (
     <div className={`p-3 rounded-md mb-4 text-center ${
-      answerFeedback.isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+      answerFeedback.isCorrect 
+        ? 'bg-green-900 bg-opacity-30 text-green-400 border border-green-700' 
+        : 'bg-red-900 bg-opacity-30 text-red-400 border border-red-700'
     }`}>
       {answerFeedback.isCorrect ? (
         <div className="flex items-center justify-center">

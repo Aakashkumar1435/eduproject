@@ -16,8 +16,8 @@ export default function NavigationButtons({
       <button 
         className={`px-3 py-1.5 rounded flex items-center ${
           isFirstQuestion 
-            ? 'text-gray-400 bg-gray-100 cursor-not-allowed' 
-            : 'bg-green-100 text-green-800 hover:bg-green-200'
+            ? 'text-gray-500 bg-gray-800 cursor-not-allowed' 
+            : 'bg-gray-700 text-green-400 hover:bg-gray-600 border border-green-700'
         }`}
         onClick={goToPreviousQuestion}
         disabled={isFirstQuestion}
@@ -27,17 +27,17 @@ export default function NavigationButtons({
       </button>
 
       <div className="flex items-center text-xs sm:text-sm">
-        <div className="font-medium text-green-700">{answeredCount}</div>
-        <span className="mx-1 text-gray-500">of</span>
-        <div>{totalQuestions}</div>
-        <span className="ml-1 text-gray-500">answered</span>
+        <div className="font-medium text-green-400">{answeredCount}</div>
+        <span className="mx-1 text-gray-400">of</span>
+        <div className="text-gray-300">{totalQuestions}</div>
+        <span className="ml-1 text-gray-400">answered</span>
       </div>
 
       <button 
         className={`px-3 py-1.5 rounded flex items-center ${
           isLastQuestion 
-            ? 'bg-green-700 hover:bg-green-800 text-white' 
-            : 'bg-green-600 hover:bg-green-700 text-white'
+            ? 'bg-green-700 hover:bg-green-600 text-white' 
+            : 'bg-green-800 hover:bg-green-700 text-white'
         }`}
         onClick={isLastQuestion ? handleFinishClick : goToNextQuestion}
         disabled={submitting}

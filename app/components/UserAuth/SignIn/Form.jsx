@@ -94,7 +94,7 @@ function SignInForm() {
           localStorage.removeItem("redirectAfterLogin");
           router.push(redirectPath);
         } else {
-          router.push('/Mdcat');
+          router.push('/Profile');
         }
       }, 100);
     } catch (error) {

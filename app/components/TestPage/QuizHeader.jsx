@@ -1,23 +1,28 @@
-// components/QuizHeader.jsx
 import { ArrowLeft, Clock } from 'lucide-react';
-
 
 export default function QuizHeader({ testName, timeRemaining, timeSpent, handleExit, formatTime }) {
   return (
-    <div className="bg-green-600 text-white py-2 px-4 flex justify-between items-center shadow-md">
+    <div className="w-full bg-gray-900 text-white shadow-md px-6 py-4 flex items-center justify-between">
+      {/* Left section with exit button */}
       <button 
-        className="flex items-center hover:bg-green-700 p-1.5 rounded"
         onClick={handleExit}
+        className="flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors"
       >
-        <ArrowLeft size={16} className="mr-1" />
-        <span>Exit</span>
+        <ArrowLeft size={18} />
+        <span className="font-medium">Exit</span>
       </button>
       
-      <div className="font-medium text-sm md:text-base">{testName || "Test"}</div>
+      {/* Center section with test name */}
+      <div className="text-xl font-bold text-center text-green-400">
+        {testName || "Test"}
+      </div>
       
-      <div className="flex items-center bg-green-700 px-2 py-1 rounded-md text-sm">
-        <Clock size={16} className="mr-1" />
-        <span>{timeRemaining ? formatTime(timeRemaining) : formatTime(timeSpent)}</span>
+      {/* Right section with timer */}
+      <div className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-lg text-green-300">
+        <Clock size={18} />
+        <span className="font-mono text-lg">
+          {timeRemaining ? formatTime(timeRemaining) : formatTime(timeSpent)}
+        </span>
       </div>
     </div>
   );
