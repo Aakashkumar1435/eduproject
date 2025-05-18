@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Navbar from "../components/Home/Navbar";
+import Footer from '../components/footer/Footer';
 
 export default function FeedbackForm() {
   const [formData, setFormData] = useState({
@@ -54,7 +56,9 @@ export default function FeedbackForm() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-[#f4faed] py-10">
+    <>
+      <Navbar />
+    <div className="w-full min-h-screen bg-[#f4faed] py-10 pt-20">
       <div className="max-w-3xl mx-auto px-5">
         <h1 className="text-3xl text-[#1b5e20] text-center mb-10 font-bold relative after:content-[''] after:block after:w-20 after:h-[3px] after:bg-[#1b5e20] after:mx-auto after:mt-2">
           Share Your Feedback
@@ -185,5 +189,7 @@ export default function FeedbackForm() {
         </div>
       </div>
     </div>
+      <Footer />
+    </>
   );
 }

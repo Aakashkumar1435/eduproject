@@ -9,6 +9,10 @@ import progressRoutes from '../progressRoutes.js';
 import notesRoutes from '../notesRoutes.js';
 import videoRoutes from '../videoRoutes.js';
 import feedbackRoutes from '../feedbackRoutes.js';
+import pricingRoutes from '../pricingRoutes.js';
+import courseRoutes from '../courseRoutes.js';
+import summarizeRoutes from '../summarizeRoutes.js';
+
 
 const router = express.Router();
 
@@ -23,6 +27,9 @@ router.use('/user', authRoutes);
 router.use('/notes', notesRoutes);
 router.use('/videos', videoRoutes);
 router.use('/feedback', feedbackRoutes);
-// router.use('/summarize', )
+router.use('/pricing', pricingRoutes);
+router.use('/courses', courseRoutes);
+router.use('/summarize', summarizeRoutes);
+
 
 export default router;

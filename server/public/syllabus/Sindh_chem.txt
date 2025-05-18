@@ -1,0 +1,680 @@
+Page 1:
+
+Chapter 1 – Biological Molecules
+
+Major Concept:
+In this Unit you will learn:
+
+Introduction of Biological Molecules
+
+Importance of water molecules
+
+Carbohydrates
+
+Proteins
+
+Lipids
+
+Nucleic acids
+
+Conjugated molecules
+
+Page 2:
+
+Introduction of Biochemistry:
+
+The branch of biology which explains the biochemical basis of life is called Biochemistry. It is one of the most important branches of biology due to some reasons given below:
+
+It provides information about all the processes carried out in the living organisms from construction of body structures to flow of information from nucleus, especially DNA for enzyme/protein synthesis and control of all the mechanisms.
+
+It provides information about abnormal mechanisms which lead to diseases. It ultimately opens doors to the development of medicines and diseases.
+
+The recent concept and technologies of biochemistry enabled us to investigate and understand most challenging and fundamental problems of biology and medicine e.g. how does cells find each other? What form a complex organ? How does the growth of cells controlled? What are the causes of cancer? What is the mechanism of memory?
+
+These are the questions properly answered by biochemistry.
+As we know that organisms are made up of tissues and cells while cells are made up of molecules, molecules are chemically bonded atoms. It means that fundamentally living things or organisms are made up to chemicals which explains the second postulate of cell theory i.e. structure and function of cell are dependent upon their chemical composition.
+
+Therefore it is necessary to study the chemical composition of cell and reactions which carry down in these cells to understand the different structures and metabolisms of an organism.
+
+1.1 CHEMICAL COMPOSITION OF CELL:
+
+It is already established that all living organisms are structurally composed of cells and living cell contains a living matter called Protoplasm. The actual chemical composition of protoplasm is still not known perfectly.
+
+However, chemically it contains 70% to 90% of H₂O. If the water is evaporated, the remaining mass of cell is called Dry Weight of cell, consist of many carbon containing long chain molecules called Biomolecules which are the types of organic molecules. So, the compounds produced by living organisms are called biomolecules.
+
+The elements which are involved in the synthesis of biomolecules are mainly six i.e. carbon, hydrogen, oxygen, nitrogen, phosphorus and sulphur.
+
+Page 3:
+
+These form approximately 98% of the biomolecules.
+
+1.1.2 Fundamental types of Biomolecules:
+
+Biomolecules can be divided into following groups according to variability in their structures and functions in cells and organisms i.e.
+
+Carbohydrates
+
+Proteins
+
+Lipids
+
+Nucleic Acids
+
+Conjugated Molecules
+
+Table 1.1 Biomolecules their units and linkages
+
+Biomolecules	Units	Linkages
+Carbohydrates	Monosaccharides	Glycosidic linkage
+Proteins	Amino Acids	Peptide linkage
+Lipids	Glycerol & Fatty Acids	Ester linkages
+Nucleic Acids - DNA	Deoxyribonucleotides	Phosphodiester linkage
+Nucleic Acids - RNA	Ribonucleotides	Phosphodiester linkage
+Conjugated molecules	Different biomolecules	Different linkages
+
+There is a variation found in literature about the percentage of biomolecules present in the cell. It is because, different cells within the same body have different amount of biomolecules. Therefore, these values are always taken as average values. Approximate percentage of chemical composition of a typical bacterial and a typical mammalian cell is given in table 1.2.
+
+Table 1.2 Chemical compositions of cells (in %)
+
+Molecules	Bacterial Cell	Mammalian Cell
+Water	70	70
+Protein	15	18
+Carbohydrates	3	3
+Lipids	2	1.0
+DNA	1	0.25
+RNA	6	1.1
+Other Organic Compounds	2	2
+Inorganic Ions	1	1
+
+1.1.3 Synthesis and Breakdown of macromolecules (Polymers):
+
+(a) Synthesis of macromolecules (polymers) by Condensation:
+
+Molecules which form the structure and carry out activities of the cells are large in size and highly organized molecules called macromolecules which are made up of large numbers of low molecular weight, small molecules, the subunits called monomers or building block. Therefore the macromolecules are also called polymers (poly = many, mers = parts). Biomolecules which are mentioned above are all macromolecules or polymers.
+
+Page 4:
+
+Macromolecules are constructed from monomers by a process that resembles coupling of rail cars onto a train. The basic structure of each group of macromolecule is very similar in all organisms from bacteria to human beings. In this process —OH from one monomer and —H from another monomer are removed and form a new covalent bond between them. This process of joining two monomers by removing water molecule is called condensation or dehydration synthesis. Condensation always takes place by proper enzymes and energy expense.
+(Fig 1.1 shows condensation reaction between monomers forming dimer with water release)
+
+(b) Break down of macromolecule by hydrolysis:
+
+Process where macromolecule (polymer) are broken down into their subunits (monomers) by addition of H₂O molecule is called hydrolysis. It is just reverse of condensation. During this process a water molecule breaks the bond between monomers with the help of enzyme. One monomer gets —OH group and the other gets —H from water molecule.
+
+(Fig 1.2 shows hydrolysis reaction where water splits a bond between monomers)
+
+During metabolism, macromolecules are either formed or broken down in the cell, when cell rebuild many of its structures. In heterotrophs, during digestion macromolecules are broken into monomers by hydrolysis with the help of hydrolytic enzymes. These monomers then reach to cell again and form macromolecules by the process of condensation.
+
+In autotrophs, cells produce monomers from inorganic molecules like CO₂, H₂O, NO₃⁻, SO₄²⁻ etc. These monomers are later on assembled to form macromolecules in source or sink tissues by the process of condensation, while the other cell when required these molecules either for building purpose or to produce energy, the molecules break into monomers by the process of hydrolysis.
+
+Page 5:
+
+1.2 IMPORTANCE OF WATER:
+
+Water is the most abundant component in living cell. Its amount varies approximately from 70% to 90%. It is the medium of life. Almost all reactions of a cell occur in the presence of water. It also takes part in many biochemical reactions such as hydrolysis, also provides raw material for photosynthesis.
+
+The ability of water to play its wide variety of roles and the reasons for its importance in biological systems is due to the chemistry of H₂O molecule.
+
+The chemical formula of water is H₂O, which means that the two atoms of hydrogen are joined to one atom of oxygen.
+
+Water is a polar molecule. It means that it has partial negative charge (δ⁻) on oxygen and partial positive charge (δ⁺) on hydrogen atoms. This difference in electronegativities of hydrogen and oxygen atoms is called Dipole, which gives the water molecule very important properties i.e. high polarity, formation of hydrogen bond, cohesion, adhesion, high specific heat, high heat of vaporization, bond, cohesion, adhesion, high specific heat, high heat of vaporization, bond, cohesion, adhesion, ionization and low density of ice. These properties make it best solvent and cradle of life.
+
+(Fig 1.3 shows hydrogen bonding in water molecules due to polarity and δ⁻/δ⁺ charges)
+
+1.2.1 Hydrogen bond:
+
+It is an intermolecular force of attraction formed between two molecule one of which contain partially charge H⁺⁺ and other contain partial O⁻⁻ of which contain partially charge H⁺⁺ and other contain partial O⁻⁻ charge as present in water. These charges attract two molecules, this force of attraction due to H⁺⁺ and O⁻⁻ is called Hydrogen bond. Due to this Hydrogen bonding two molecules have following two types of characters:
+
+(a) Cohesion or Cohesive force of attraction:
+The attractive force between similar molecules is called cohesive force of attraction. Due to polar nature water molecules attract each other and form H-bonds between them to form a long chain of water molecule, which help in flowing freely. It flows as protoplasm in cell, as blood in blood vessels, as transporting fluid in the conducting tissues of plants.
+
+Page 6:
+
+(b) Adhesive force of attraction or Adhesion:
+The attractive force between dissimilar molecules is called Adhesive force of attraction. Due to polar nature, water molecules attract other charged molecules. It can hold water molecules in the conducting tissue of plants and prevent them from backward flow.
+(Fig 1.4 shows water molecules held by cohesion and adhesion moving water upward through plant tissue.)
+
+1.2.2 High specific heat:
+Specific heat of a substance is the amount of heat energy required to raise the temperature of 1 gm of that substance by 1°C (e.g. 15°C to 16°C).
+The specific heat of water is high due to its polar nature and hydrogen bonding between molecules. It means water requires high amount of heat to make changes in its temperature or warm up. It works as temperature stabilizer for organisms and hence protect protoplasm against sudden thermal changes.
+
+1.2.3 High heat of vaporization:
+The amount of heat required to change liquid state of water to vapor state is called heat of vaporization. Greater the heat of vaporization, higher will be the chances of stability in state or vice versa.
+Water has very high heat of vaporization i.e. 574 kcal/kg, therefore water requires to absorb high heat to change its state from liquid to vapors. It gives stability to water molecules and its state in cell. It plays an important role in thermoregulation. It also provides cooling effect when evaporate during transpiration or perspiration.
+(Fig 1.5 shows vaporization process of water molecules around a nonpolar solute.)
+
+1.2.4 Hydrophobic exclusion:
+It is the tendency of water to coalesce oil drop into large droplet. The water molecules have hydrogen bonding between them which are destroyed by the presence of hydrophobic oil and form new bonds. The water molecules clump together, they interact with themselves and the nonpolar molecules are pushed out. This excludes hydrophobic substance (oil) from water.
+
+Page 7:
+
+1.2.5 Ionization of water:
+The water molecules ionize into H⁺ and OH⁻. This reaction is reversible and also maintains equilibrium. Due to ionization property, water may behave as acid or base. It is amphoteric in nature. It also behaves as buffer due to this nature. It maintains pH for enzymatic activities in cells and organs.
+
+1.2.6 Anomalous behavior of water:
+Water shows different behavior below 4°C. Usually matter contracts at low temperature but due to hydrogen bond below 4°C, water expands which decreases its density so at 0°C water expands maximally in ice condition.
+The low density water in ice becomes lighter, comes above the surface of high density water of liquid. It makes life possible under frozen water.
+(Fig 1.6 shows comparison of hydrogen bonding in solid ice and liquid water.)
+
+1.3 CARBOHYDRATE (CARBO = CARBON, HYDRATE = WATER):
+The literal meaning of word carbohydrate is hydrated carbon i.e. water containing carbon. Thus biomolecule contains C, H and O as elements where the hydrogen and oxygen are present in the simple ratio of 2:1 as present in water.
+The general formula of carbohydrate molecules is CₙH₂ₙOₙ where “n” is a whole number.
+
+According to IUPAC, carbohydrates are defined as polyhydroxy carbonyl compounds, carbonyls are aldehydes or ketones.
+
+Main source of carbohydrates are plants because they synthesize carbohydrate molecules as primary product during photosynthesis. Other biomolecules are produced from carbohydrates during different metabolic pathways.
+
+They are sweet in taste if feels therefore called saccharum or Saccharide. They are also called sugars.
+
+Carbohydrates are found abundantly in all organisms, like cellulose in cell wall of plant, paper, starch is stored in cereal grains, tubers, sugar cane, etc.
+It plays both structural and functional role.
+
+Page 8:
+
+1.3.1 Classification of Carbohydrates:
+As we have discussed earlier that carbohydrate molecules are also called ‘Saccharides’. These Saccharides are classified into three groups:
+(i) Monosaccharide
+(ii) Oligosaccharide
+(iii) Polysaccharide
+
+(i) Monosaccharide (Mono = one; Saccharide = Sugar):
+The group of carbohydrate molecules which contain only one sugar unit. They cannot be hydrolyzed due to this reason. The empirical formula of their molecules is C₆H₁₂O₆.
+Examples: Fructose C₆H₁₂O₆, Ribose C₅H₁₀O₅ etc. All monosaccharides are white crystalline solids with sweet taste and soluble in water.
+
+Table 1.3 Classification of monosaccharides
+
+Class	Formula	Example
+Trioses	C₃H₆O₃	Glycerose (Glyceraldehyde), Dihydroxyacetone
+Tetroses	C₄H₈O₄	Erythrose, Erythrulose
+Pentoses	C₅H₁₀O₅	Ribose, Ribulose
+Hexoses	C₆H₁₂O₆	Glucose, Fructose, Galactose etc.
+
+Glycerose and Dihydroxyacetone are important trioses, produced during respiration. Tetroses are rare in nature; it occurs in some bacteria, pentoses form basic skeleton of nucleic acid.
+Hexose are most important from biological point of view. Glucose is found in ripe fruit, sweet corn, and honey. It is also found in all known polysaccharides in combined form.
+Fructose another hexose present in fruit so called fruit sugar. Usually they are found in ring structures but we can also draw their structure in open chain form.
+
+[Structure diagrams of Ribose and Glucose are also shown here]
+
+Page 9:
+
+[Structural formulas of other hexoses shown on top: D-Glucose, D-Mannose, D-Galactose]
+
+(ii) Oligosaccharides:
+The type of carbohydrate which are made up of 2 to 10 monosaccharides. These are comparatively less sweet in taste and less soluble in water. They can hydrolyze.
+
+The most common type is disaccharide, on hydrolysis yield two monosaccharides. The covalent bond between these two monosaccharides is Glycosidic bond or linkage.
+
+A glycoside is simply a ring-shaped sugar molecule that is attached to another molecule. The sugar ring may be either 5 membered ring or a six membered ring.
+
+For example, sucrose is a disaccharide, composed of two sugar units a glucose and a fructose.
+(Diagram shows bonding between Glucose + Glucose = Maltose, via glycosidic bond)
+
+The disaccharide may be reducing or non-reducing sugar.
+
+Reducing sugar is any carbohydrate which is capable of being oxidized and causes the reduction of other substances without hydrolysis. It is due to the presence of free aldehyde or free ketone group. Examples: maltose, lactose.
+
+Non-reducing sugars are carbohydrates which are unable to be oxidized and do not reduce other substance. It is due to absence of free aldehyde or ketone groups, e.g., sucrose or trehalose.
+
+Living organisms especially plants transport their food as sugar from source (leaf) to sink (fruit) tissues in the form of non-reducing sugar where glycoside bonds are present and the carbonyl group of both sugars is engaged.
+Sucrose is the sugar which is non-reducing. It contains more energy i.e., it is energy efficient in transport and storage. During transport it is not oxidized and react with other substances so no intermediate reaction with other molecules occur.
+
+Page 10:
+
+(iii) Polysaccharide:
+These are high molecular weight carbohydrates which on hydrolysis yield many monosaccharides. These are formed by the condensation of hundreds or thousands of Monosaccharide units, e.g. starch, glycogen, cellulose and chitin.
+
+1.3.2 Starch:
+It is the most important and abundant reserve food material of higher plants, found in cereals, legumes, tubers and other vegetables. It is made up of many glucose molecules joined together in straight chain amylose which is insoluble in hot water and a branched chain amylopectin, which is insoluble in hot and cold water. It gives blue color to iodine.
+
+1.3.3 Glycogen:
+It is also a polymer of glucose. Its molecular structure is similar to starch but found in animal therefore it is commonly called animal starch. It is mainly found in bacteria, fungi, in animals abundantly found in liver and muscles. It gives red color with iodine.
+
+(Structural diagrams of Amylose and Amylopectin are shown with α1→4 glycosidic linkages and branch points)
+
+Page 11:
+
+1.3.4 Cellulose:
+It is also a polymer of glucose, most abundant carbohydrate found in nature. It is highly insoluble in water. It is not digested in human body. In cellulose, the glucose units are joined in straight chain and in branch chain form tubes. These tubes of cellulose form cell-wall of plant cells. Cellulose gives no colour to iodine.
+(Fig 1.7 shows the structure of cellulose: glucose molecules forming microfibrils which form cellulose fiber in plant cell walls.)
+
+1.3.5 Chitin (C₈H₁₃O₅N)ₙ:
+It is a long chain polymer of N-acetyl glucosamine, an amide derivative of glucose.
+The structure of chitin is similar to cellulose, forming crystalline nano fibrils. Functionally, chitin is comparable to Keratin protein.
+Chitin is a modified polysaccharide that contains Nitrogen, which allows for increased hydrogen bonding between adjacent polymers, giving it more strength.
+
+In its pure and unmodified form, chitin is translucent, pliable, resilient and quite tough in most arthropods. But it is mostly found in modified form such as proteinaceous matrix from exoskeleton of insects, with CaCO₃ in the shells of mollusks and crustaceans. Composite material is much harder and stiffer than pure chitin.
+(Fig 1.8 shows structure of chitin: N-acetyl group attached to glucose units in chain.)
+
+Page 12:
+
+Stereoisomers in Carbohydrates and its role in artificial sweeteners:
+Many sugar molecules have stereoisomers i.e. the molecules are mirror images of each other.
+
+D-Glucose (Right handed sugar)	L-Glucose (Left handed sugar)
+HO—CH₂	CH₂—OH
+
+Most of the sugars in our body are right handed. The taste of right handed and left handed sugars are same, but proteins (enzymes) are also right handed and left handed sugars are absent. Enzymes which are present in our body are also handed and left handed.
+The enzymes metabolize right handed sugars only. Right handed therefore digested while left handed sugars are not.
+The artificial sweeteners which are used by diabetic patients usually are left handed sugars. These have same sweetness as sugar but have zero calories.
+These sugars are not digested in our body because all our enzymes are right handed and they are specific to break down the right handed sugars.
+The left handed won't fit into catalytic site consequently there will be no breakdown of these sugar, no metabolism and no calories.
+
+1.4 PROTEIN (GR: PROTEIOS MEANS ‘FIRST RANK’):
+Proteins can be defined as the polymers of specific amino acid arranged in a particular manner which perform definite function.
+Proteins are the most important organic compounds of the cell which carry out virtually all of the cell’s activities. They constitute major part of the dry weight of a cell.
+
+Proteins are complex organic compounds having C, H, O and N as elements. Sometimes they contain S also. Due to presence of N in large proportion they are called nitrogenous compounds.
+
+Proteins are important building blocks of tissues. Many parts of the body such as hair, nails and feathers are also proteins. Whereas meat, fish, milk and pulses are the major source of protein.
+
+Page 13:
+
+1.4.1 Amino acid as a building block of protein:
+Proteins are macromolecules or polymers of amino acids. These amino acids are joined and linked with each other by a covalent bond called peptide bond or peptide linkage.
+As we have defined above that each protein has a unique sequence of amino acids that decides the unique constituent each type of protein, found in viruses to human beings.
+
+Amino acids are organic compounds which contain at least one amino group (-NH₂) which works as base and one carboxylic acid (-COOH) which works as acid, both are chemically bonded to an asymmetric carbon, this carbon is also called α-carbon.
+The general structure of amino acid is:
+
+NH₂—CH—COOH (with R group as side chain)
+
+Examples:
+
+Glycine: NH₂—CH₂—COOH
+
+Alanine: NH₂—CH(CH₃)—COOH
+
+Serine: NH₂—CH(CH₂OH)—COOH
+
+1.4.1.1 Formation and Breakdown of peptide linkage:
+The protein or polypeptide chain is formed by linking amino acids by peptide bond. The peptide bonds are formed by linking amino group of one amino acid with carboxylic acid of another amino acid by releasing one water molecule.
+
+Diagram shows formation of dipeptide between Glycine and Alanine with removal of water (H₂O)
+
+The resultant dipeptide is glycylalanine, has two amino acid subunits called dipeptide. A dipeptide has an amino group at one end and a carboxylic acid group at the other end of the molecule. These ends are reactive and can form further peptide linkages to create tri, tetra, or polypeptides.
+
+Peptide chain: Amino acid — Amino acid — Amino acid — Amino acid
+
+The polypeptide chain can be broken by breaking peptide bonds through hydrolysis using hydrolytic enzymes. Protein chain can be broken into small chains of more than 10 amino acids called peptone. Peptone can further break into peptides, then into amino acids.
+
+Page 14:
+
+1.4.1.2 Significance of the sequence of amino acids:
+F. Sanger was the first scientist who determined the sequence of amino acids in a protein molecule. He found that insulin is composed of 51 amino acids in two chains. One chain has 21 amino acids, and other has 30 amino acids and two chains are linked by disulphide bonds.
+Same is found in Hemoglobin, which has 4 chains: two Alpha (α) and two Beta (β) chains. Each alpha chain contains 141 amino acids, while each beta chain contains 146 amino acids.
+(Fig 1.9 shows insulin sequence: A-chain and B-chain with disulfide bonds)
+
+Human body has more than 10,000 proteins. These proteins are composed of unique and specific arrangement of 20 amino acids. This sequence is determined by specific DNA, the arrangement of amino acids in a protein molecule is highly specific for its proper functioning.
+If the sequence of any amino acid will change, the protein fails to carry its normal function.
+
+One of the examples is sickle cell anemia: the abnormality in hemoglobin due to change in one amino acid out of 574. Only glutamic acid is replaced by valine at 6th position.
+Due to this little change, hemoglobin fails to carry sufficient O₂ which leads to death of the person.
+
+Fig 1.10 shows:
+
+Normal hemoglobin amino acid sequence with glutamic acid
+
+Abnormal (sickle cell) with valine in place of glutamic acid
+
+Images of normal vs sickled red blood cells
+
+Page 15:
+
+1.4.2 Classification of Protein:
+Proteins can be classified in many ways i.e. on the basis of structure or on the basis of function etc.
+Proteins can also be classified on the basis of shape in two following groups:
+
+(i) Fibrous Proteins:
+These are long fibers of proteins. The secondary protein (spiral) chains intertwine with each other’s. They consist of more polypeptide chains in the form of fibrils. These proteins are insoluble in water, non-crystalline and elastic in nature.
+They perform structural role in cells and organisms e.g. silk, spider web, myosin in muscles, fibers and clothing, keratin of nails and hairs etc.
+
+(ii) Globular Proteins:
+These are spherical or ellipsoidal due to three dimensional fold of secondary protein.
+These are either tertiary or quaternary in structure. They are soluble in salt, acid or base containing aqueous medium or alcohol.
+They can be crystallized. These proteins work as enzymes, antibodies, hormones and hemoglobin.
+(Fig 1.11 shows:
+
+(a) Collagen: fibrous protein
+
+(b) Myoglobin: globular protein)
+
+Table 1.4 List of structural proteins
+
+Protein	Function
+Actin	Muscle forming protein
+Amyloid	Work as cell surface protein
+Caddisfly (Fibroin)	Used to bind debris like rocks, sticks, twigs, shells for net of prey
+Condrocalcin	Form extra cellular matrix
+Collagen	Give strength, turned elasticity to skin, cartilage, ligaments, tendon, bone, teeth
+Elastin	Provide resilience and elasticity to tissues and organs
+Fibrillin	Glycoprotein provide force bearing structural support in elastic and non-elastic tissues
+Gelatin	Nutritious protein derived from collagen of skin and bones
+Sclera protein	Include Keratin, collagen, elastin, and fibrin
+Titin	Provide elastic stabilization of myosin and actin filaments
+Tubulin	Microtubules forming protein
+Keratin	Nails and hairs forming protein
+
+
+Page 16:
+
+Table 1.5: List of Functional Proteins
+
+Type	Examples	Function
+Digestive enzymes	Amylase, lipase, pepsin, trypsin	Help in digestion of food by hydrolysis
+Transport	Hemoglobin, albumin	Carry O₂ and other substance in the blood or lymph
+Hormones	Insulin, thyroxin	Co-ordinate different functions of body
+Defenses	Immunoglobulin, interferon	Protect the body from foreign pathogen
+Contractile	Actin, myosin	Muscle contraction
+Storage	Egg protein, casein	Provide nourishment at the time of development of embryo
+
+1.5 LIPIDS:
+Lipids are the important diverse group of biological molecules, widely distributed among plants and animals. The term lipid is proposed by Bloor in 1943 for those biomolecules which are insoluble in water and soluble in organic solvents like ether and alcohol etc. These compounds are made up of C, H, O like carbohydrates but contain much lesser ratio of oxygen than carbohydrates e.g. stearin is a fat, has molecular formula C₅₇H₁₁₀O₆. Due to high % of carbon and hydrogen, they contain almost double amount of energy than carbohydrates.
+
+Following are some common groups of lipids:
+
+1.5.1 Acylglycerol (Fats and oils):
+These are the condensation product of glycerol and three fatty acids, commonly called fats and oils. They can be defined as the esters of glycerol and fatty acid. The bond or linkage formed between alcohol and organic acid by removing water is called esterification.
+
+(Diagram shows the esterification of Glycerol + 3 Fatty acids = Triglyceride + 3H₂O)
+
+Page 17:
+
+Glycerol is a trihydroxy alcohol, made of three carbon atoms each contain an OH⁻ group, while a fatty acid is a type of organic acid containing one carboxylic acid group with long hydrocarbon chain. When three fatty acid molecules each react with one OH⁻ group of glycerol, a neutral compound called Triglyceride is formed.
+
+There are two types of fatty acids and so two types of acylglycerol:
+
+(a) Saturated acylglycerol (Fats):
+They contain saturated fatty acid i.e. do not contain any double bond. Example: stearin.
+(Structure of stearic acid is shown)
+
+(b) Unsaturated acylglycerol (Oils):
+They contain unsaturated fatty acids i.e. contain one or more than one double bond. They are liquid at room temperature. Example: linolein.
+(Structure of linoleic acid is shown)
+
+Acylglycerol provides energy for metabolic activities and is twice as energy-rich as carbohydrate. It is estimated that a person of average size contains approx. 16 kg of fats which equals 144×10³ KCal of energy.
+
+1.5.2 Phospholipids:
+Type of lipids formed by condensation of Glycerol, two fatty acids, one choline, and one phosphate.
+
+Phospholipid is similar to acylglycerol except that one fatty acid is replaced by phosphate which is linked with choline.
+
+One end (fatty acids) is hydrophobic (non-polar) and the phosphate-choline end is hydrophilic (polar).
+
+Phospholipids form membranes in living cells and are important for cell permeability and transport processes.
+
+Page 18:
+
+(Fig 1.12 shows the structure of phospholipid with hydrophobic tail and hydrophilic head)
+
+1.5.3 Waxes:
+These are esters of long chain mono-alcohol and long chain fatty acids.
+
+Found on stem, stalks, leaves, petals, fruits skin, animal skin, fur, and feathers.
+
+These are water repellant and non-reactive, i.e., hydrophobic.
+
+Chemically inert and resist oxidation.
+
+There are two types:
+
+Natural: bee's wax, cutin
+
+Synthetic: derived from petroleum or polyethylene
+
+Used in lubricants, protective coatings, etc.
+
+(Diagram shows Palmitic acid + Triacontanol = Wax ester)
+
+Page 19:
+
+1.5.4 Terpenoids:
+Terpenoids are large and important class of lipids made up of isoprenoid units (C₅H₈). Examples include:
+
+Carotenoids, steroids, and prostaglandins
+
+They are found in:
+
+Cell membranes, pigments (like chlorophyll), fragrances, essential oils.
+
+1.5.4.1 Terpenes:
+Made of isoprenoid units. Found in oils like lemon, rose, eucalyptus, peppermint.
+
+1.5.4.2 Steroids:
+A type of terpenoid with steroid nucleus made up of 17 carbon atoms (3 hexagonal + 1 pentagonal).
+
+Examples: cholesterol, testosterone, progesterone, estrogens.
+
+(Fig shows steroid skeleton and cholesterol molecule)
+
+1.5.3 Carotenoids:
+
+Polyterpenes: long chain of isoprenoid units with terminal rings.
+
+Found in plants: produce red, orange, yellow pigments.
+
+Examples: β-carotene
+
+Found in chlorophyll, phytochromes, latex, rubber.
+
+Page 20:
+
+1.5.4 Prostaglandins:
+
+Lipids made by mammalian tissues at infection/injury sites.
+
+Control inflammation, blood flow, pain, fever.
+
+Inhibit or stimulate labour, blood clotting, and immunity.
+
+1.6 NUCLEIC ACIDS:
+Friedrich Miescher, a Swiss physician, discovered nucleic acids in nucleus of pus cells. Originally called “nuclein”, later changed to nucleic acid due to acidic properties.
+
+Nucleic acids are polymers of five-carbon sugar-based compounds called nucleotides.
+
+Types of nucleic acids:
+
+DNA (Deoxyribonucleic Acid)
+
+RNA (Ribonucleic Acid)
+
+DNA = polymer of deoxyribonucleotides
+RNA = polymer of ribonucleotides
+
+1.6.1 Composition of Nucleotide:
+
+A nucleotide is composed of:
+
+Pentose sugar
+
+Phosphate group
+
+Nitrogenous base
+
+If phosphate is absent, it's called nucleoside.
+
+Nitrogenous bases are of two types:
+
+Purines: Adenine (A), Guanine (G)
+
+Pyrimidines: Cytosine (C), Thymine (T), Uracil (U)
+
+(Diagram shows nucleotide structure with sugar, phosphate, and nitrogen base)
+
+Page 21:
+
+1.6.2 Mononucleotide:
+
+Found in nucleic acids and can function independently (e.g. ATP, ADP).
+
+ATP (Adenosine Triphosphate) stores and transfers energy in cells.
+
+ATP has:
+
+One ribose sugar
+
+One adenine base
+
+Three phosphate groups
+
+During ATP → ADP conversion, 7.3 Kcal/mole (or 31.81 kJ/mole) of energy is released.
+
+(Diagram shows ATP molecule with parts labeled)
+
+1.6.3 Dinucleotide:
+
+Two nucleotides covalently bonded.
+
+Example: NAD (Nicotinamide Adenosine Dinucleotide)
+
+NAD:
+
+Involved in Redox reactions
+
+Carries 2 electrons, 2 protons, and energy (e.g., NADH₂, FADH₂)
+
+(Fig 1.13 shows structure of NAD: nicotinamide, ribose, phosphate, and adenine)
+
+Page 22:
+
+Formation of phosphodiester bond:
+Two nucleotides are linked together by a bond in nucleic acid (DNA or RNA). This bond is called a phosphodiester bond.
+
+It is formed as a result of a condensation reaction between phosphate group (PO₄³⁻) and 3’-carbon of pentose sugar.
+
+A phosphoric acid reacts with two hydroxyl groups of sugar to form ester bonds—one at the 3'-carbon of one sugar and another at the 5'-carbon of the next sugar via phosphate.
+
+These phosphodiester bonds form the backbone of the DNA and RNA strands.
+(Fig 1.14 shows formation of phosphodiester bond.)
+
+1.6.4 Polynucleotide:
+Nucleotides join together to form polymers like DNA and RNA. These polymers are called polynucleotides.
+They are essential in transformation and heredity. Genetic information is encoded in DNA in a sequence of codes.
+
+1.6.5 Structure of DNA:
+The structure of DNA was explained by James Watson and Francis Crick in 1953. They proposed:
+
+DNA is a double helical structure
+
+Each helix is made of 4 types of nucleotides
+
+Two strands are complementary: Adenine pairs with Thymine, and Cytosine with Guanine.
+
+Each turn of helix = 10 base pairs
+
+The strands are held by H-bonds, enabling unzipping and copying
+
+One strand runs from 5’ to 3’ and the other from 3’ to 5’
+
+The helix has a diameter of about 20 Ångströms
+
+(Fig 1.15 shows structure of DNA double helix with base pairing.)
+
+Page 23:
+
+1.6.6 What is Gene?
+A gene is a part of DNA that holds the instructions to synthesize a protein. Genes are the functional units of heredity and direct development of traits such as eye color, hair, etc.
+
+Genetic information flows from DNA → mRNA → protein in two steps:
+
+Transcription:
+
+Gene information is copied into mRNA.
+
+This occurs in the nucleus.
+
+Translation:
+
+mRNA moves to ribosome.
+
+tRNA and rRNA help translate the codons into amino acid chains to form proteins.
+
+1.6.7 Ribonucleic Acid (RNA):
+RNA is also a polymer of nucleotides.
+
+Instead of deoxyribose, RNA has ribose sugar
+
+Contains A, G, C, and U (Uracil) in place of T (Thymine)
+
+RNA is single-stranded and helps in protein synthesis
+
+Types of RNA:
+
+(i) Messenger RNA (mRNA):
+
+Single-stranded
+
+Carries genetic code (codons) from DNA to ribosome
+
+Makes up 3–4% of total RNA
+
+Page 24:
+
+(ii) Transfer RNA (tRNA):
+
+Smallest RNA (~70–90 nucleotides)
+
+Brings amino acids to ribosome
+
+Has three loops and a specific anticodon
+(Fig 1.16 shows tRNA with anticodon and acceptor site)
+
+(iii) Ribosomal RNA (rRNA):
+
+Found in ribosomes
+
+Largest RNA (80% of total RNA)
+(Fig 1.17 shows rRNA in ribosome with hydrogen bonding)
+
+1.7 CONJUGATED MOLECULES:
+Formed when biomolecules of two different types combine chemically.
+
+Types of Conjugated Molecules:
+
+(i) Glycolipids or Cerebrosides:
+
+Lipid + carbohydrate
+
+Found in white matter of brain and nerve tissues
+
+(ii) Glycoproteins or Mucoproteins:
+
+Carbohydrate + protein
+
+Found in plasma membrane, receptors, antibodies
+
+(iii) Lipoproteins:
+
+Lipid + protein
+
+Help transport lipids in blood
+
+Found in membranes (nucleus, mitochondria, etc.)
+
+(iv) Nucleoproteins:
+
+Protein + nucleic acid
+
+Found in chromosomes, ribosomes, chromatin
+
+Page 25: SUMMARY
+
+Biochemistry is the branch of biology explaining life processes chemically.
+
+Cells contain macromolecules which are polymers of small subunits.
+
+Macromolecules include carbohydrates, proteins, lipids, nucleic acids.
+
+Water is the most abundant compound in cells.
+
+Cohesion and adhesion help water movement in plants.
+
+Carbohydrates are classified as mono-, oligo-, and polysaccharides.
+
+Proteins are made from amino acids linked by peptide bonds.
+
+DNA stores genetic code, RNA helps make proteins.
+
+Lipids are energy-rich and include fats, oils, phospholipids, steroids.
+
+Conjugated molecules form by combining different biomolecules chemically.
+
