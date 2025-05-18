@@ -63,6 +63,13 @@ export const Navbar = () => {
                 <span>Home</span>
               </Link>
               <Link
+                href="/chat"
+                className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+              >
+                <Home className="mr-2" size={18} />
+                <span>AI Summarizer</span>
+              </Link>
+              <Link
                 href= {`/Mdcat/${subject}/VideoLectures`}
                 className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
               >

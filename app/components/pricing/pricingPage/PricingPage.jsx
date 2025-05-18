@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./PricingPage.module.css";
-import BuyForm from "@/components/pricing/buyForm/BuyForm";
+import BuyForm from "@/app/components/pricing/buyForm/BuyForm";
 
 const testTabs = ["All Courses", "MDCAT", "ECAT", "FSC", "IELTS", "GAT"];
 

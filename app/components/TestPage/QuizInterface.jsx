@@ -244,9 +244,6 @@ export default function QuizInterface() {
         throw new Error("Failed to submit test");
       }
 
-      // Navigate to results page
-      router.push(`/test-results/${testID}`);
-
     } catch (error) {
       console.error("Error submitting test:", error);
     } finally {

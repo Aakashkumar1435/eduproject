@@ -6,6 +6,7 @@ export default function ChatBox() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [board, setBoard] = useState("Punjab");
+  const [book, setBook] = useState("Physics");
   const [loading, setLoading] = useState(false);
 
   const handleSend = async () => {
@@ -20,7 +21,7 @@ export default function ChatBox() {
       const res = await fetch("http://localhost:5000/api/summarize", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: input, board }),
+        body: JSON.stringify({ message: input, board, book }),
       });
 
       const data = await res.json();
@@ -41,66 +42,86 @@ export default function ChatBox() {
   };
 
   return (
-    <div className="w-full max-w-xl bg-white text-black p-5 rounded-2xl shadow-lg flex flex-col gap-4">
-      <h2 className="text-center text-2xl font-bold">📚 CrackIt AI Summarizer</h2>
+    <div className="w-[95%] max-w-[900px] h-[72vh] mx-auto bg-white rounded-2xl shadow-lg flex flex-col gap-4 overflow-hidden">
+      {/* Header */}
+      <div
+        className="px-6 py-4 flex items-center rounded-t-2xl text-lg font-bold text-white"
+        style={{ backgroundColor: "#2e7d32" }}
+      >
+        <div className="bg-white text-[#2e7d32] rounded-md px-2 py-1 mr-3 font-bold">
+          Cl
+        </div>
+        CrackIt Knowledge Explorer
+      </div>
 
-      <div className="flex gap-2">
+      {/* Input Row */}
+      <div className="flex gap-2 px-5 flex-wrap">
+        {/* Board Dropdown */}
         <select
-          className="p-2.5 text-base rounded-md border border-gray-300"
           value={board}
           onChange={(e) => setBoard(e.target.value)}
+          className="px-3 py-2 border border-gray-300 rounded-md text-sm"
         >
           <option value="Punjab">Punjab Board</option>
           <option value="Sindh">Sindh Board</option>
           <option value="Federal">Federal Board</option>
           <option value="All">All Boards</option>
         </select>
+
+        {/* Book Dropdown */}
+        <select
+          value={book}
+          onChange={(e) => setBook(e.target.value)}
+          className="px-3 py-2 border border-gray-300 rounded-md text-sm"
+        >
+          <option value="Physics">Physics</option>
+          <option value="Chemistry">Chemistry</option>
+          <option value="Biology">Biology</option>
+          <option value="All">All Subjects</option>
+        </select>
+
+        {/* Input */}
         <input
           type="text"
           placeholder="Enter your topic or question"
-          className="flex-1 p-2.5 text-base rounded-md border border-gray-300"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          onKeyPress={(e) => e.key === "Enter" && handleSend()}
+          className="flex-1 px-4 py-2.5 border border-gray-300 rounded-md text-base"
         />
+
+        {/* Send Button */}
         <button
-          className="bg-green-700 hover:bg-green-800 text-white border-none px-3.5 py-2.5 text-base rounded-md cursor-pointer transition-colors duration-200 ease-in-out"
           onClick={handleSend}
           disabled={loading}
+          className="bg-[#2e7d32] text-white px-4 py-2 rounded-md text-sm hover:bg-[#246327]"
         >
           {loading ? "..." : "Send"}
         </button>
       </div>
 
-      <div className="h-64 overflow-y-auto bg-gray-100 p-2.5 rounded-lg flex flex-col gap-2">
+      {/* Chat Box */}
+      <div className="flex-1 overflow-y-auto px-5 py-3 bg-[#f4f4f4] rounded-lg mx-5 mb-5">
         {messages.map((msg, i) => (
           <div
             key={i}
-            className={`p-2 px-3 rounded-xl max-w-[80%] break-words ${
-              msg.role === "user" 
-                ? "self-end bg-green-100" 
-                : "self-start bg-gray-200"
+            className={`px-4 py-2 rounded-2xl text-black max-w-fit mb-2 whitespace-pre-wrap break-words ${
+              msg.role === "user"
+                ? "ml-auto bg-[#d4f7d4]"
+                : "mr-auto bg-[#eeeeee]"
             }`}
           >
             {msg.content.split("\n").map((line, j) => {
               line = line.trim();
-
               if (line.startsWith("**")) {
                 return (
-                  <div
-                    key={j}
-                    className="font-bold mt-4"
-                  >
+                  <div key={j} className="font-bold mt-3">
                     {line.replace(/\*\*/g, "")}
                   </div>
                 );
               } else if (line.startsWith("*")) {
                 return (
-                  <div
-                    key={j}
-                    className="ml-4 mb-2"
-                  >
-                    {line.replace("*", "•")}
+                  <div key={j} className="ml-4 mb-1">
+                    • {line.replace("*", "")}
                   </div>
                 );
               } else {

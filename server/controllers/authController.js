@@ -138,6 +138,7 @@ export const signup = async (req, res, next) => {
 export const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
+    console.log("Login request body:", req.body);
 
     // Validate required fields
     if (!email || !password) {
@@ -149,8 +150,10 @@ export const login = async (req, res, next) => {
     // Check if the user exists
     const user = await User.findOne({ email });
     if (!user) {
-      return res.status(401).json({ error: "Invalid credentials" });
+      return res.status(402).json({ error: "Enail does not exist" });
     }
+
+    console.log("User found:", user);
 
     // Compare passwords
     const isMatch = await compare(password, user.password);
@@ -158,19 +161,21 @@ export const login = async (req, res, next) => {
       return res.status(401).json({ error: "Invalid credentials" });
     }
 
+    console.log("Password match");
+
     // Create JWT token for the user
-    const token = createToken(email, user.id);
+    // const token = createToken(email, user.id);
 
     // Set the token in a cookie
-    res.cookie("jwt", token, {
-      maxAge: maxAge * 1000, // Cookie expiration time in milliseconds
-      httpOnly: true, // Prevents JavaScript access
-      secure: false, // Must be false for local HTTP (not HTTPS)
-      sameSite: "Lax", // Use Lax for local development
-      path: "/", // Makes cookie accessible on all routes
-    });
+    // res.cookie("jwt", token, {
+    //   maxAge: maxAge * 1000, // Cookie expiration time in milliseconds
+    //   httpOnly: true, // Prevents JavaScript access
+    //   secure: false, // Must be false for local HTTP (not HTTPS)
+    //   sameSite: "Lax", // Use Lax for local development
+    //   path: "/", // Makes cookie accessible on all routes
+    // });
 
-    console.log("Response Cookies:", res.getHeaders()["set-cookie"]);
+    // console.log("Response Cookies:", res.getHeaders()["set-cookie"]);
 
     // Return response with user data
     return res.status(200).json({

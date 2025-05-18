@@ -1,8 +1,8 @@
 import React from "react";
-import PricingPage from "@/components/pricing/pricingPage/PricingPage";
-import FAQ from "@/components/pricing/FAQ/FAQ";
-import OtherCourses from "@/components/pricing/OtherCourses/OtherCourses";
-import HowToJoin from "@/components/pricing/HowToJoin/HowToJoin";
+import PricingPage from "@/app/components/pricing/pricingPage/PricingPage";
+import FAQ from "@/app/components/pricing/FAQ/FAQ";
+import OtherCourses from "@/app/components/pricing/OtherCourses/OtherCourses";
+import HowToJoin from "@/app/components/pricing/HowToJoin/HowToJoin";
 
 export default function Page() {
   return (
