@@ -15,14 +15,15 @@ import {
   BookOpen
 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { Navbar } from "../../../components/Mdcat/Navbar";
 
 // File type icons and colors
 const fileTypeIcons = {
-  pdf: { icon: <FileText size={20} />, color: "text-red-500", bgColor: "bg-red-100" },
-  image: { icon: <FileType size={20} />, color: "text-blue-500", bgColor: "bg-blue-100" },
-  doc: { icon: <FileText size={20} />, color: "text-blue-600", bgColor: "bg-blue-100" },
-  ppt: { icon: <FileText size={20} />, color: "text-orange-500", bgColor: "bg-orange-100" },
-  other: { icon: <FileText size={20} />, color: "text-gray-500", bgColor: "bg-gray-100" }
+  pdf: { icon: <FileText size={20} />, color: "text-red-400", bgColor: "bg-red-900/30" },
+  image: { icon: <FileType size={20} />, color: "text-blue-400", bgColor: "bg-blue-900/30" },
+  doc: { icon: <FileText size={20} />, color: "text-blue-400", bgColor: "bg-blue-900/30" },
+  ppt: { icon: <FileText size={20} />, color: "text-orange-400", bgColor: "bg-orange-900/30" },
+  other: { icon: <FileText size={20} />, color: "text-gray-400", bgColor: "bg-gray-800" }
 };
 
 function Notes() {
@@ -127,46 +128,61 @@ function Notes() {
 
   // Handle download
   const handleDownload = (fileUrl, fileName) => {
-    // TODO: Implement download functionality
+    console.log('Downloading file:', fileUrl);
+    // Create a temporary anchor element
+    const anchor = document.createElement('a');
+    anchor.href = fileUrl;
+    anchor.download = fileName || 'download';
+    
+    // Append to the document
+    document.body.appendChild(anchor);
+    
+    // Trigger click event to start download
+    anchor.click();
+    
+    // Clean up
+    document.body.removeChild(anchor);
   };
   
   // Get subject name from the first note
   const subjectName = notes.length > 0 ? notes[0].subjectName : subject;
   
   return (
-    <div className="min-h-screen bg-gray-50 pt-16 pb-12">
+    <>
+    <Navbar />
+    <div className="min-h-screen bg-gray-900 pt-16 pb-12 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="bg-emerald-700 text-white rounded-lg shadow-md p-6 mb-6">
+        <div className="bg-gray-800 border-l-4 border-green-500 rounded-lg shadow-md p-6 mb-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
-              <Book size={28} className="mr-3" />
+              <Book size={28} className="mr-3 text-green-400" />
               <div>
-                <h1 className="text-2xl font-bold">{subjectName} Notes</h1>
-                <p className="text-emerald-100 text-sm mt-1">
+                <h1 className="text-2xl font-bold text-white">{subjectName} Notes</h1>
+                <p className="text-gray-300 text-sm mt-1">
                   Study materials and resources for {subjectName}
                 </p>
               </div>
             </div>
             <div className="hidden md:block">
-              <div className="text-sm text-emerald-100">
-                <span className="font-medium text-white">{filteredAndSortedNotes.length}</span> notes available
+              <div className="text-sm text-gray-300">
+                <span className="font-medium text-green-400">{filteredAndSortedNotes.length}</span> notes available
               </div>
             </div>
           </div>
         </div>
         
         {/* Filters and search */}
-        <div className="bg-white rounded-lg shadow-md p-4 mb-6">
+        <div className="bg-gray-800 rounded-lg shadow-md p-4 mb-6">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {/* Search */}
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <Search size={18} className="text-gray-400" />
+                <Search size={18} className="text-green-400" />
               </div>
               <input
                 type="text"
-                className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-emerald-500 focus:border-emerald-500"
+                className="block w-full bg-gray-700 pl-10 pr-3 py-2 border border-gray-600 rounded-md shadow-sm text-white placeholder-gray-400 focus:outline-none focus:ring-green-500 focus:border-green-500"
                 placeholder="Search notes..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -176,10 +192,10 @@ function Notes() {
             {/* Chapter filter */}
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <BookOpen size={18} className="text-gray-400" />
+                <BookOpen size={18} className="text-green-400" />
               </div>
               <select
-                className="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 appearance-none"
+                className="block w-full bg-gray-700 text-white pl-10 pr-10 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 appearance-none"
                 value={selectedChapter}
                 onChange={(e) => setSelectedChapter(e.target.value)}
               >
@@ -191,17 +207,17 @@ function Notes() {
                 ))}
               </select>
               <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-                <ChevronDown size={16} className="text-gray-400" />
+                <ChevronDown size={16} className="text-green-400" />
               </div>
             </div>
             
             {/* File type filter */}
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <FileType size={18} className="text-gray-400" />
+                <FileType size={18} className="text-green-400" />
               </div>
               <select
-                className="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 appearance-none"
+                className="block w-full bg-gray-700 text-white pl-10 pr-10 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 appearance-none"
                 value={selectedFileType}
                 onChange={(e) => setSelectedFileType(e.target.value)}
               >
@@ -213,17 +229,17 @@ function Notes() {
                 <option value="other">Other</option>
               </select>
               <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-                <ChevronDown size={16} className="text-gray-400" />
+                <ChevronDown size={16} className="text-green-400" />
               </div>
             </div>
             
             {/* Sort options */}
             <div className="relative">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <Filter size={18} className="text-gray-400" />
+                <Filter size={18} className="text-green-400" />
               </div>
               <select
-                className="block w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-emerald-500 focus:border-emerald-500 appearance-none"
+                className="block w-full bg-gray-700 text-white pl-10 pr-10 py-2 border border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 appearance-none"
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
               >
@@ -233,32 +249,32 @@ function Notes() {
                 <option value="chapter">Chapter</option>
               </select>
               <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-                <ChevronDown size={16} className="text-gray-400" />
+                <ChevronDown size={16} className="text-green-400" />
               </div>
             </div>
           </div>
         </div>
         
         {/* Notes grid */}
-        <div className="bg-white rounded-lg shadow-md">
+        <div className="bg-gray-800 rounded-lg shadow-md">
           {loading ? (
             <div className="flex justify-center items-center p-12">
-              <Loader size={30} className="text-emerald-600 animate-spin" />
-              <span className="ml-3 text-lg text-gray-600">Loading notes...</span>
+              <Loader size={30} className="text-green-500 animate-spin" />
+              <span className="ml-3 text-lg text-gray-300">Loading notes...</span>
             </div>
           ) : filteredAndSortedNotes.length > 0 ? (
             <div>
               {error && (
-                <div className="p-4 mb-4 flex items-center bg-yellow-50 text-yellow-800 border-l-4 border-yellow-400">
+                <div className="p-4 mb-4 flex items-center bg-yellow-900/30 text-yellow-300 border-l-4 border-yellow-500">
                   <AlertCircle size={20} className="mr-2" />
                   {error}
                 </div>
               )}
               
               <div className="overflow-hidden">
-                <ul className="divide-y divide-gray-200">
+                <ul className="divide-y divide-gray-700">
                   {filteredAndSortedNotes.map((note) => (
-                    <li key={note._id} className="p-4 hover:bg-gray-50 transition-colors">
+                    <li key={note._id} className="p-4 hover:bg-gray-700 transition-colors">
                       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between">
                         <div className="flex items-start space-x-3 mb-3 sm:mb-0 flex-1">
                           <div className={`p-3 rounded-lg ${fileTypeIcons[note.fileType].bgColor}`}>
@@ -267,15 +283,15 @@ function Notes() {
                             </span>
                           </div>
                           <div>
-                            <h3 className="text-lg font-medium text-gray-900">{note.name}</h3>
+                            <h3 className="text-lg font-medium text-white">{note.name}</h3>
                             <div className="mt-1 flex items-center flex-wrap gap-2">
-                              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800">
+                              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-900/50 text-green-300">
                                 {note.chapterName}
                               </span>
-                              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 uppercase">
+                              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-700 text-gray-300 uppercase">
                                 {note.fileType}
                               </span>
-                              <span className="text-xs text-gray-500 flex items-center">
+                              <span className="text-xs text-gray-400 flex items-center">
                                 <Clock size={12} className="mr-1" />
                                 {formatDate(note.uploadedAt)}
                               </span>
@@ -284,7 +300,7 @@ function Notes() {
                         </div>
                         <button
                           onClick={() => handleDownload(note.fileUrl, note.name)}
-                          className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
+                          className="inline-flex items-center px-4 py-2 border border-green-500 rounded-md shadow-sm text-sm font-medium text-white bg-green-800 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-green-500 transition-colors"
                         >
                           <Download size={16} className="mr-2" />
                           Download
@@ -297,9 +313,9 @@ function Notes() {
             </div>
           ) : (
             <div className="flex flex-col items-center justify-center p-12 text-center">
-              <FileText size={48} className="text-gray-300 mb-3" />
-              <h3 className="text-lg font-medium text-gray-900">No notes found</h3>
-              <p className="mt-1 text-gray-500">
+              <FileText size={48} className="text-gray-600 mb-3" />
+              <h3 className="text-lg font-medium text-white">No notes found</h3>
+              <p className="mt-1 text-gray-400">
                 Try changing your search criteria or check back later for updates.
               </p>
             </div>
@@ -307,6 +323,7 @@ function Notes() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -13,28 +13,28 @@ export default function MdcatTests() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto p-4 md:p-6 bg-gray-50">
+    <div className="max-w-7xl mx-auto p-4 md:p-6 bg-gray-900 text-gray-100">
       {/* Hero Section */}
-      <div className="flex flex-col md:flex-row items-center justify-between mb-12 bg-gradient-to-r from-emerald-600 to-green-700 rounded-xl shadow-lg p-8 text-white">
+      <div className="flex flex-col md:flex-row items-center justify-between mb-12 bg-gradient-to-r from-emerald-900 to-green-900 rounded-xl shadow-lg p-8 text-white">
         <div className="w-full md:w-3/5 mb-6 md:mb-0">
           <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
             Diagnostic Test say apni MDCAT ki tayyari ka andaza lagaein
           </h1>
           <button
             onClick={() => router.push("/diagnostic-test")}
-            className="bg-amber-500 hover:bg-amber-400 text-emerald-900 font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md"
+            className="bg-green-500 hover:bg-green-400 text-gray-900 font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md"
           >
             Take Diagnostic Test
           </button>
         </div>
         <div className="w-full md:w-2/5 flex justify-center md:justify-end">
           <div className="relative">
-            <div className="w-64 h-64 md:w-72 md:h-72 bg-green-400 bg-opacity-30 rounded-full flex items-center justify-center overflow-hidden">
-              <div className="absolute -right-4 -bottom-4 w-56 h-56 bg-amber-400 bg-opacity-20 rounded-full"></div>
-              <div className="absolute -left-2 -top-2 w-48 h-48 bg-emerald-300 bg-opacity-30 rounded-full"></div>
+            <div className="w-64 h-64 md:w-72 md:h-72 bg-green-800 bg-opacity-30 rounded-full flex items-center justify-center overflow-hidden">
+              <div className="absolute -right-4 -bottom-4 w-56 h-56 bg-green-600 bg-opacity-20 rounded-full"></div>
+              <div className="absolute -left-2 -top-2 w-48 h-48 bg-emerald-700 bg-opacity-30 rounded-full"></div>
               <div className="z-10 transform rotate-6">
                 <svg
-                  className="w-32 h-32 text-amber-200"
+                  className="w-32 h-32 text-green-400"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -55,7 +55,7 @@ export default function MdcatTests() {
 
       {/* Topical MCQs and Tests Section */}
       <div className="mb-16">
-        <h2 className="text-xl font-bold text-emerald-800 mb-6 pl-2 border-l-4 border-emerald-600">
+        <h2 className="text-xl font-bold text-green-400 mb-6 pl-2 border-l-4 border-green-500">
           MDCAT Topical MCQs and Tests
         </h2>
 
@@ -63,11 +63,11 @@ export default function MdcatTests() {
           {/* Biology */}
           <div
             onClick={() => handleSubjectClick("Biology")}
-            className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-pink-500 cursor-pointer"
+            className="bg-gray-800 rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-green-500 cursor-pointer"
             role="button"
             aria-label="Navigate to Biology"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center mb-4 shadow-md">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center mb-4 shadow-md">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -83,7 +83,7 @@ export default function MdcatTests() {
                 ></path>
               </svg>
             </div>
-            <span className="text-gray-800 font-semibold text-center">
+            <span className="text-gray-100 font-semibold text-center">
               Biology
             </span>
           </div>
@@ -91,11 +91,11 @@ export default function MdcatTests() {
           {/* Chemistry */}
           <div
             onClick={() => handleSubjectClick("Chemistry")}
-            className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-indigo-900 cursor-pointer"
+            className="bg-gray-800 rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-emerald-500 cursor-pointer"
             role="button"
             aria-label="Navigate to Chemistry"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-indigo-800 to-indigo-900 flex items-center justify-center mb-4 shadow-md">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-600 to-emerald-800 flex items-center justify-center mb-4 shadow-md">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -111,7 +111,7 @@ export default function MdcatTests() {
                 ></path>
               </svg>
             </div>
-            <span className="text-gray-800 font-semibold text-center">
+            <span className="text-gray-100 font-semibold text-center">
               Chemistry
             </span>
           </div>
@@ -119,11 +119,11 @@ export default function MdcatTests() {
           {/* English */}
           <div
             onClick={() => handleSubjectClick("English")}
-            className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-pink-500 cursor-pointer"
+            className="bg-gray-800 rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-teal-500 cursor-pointer"
             role="button"
             aria-label="Navigate to English"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-400 to-red-500 flex items-center justify-center mb-4 shadow-md">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-teal-600 to-teal-800 flex items-center justify-center mb-4 shadow-md">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -139,7 +139,7 @@ export default function MdcatTests() {
                 ></path>
               </svg>
             </div>
-            <span className="text-gray-800 font-semibold text-center">
+            <span className="text-gray-100 font-semibold text-center">
               English
             </span>
           </div>
@@ -147,11 +147,11 @@ export default function MdcatTests() {
           {/* Physics */}
           <div
             onClick={() => handleSubjectClick("Physics")}
-            className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-amber-500 cursor-pointer"
+            className="bg-gray-800 rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-green-500 cursor-pointer"
             role="button"
             aria-label="Navigate to Physics"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center mb-4 shadow-md">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center mb-4 shadow-md">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -167,7 +167,7 @@ export default function MdcatTests() {
                 ></path>
               </svg>
             </div>
-            <span className="text-gray-800 font-semibold text-center">
+            <span className="text-gray-100 font-semibold text-center">
               Physics
             </span>
           </div>
@@ -175,11 +175,11 @@ export default function MdcatTests() {
           {/* Logical Reasoning */}
           <div
             onClick={() => handleSubjectClick("Logical-Reasoning")}
-            className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-blue-500 cursor-pointer"
+            className="bg-gray-800 rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-emerald-500 cursor-pointer"
             role="button"
             aria-label="Navigate to Logical Reasoning"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-4 shadow-md">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-600 to-emerald-800 flex items-center justify-center mb-4 shadow-md">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -195,27 +195,71 @@ export default function MdcatTests() {
                 ></path>
               </svg>
             </div>
-            <span className="text-gray-800 font-semibold text-center">
+            <span className="text-gray-100 font-semibold text-center">
               Logical Reasoning
             </span>
           </div>
         </div>
       </div>
 
-      {/* MDCAT FLPs Section */}
-      <div>
-      <h2 className="text-xl font-bold text-emerald-800 mb-6 pl-2 border-l-4 border-emerald-600">MDCAT FLPs</h2>
+      {/* AI Summarizer Section */}
+      <div className="mb-16">
+        <h2 className="text-xl font-bold text-green-400 mb-6 pl-2 border-l-4 border-green-500">
+          AI Summarizer
+        </h2>
 
+        <div className="bg-gray-800 rounded-xl shadow-lg p-6 border-l-4 border-green-500">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="w-full md:w-3/4">
+              <h3 className="text-xl font-semibold text-white mb-3">Enhance Your Study with AI</h3>
+              <p className="text-gray-300 mb-4">
+                Upload your notes or textbook pages and get instant AI-powered summaries, 
+                key points, and practice questions to boost your MDCAT preparation.
+              </p>
+              <button
+                onClick={() => router.push("/chat")}
+                className="bg-green-600 hover:bg-green-500 text-white font-medium py-2 px-6 rounded-lg transition-all duration-300"
+              >
+                Try AI Summarizer
+              </button>
+            </div>
+            <div className="w-full md:w-1/4 flex justify-center">
+              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center shadow-md">
+                <svg 
+                  className="w-12 h-12 text-white" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24" 
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    strokeWidth="2" 
+                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* MDCAT FLPs Section */}
+      <div className="mb-16">
+        <h2 className="text-xl font-bold text-green-400 mb-6 pl-2 border-l-4 border-green-500">
+          MDCAT FLPs
+        </h2>
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-5">
           {/* PMDC Grand Tests */}
           <div
-            onClick={() => navigate("/pmdc-grand-tests")}
-            className="bg-white rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-teal-500 cursor-pointer"
+            onClick={() => router.push("/pmdc-grand-tests")}
+            className="bg-gray-800 rounded-xl shadow-md p-5 flex flex-col items-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-green-500 cursor-pointer"
             role="button"
             aria-label="Navigate to PMDC Grand Tests"
           >
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center mb-4 shadow-md">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center mb-4 shadow-md">
               <svg
                 className="w-8 h-8 text-white"
                 fill="none"
@@ -231,36 +275,22 @@ export default function MdcatTests() {
                 ></path>
               </svg>
             </div>
-            <span className="text-gray-800 font-semibold text-center">
+            <span className="text-gray-100 font-semibold text-center">
               PMDC Grand Tests
             </span>
           </div>
 
           {/* Empty slots with subtle styling */}
-          <div className="bg-white bg-opacity-50 rounded-xl border border-dashed border-gray-300 p-5 flex flex-col items-center justify-center hover:border-indigo-300 transition-colors duration-300 md:flex">
+          <div className="bg-gray-800 bg-opacity-50 rounded-xl border border-dashed border-gray-600 p-5 flex flex-col items-center justify-center hover:border-green-500 transition-colors duration-300 md:flex">
             <span className="text-gray-400 text-sm">Coming Soon</span>
           </div>
 
-          <div className="bg-white bg-opacity-50 rounded-xl border border-dashed border-gray-300 p-5 flex flex-col items-center justify-center hover:border-indigo-300 transition-colors duration-300 md:flex">
+          <div className="bg-gray-800 bg-opacity-50 rounded-xl border border-dashed border-gray-600 p-5 flex flex-col items-center justify-center hover:border-green-500 transition-colors duration-300 md:flex">
             <span className="text-gray-400 text-sm">Coming Soon</span>
           </div>
         </div>
       </div>
 
-      {/* Footer info */}
-      <div className="mt-16 text-center">
-        <p className="text-sm text-gray-500">
-          Prepare for success with our comprehensive MDCAT preparation resources
-        </p>
-        <div className="mt-4 flex justify-center space-x-4">
-          <span className="bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full">
-            Updated for 2025
-          </span>
-          <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">
-            PMDC Aligned
-          </span>
-        </div>
-      </div>
     </div>
   );
 }

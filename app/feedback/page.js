@@ -64,7 +64,7 @@ export default function FeedbackForm() {
     setIsLoading(true);
 
     try {
-      const res = await fetch(`http://localhost:5000/api/feedback?userId=${userId}`, {
+      const res = await fetch(`http://localhost:5000/api/feedback/?userId=${userId}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -10,7 +10,7 @@ import {
   Star,
   BarChart,
   Bell,
-  Book,
+  BookOpenText ,
   Calendar
 } from "lucide-react";
 import { useParams } from "next/navigation";
@@ -44,14 +44,14 @@ export const HomeNavbar = () => {
   };
 
   return (
-    <nav className="bg-emerald-700 text-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-gray-900 text-white shadow-lg sticky top-0 z-50 border-b border-green-600">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo Text */}
           <div className="flex-shrink-0">
             <Link href="/Home" className="text-2xl font-bold">
               <span className="text-white">crack</span>
-              <span className="text-emerald-300">It</span>
+              <span className="text-green-400">It</span>
             </Link>
           </div>
 
@@ -60,77 +60,48 @@ export const HomeNavbar = () => {
             <div className="flex space-x-6">
               <Link
                 href="/Home"
-                className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+                className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-b-2 hover:border-green-400 transition duration-300"
               >
                 <Home className="mr-2" size={18} />
                 <span>Home</span>
               </Link>
               <Link
                 href="/chat"
-                className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+                className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-b-2 hover:border-green-400 transition duration-300"
               >
-                <Home className="mr-2" size={18} />
+                <BookOpen className="mr-2" size={18} />
                 <span>AI Summarizer</span>
               </Link>
               <Link
-                href="/Explore"
-                className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+                href="/leaderboard"
+                className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-b-2 hover:border-green-400 transition duration-300"
               >
-                <Compass className="mr-2" size={18} />
-                <span>Explore</span>
-              </Link>
-              <Link
-                href="/Library"
-                className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
-              >
-                <Book className="mr-2" size={18} />
-                <span>My Library</span>
-              </Link>
-              <Link
-                href="/Progress"
-                className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
-              >
-                <BarChart className="mr-2" size={18} />
-                <span>Progress</span>
+                <BookOpenText className="mr-2" size={18} />
+                <span>Leaderboard</span>
               </Link>
             </div>
           </div>
 
           {/* Search and Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            {/* Search Icon */}
-            <button className="p-2 hover:bg-emerald-600 rounded-full transition">
-              <Search size={20} />
-            </button>
             
-            {/* Notifications */}
-            {/* <div className="relative">
-              <button className="p-2 hover:bg-emerald-600 rounded-full transition">
-                <Bell size={20} />
-                {notifications > 0 && (
-                  <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-500 rounded-full">
-                    {notifications}
-                  </span>
-                )}
-              </button>
-            </div> */}
             
             {/* User Profile or Login */}
             {userId ? (
               <div className="flex items-center space-x-4">
                 <Link
                   href={`/Profile`}
-                  className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+                  className="flex items-center px-3 py-2 text-white hover:text-green-400 transition duration-300"
                 >
-                  <div className="w-8 h-8 flex items-center justify-center rounded-full border border-white">
-                    <User className="text-white" size={18} />
+                  <div className="w-8 h-8 flex items-center justify-center rounded-full border border-green-400">
+                    <User className="text-green-400" size={18} />
                   </div>
                 </Link>
               </div>
             ) : (
               <Link
                 href="/User-Sign-In"
-                className="px-4 py-2 rounded-md bg-transparent border border-white text-white hover:bg-emerald-600 transition"
+                className="px-4 py-2 rounded-md bg-transparent border border-green-500 text-green-400 hover:bg-green-500 hover:text-gray-900 transition duration-300"
               >
                 Log in
               </Link>
@@ -139,12 +110,9 @@ export const HomeNavbar = () => {
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
-            <button className="p-2 mr-2 hover:bg-emerald-600 rounded-full transition">
-              <Search size={20} />
-            </button>
             <button
               onClick={toggleMenu}
-              className="text-white hover:text-emerald-300 focus:outline-none"
+              className="text-white hover:text-green-400 focus:outline-none transition duration-300"
             >
               <svg
                 className="h-6 w-6"
@@ -177,67 +145,36 @@ export const HomeNavbar = () => {
           <div className="flex flex-col space-y-2 mt-2">
             <Link
               href="/Home"
-              className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+              className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-l-2 hover:border-green-400 transition duration-300"
+              onClick={toggleMenu}
             >
               <Home className="mr-2" size={18} />
               <span>Home</span>
             </Link>
             <Link
-              href="/Explore"
-              className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+              href="/chat"
+              className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-l-2 hover:border-green-400 transition duration-300"
+              onClick={toggleMenu}
             >
-              <Compass className="mr-2" size={18} />
-              <span>Explore</span>
+              <BookOpen className="mr-2" size={18} />
+              <span>AI Summarizer</span>
             </Link>
             <Link
-              href="/Library"
-              className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+              href="/leaderboard"
+              className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-l-2 hover:border-green-400 transition duration-300"
+              onClick={toggleMenu}
             >
-              <Book className="mr-2" size={18} />
-              <span>My Library</span>
+              <BookOpenText  className="mr-2" size={18} />
+              <span>Leaderboard</span>
             </Link>
-            <Link
-              href="/Progress"
-              className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
-            >
-              <BarChart className="mr-2" size={18} />
-              <span>Progress</span>
-            </Link>
-            <Link
-              href="/calendar"
-              className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
-            >
-              <Calendar className="mr-2" size={18} />
-              <span>Schedule</span>
-            </Link>
-            <Link
-              href="/favorites"
-              className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
-            >
-              <Star className="mr-2" size={18} />
-              <span>Favorites</span>
-            </Link>
-
-            {/* Notifications in mobile menu */}
-            {/* <Link
-              href="/notifications"
-              className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
-            >
-              <Bell className="mr-2" size={18} />
-              <span>Notifications</span>
-              {notifications > 0 && (
-                <span className="ml-2 px-2 py-1 text-xs font-bold leading-none text-red-100 bg-red-500 rounded-full">
-                  {notifications}
-                </span>
-              )}
-            </Link> */}
 
             {/* Mobile auth buttons */}
-            <div className="pt-2 border-t border-emerald-600">
+            <div className="pt-2 border-t border-gray-700">
               {userId ? (
                 <Link
                   href={`/Profile`}
-                  className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+                  className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-l-2 hover:border-green-400 transition duration-300"
+                  onClick={toggleMenu}
                 >
                   <User className="mr-2" size={18} />
                   <span>Profile</span>
@@ -245,9 +182,11 @@ export const HomeNavbar = () => {
               ) : (
                 <Link
                   href="/User-Sign-In"
-                  className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+                  className="flex items-center px-3 py-2 text-white hover:text-green-400 hover:border-l-2 hover:border-green-400 transition duration-300"
+                  onClick={toggleMenu}
                 >
-                  Log in
+                  <User className="mr-2" size={18} />
+                  <span>Log in</span>
                 </Link>
               )}
             </div>

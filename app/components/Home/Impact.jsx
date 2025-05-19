@@ -70,40 +70,51 @@ export default function Impact() {
       number: countValues.students.toLocaleString() + "+",
       text: "Students Helped",
       icon: <Users size={24} />,
-      bgColor: "from-green-500 to-teal-600"
+      bgColor: "from-gray-800 to-gray-700"
     },
     {
       number: countValues.successRate + "%",
       text: "Success Rate",
       icon: <CheckCircle size={24} />,
-      bgColor: "from-emerald-500 to-green-600"
+      bgColor: "from-gray-800 to-gray-700"
     },
     {
       number: countValues.questions.toLocaleString() + "+",
       text: "Practice Questions",
       icon: <BookOpen size={24} />,
-      bgColor: "from-teal-500 to-emerald-600"
+      bgColor: "from-gray-800 to-gray-700"
     },
     {
       number: countValues.satisfaction + "/5",
       text: "Student Satisfaction",
       icon: <Star size={24} />,
-      bgColor: "from-lime-500 to-green-600"
+      bgColor: "from-gray-800 to-gray-700"
     }
   ];
 
   return (
-    <section className={`impact-section bg-gradient-to-br from-green-900 to-emerald-800 text-white py-20 transition-all duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'} relative overflow-hidden`}>
-      {/* Background patterns */}
-      <div className="absolute top-0 left-0 w-full h-full opacity-5">
-        <div className="absolute top-10 left-10 w-40 h-40 border-4 border-white rounded-full"></div>
-        <div className="absolute bottom-10 right-10 w-60 h-60 border-4 border-white rounded-full"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 border-4 border-white rounded-full"></div>
-      </div>
+    <section className={`impact-section bg-gradient-to-br from-gray-900 via-gray-800 to-green-900 text-white py-20 transition-all duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'} relative overflow-hidden`}>
+      {/* Animated background elements */}
+      <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-green-500 opacity-20 animate-pulse"></div>
+      <div className="absolute bottom-20 right-10 w-40 h-40 rounded-full bg-green-400 opacity-20 animate-pulse delay-700"></div>
+      <div className="absolute top-1/2 right-1/4 w-24 h-24 rounded-full bg-green-400 opacity-10 animate-ping"></div>
+      
+      {/* Decorative shapes */}
+      <div className="absolute -top-24 -left-24 w-64 h-64 rounded-full bg-green-600 opacity-10"></div>
+      <div className="absolute -bottom-32 -right-16 w-80 h-80 rounded-full bg-green-700 opacity-10"></div>
+
+      {/* Floating elements */}
+      <div className="hidden lg:block absolute -bottom-8 right-12 w-24 h-24 bg-green-200 bg-opacity-10 rounded-lg transform rotate-12 backdrop-filter backdrop-blur-sm"></div>
+      <div className="hidden lg:block absolute top-12 left-16 w-16 h-16 bg-green-200 bg-opacity-10 rounded-lg transform -rotate-6 backdrop-filter backdrop-blur-sm"></div>
       
       <div className="container mx-auto px-6 relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Our Impact</h2>
-        <p className="text-center text-green-200 max-w-2xl mx-auto mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Our <span className="text-green-400 relative inline-block">
+          Impact
+          <svg className="absolute bottom-0 left-0 w-full h-2 text-green-500 opacity-70" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <path d="M0,0 C25,5 75,5 100,0 L100,10 L0,10 Z" fill="currentColor"></path>
+          </svg>
+        </span></h2>
+        <p className="text-center text-gray-300 opacity-90 max-w-2xl mx-auto mb-12">
           Empowering students with the tools and resources they need for academic excellence
         </p>
         
@@ -111,27 +122,18 @@ export default function Impact() {
           {cards.map((card, i) => (
             <div 
               key={i} 
-              className={`bg-gradient-to-br ${card.bgColor} rounded-xl p-6 shadow-lg transform transition-all duration-500 hover:scale-105 hover:shadow-xl`}
-              style={{ animationDelay: `${i * 150}ms` }}
+              className={`bg-gradient-to-br ${card.bgColor} rounded-xl p-6 shadow-lg backdrop-filter backdrop-blur-sm bg-opacity-60 border border-gray-700 transform transition-all duration-500 hover:scale-105 hover:shadow-xl hover:border-green-500`}
+              style={{ animationDelay: `${i * 150}ms`, transitionDelay: `${i * 100}ms` }}
             >
               <div className="flex flex-col items-center text-center">
-                <div className="mb-4 bg-white/20 p-4 rounded-full">
+                <div className="mb-4 bg-green-500 bg-opacity-20 p-4 rounded-full text-green-400">
                   {card.icon}
                 </div>
-                <div className="text-4xl font-bold mb-2">{card.number}</div>
-                <div className="text-white/90 font-medium">{card.text}</div>
+                <div className="text-4xl font-bold mb-2 text-green-400">{card.number}</div>
+                <div className="text-white font-medium">{card.text}</div>
               </div>
             </div>
           ))}
-        </div>
-        
-        <div className="flex justify-center mt-16">
-          <a href="#" className="bg-white text-green-800 hover:bg-green-100 transition-colors duration-300 font-bold py-3 px-8 rounded-lg flex items-center group">
-            Learn About Our Methods
-            <svg className="w-5 h-5 ml-2 transform transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </a>
         </div>
       </div>
     </section>

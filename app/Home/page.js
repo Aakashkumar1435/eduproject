@@ -18,8 +18,8 @@ function HomePage() {
       <Hero2 />
       <Choose />
       <Impact />
-      <ExploreCourses />
-      <OurJourney />
+      {/* <ExploreCourses /> */}
+      {/* <OurJourney /> */}
       <FoundersSection />
       <Footer />
     </main>
