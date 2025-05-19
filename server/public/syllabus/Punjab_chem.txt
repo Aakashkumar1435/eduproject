@@ -1,322 +1,306 @@
-Page 17
+Aldehydes and Ketones
 
-CHAPTER 2
-BIOLOGICAL MOLECULES
 
-INTRODUCTION TO BIOCHEMISTRY
+📄 Page 188
+Students will be able to:
 
-Biochemistry is a branch of Biology, which deals with the study of chemical components and the chemical processes in living organisms. A basic knowledge of Biochemistry is essential for understanding anatomy and physiology, because all of the structures of an organism have biochemical organization. For example, photosynthesis, respiration, digestion, muscle contraction can all be described in biochemical terms.
+Explain the physical properties and structure of aldehydes and ketones. (Understanding)
 
-All living things are made of certain chemical compounds, which are generally classified as organic and inorganic. Most important organic compounds in living organisms are carbohydrates, proteins, lipids and nucleic acids. Among inorganic substances are water, carbon dioxide, acids, bases, and salts.
+Explain the preparation of aldehydes and ketones by ozonolysis of alkenes, hydration of alkynes, oxidation of alcohols and Friedel Craft’s acylation of aromatics. (Applying)
 
-Typically an animal and a bacterial cell consists of chemicals as shown in the following table.
+Describe reactivity of aldehydes and ketones. (Understanding)
 
-Table 2.1 Chemical composition of a Bacterial and a Mammalian cell.
+Explain acid and base catalysed nucleophilic addition reactions of aldehydes and ketones. (Applying)
 
-Chemical components	% total cell weight
-Bacterial cell
-1. Water	70
-2. Proteins	15
-3. Carbohydrates	3
-4. Lipids	2
-5. DNA	1
-6. RNA	6
-7. Other organic molecules (Enzymes, hormones, metabolites)	2
-8. Inorganic ions (Na⁺, K⁺, Ca⁺⁺, Mg⁺⁺, Cl⁻, SO₄⁻⁻ etc)	1
+Explain reaction of aldehydes and ketones. (Applying)
 
-The survival of an organism depends upon its ability to take some chemicals from its environment and use them to make chemicals of its living matter. For this
+Describe oxidation reactions of aldehydes and ketones. (Applying)
 
-Page 18
+Compare the aldehyde and ketone with reference to their laboratory test (tabular form). (Understanding)
 
-reason, cells of every organism are constantly taking in new substances and changing them chemically in various ways i.e. building new cellular materials and obtaining energy for their needs. Life of an organism depends upon the ceaseless chemical activities in its cells. This chemical activity is maintained with a high degree of organization. All the chemical reactions taking place within a cell are collectively called metabolism. Metabolic processes are characterized as anabolism and catabolism. Those reactions in which simpler substances are combined to form complex substances are called anabolic reactions. Anabolic reactions need energy. Energy is released by the break down of complex molecules into simpler ones, such reactions are called catabolic reactions. Anabolic and catabolic reactions go hand in hand in the living cells. Complex molecules are broken down and the resulting smaller molecules are reused to form new complex molecules. Interconversions of carbohydrates, proteins, and lipids that occur continuously in living cells are examples of co-ordinated catabolic and anabolic activities.
+Enlist the important compounds of Aldehydes and Ketones with their application. (Applying)
 
-IMPORTANCE OF CARBON
+📄 Page 189
+INTRODUCTION
+Aldehydes and ketones hold significant importance, with widespread usage in several industries. They are the simplest carbonyl compounds; both contain a carbonyl group, which is a functional group consisting of a carbon atom double-bonded to an oxygen atom.
 
-Carbon is the basic element of organic compounds. Due to its unique properties, carbon occupies the central position in the skeleton of life.
+Aldehydes contain a carbonyl group at the terminal carbon of their carbon chain, whereas ketone have a carbonyl group located on the carbon within their carbon chain. Both types of compounds have unique properties and reactivity due to the presence of the carbonyl group, which makes them useful in a variety of applications.
 
-Carbon is tetravalent. It can react with many other known elements forming covalent bonds.
+The typical representatives of this class of compounds are formaldehyde, acetone, benzaldehyde and acetophenone. Formaldehyde is exceptional since it carries two hydrogen atoms instead of alkyl substituents.
 
-(Yellow box)
-Covalent bonds result when two or more atoms complete their electron shells by sharing electrons. When an electron pair is shared between two atoms, a single covalent bond results. An example is the bond between two hydrogen atoms to form a hydrogen molecule. Covalent bond stores large amount of energy.
+(Shown: Diagram with molecular structures of formaldehyde, acetaldehyde, acetone, acetophenone, and benzophenone)
+(It is a diagram showing structures of formaldehyde, acetaldehyde, acetone, acetophenone and benzophenone)
 
-When a carbon atom combines with four atoms or radicals, the four bonds are arranged symmetrically in a tetrahedron, and result to give a stable configuration. The stability associated with the tetravalency of carbon atoms makes it a favourable element for the synthesis of complicated cellular structures. Carbon atoms can also combine mutually forming stable, branched or unbranched chains or rings. This ability of carbon is responsible for the vast variety of organic compounds. C – C bonds form a skeleton of organic molecules as shown in Fig. 2.1.
+Organic chemistry emphasizes the study of aldehyde and ketones due to their significant applications in various industrial sectors.
 
-(Figure 2.1: Unbranched and branched chains, and ring structure formed by C-C bonds.)
+For example, formaldehyde is used to produce resins, synthetic plastic and urea formaldehyde. Acetone is used in the preparation of iodoform, chloroform and nail polish remover. Benzaldehyde is used in the manufacturing of dyes etc.
 
-Page 19
+📄 Page 190
+8.1 PHYSICAL PROPERTIES
 
-Carbon combines commonly with H, O, N, P and S. Combinations with these and other elements contribute to the large variety of organic compounds. Carbon and hydrogen bond (C-H bond) is the potential source of chemical energy for cellular activities. Carbon-oxygen association in glycosidic linkages provides stability to the complex carbohydrate molecules. Carbon combines with nitrogen in amino acid linkages to form peptide bonds and forms proteins which are very important due to their diversity in structure and functions.
+Physical State: Methanal and ethanal are gases; the other lower aldehydes and ketones are colourless liquids at room temperature. The higher aldehydes and ketones (more than C₁₀) are solids at room temperature.
 
-Large organic molecules (macromolecules) such as cellulose, fats, proteins, etc. are generally insoluble in water, hence they form structures of cells. They also serve as storage for smaller molecules like glucose, which in turn are responsible for providing energy to the body.
+Odour: Lower aldehydes have a pungent smell whereas ketones and higher aldehydes have a pleasant smell.
 
-Small molecules, such as glucose, amino acids, fatty acids etc. serve either as a source of energy, or as subunits to build macromolecules. Some small molecules are so unstable that they are immediately broken down to release energy e.g. ATP. Such substances serve as immediate source of energy for cellular metabolism.
+Boiling Point: Carbonyl compounds have higher boiling points than alkanes of similar molecular weights due to the polar nature of the carbonyl group, enabling intermolecular forces. However, they have lower boiling points compared to alcohols and carboxylic acids due to the absence of intermolecular hydrogen bonding.
 
-IMPORTANCE OF WATER
+Solubility: Carbonyl compounds are generally polar, and they are soluble in polar solvents such as water and ethanol. However, their solubility decreases as the size of the hydrophobic group (hydrocarbon chain) attached to the carbonyl carbon increases.
 
-Water is the medium of life. It is the most abundant compound in all organisms. It varies from 65 to 89 percent in different organisms. Human tissues contain about 20 per cent water in bone cells and 85 per cent in brain cells. Almost all reactions of a cell occur in the presence of water. It also takes part in many biochemical reactions such as hydrolysis of macromolecules. It is also used as a raw material in photosynthesis.
+8.2 STRUCTURE OF ALDEHYDES AND KETONES
 
-Solvent properties
-Due to its polarity, water is an excellent solvent for polar substances. Ionic substances when dissolved in water, dissociate into positive and negative ions. Non-ionic substances having charged groups in their molecules are dispersed in water. When in solution, ions and molecules move randomly and are in a more favourable state to react with other molecules and ions. It is because of this property of water that almost all reactions in cells occur in aqueous media. In cells all chemical reactions are catalyzed by enzymes which work in aqueous environment. Nonpolar organic molecules, such as fats, are insoluble in water and help to maintain membranes which make compartments in the cell.
+In aldehyde and ketone, the carbonyl group comprises a carbon atom that is double bonded to an oxygen atom. The carbon atom in the carbonyl group is sp² hybridized, with one of its sp² hybrid orbitals participating in sigma bond formation with the oxygen atom, while the other two sp² hybrid orbitals form sigma bonds with other atoms. The unhybrid p orbital of the carbon atom in the carbonyl group forms a pi bond with the oxygen atom. (Fig. 8.1)
 
-Heat capacity
-Water has great ability of absorbing heat with minimum of change in its own temperature. The specific heat capacity of water – the number of calories required to raise the temperature of 1g of water from 15 to 16°C is 1.0. This is because much of the energy is used to break hydrogen bonds. Water thus works as temperature stabilizer for organisms in the environment and hence protects living material against sudden thermal changes.
+(Fig. 8.1: Structure of formaldehyde showing sigma and pi bonding)
+(It is a diagram of formaldehyde structure showing sigma and pi bonding in a carbonyl group)
 
-Page 20
 
-Heat of vaporization
-Water absorbs much heat as it changes from liquid to gas. Heat of vaporization is expressed as calories absorbed per gram vaporized. The specific heat of vaporization of water is 574 Kcal/Kg, which plays an important role in the regulation of heat produced by oxidation. It also provides cooling effect to plants when water is transpired, or to animals when water is perspired. Evaporation of only two ml out of one liter of water, lowers the temperature of the remaining 998 ml by 1°C.
+📄 Page 191
+The sp² hybridization of the carbon atom in the carbonyl group allows it to acquire a trigonal planar geometry, with bond angles of approximately 120°.
 
-Ionization of water
-The water molecules ionize to form H⁺ and OH⁻ ions:
-H₂O ⇌ H⁺ + OH⁻
-This reaction is reversible but an equilibrium is maintained. At 25°C the concentration of each of H⁺ and OH⁻ ions in pure water is about 10⁻⁷ mole/litre. The H⁺ and OH⁻ ions affect, and take part in many of the reactions that occur in cells.
+(Shown: Molecular structures of Formaldehyde, Acetaldehyde, and Acetone)
+(It is a diagram showing the planar structure of formaldehyde, acetaldehyde, and acetone)
 
-Protection
-Water is effective lubricant that provides protection against damage resulting from friction. For example, tears protect the surface of eye from the rubbing of eyelids, water also forms a fluid cushion around organs that helps to protect them from trauma.
+8.3 PREPARATION OF ALDEHYDES AND KETONES
+8.3.1 Ozonolysis of Alkenes
+Alkenes can be ozonolyzed to yield aldehydes and ketones. This reaction involves the breaking of C=C of alkene by the use of ozone and reducing agent such as zinc.
 
-CARBOHYDRATES
+(Shown: Reactions of ethene and 2,3-dimethyl butene with ozone forming ozonides, which yield formaldehyde and acetone respectively in presence of Zn/H₂O at 100°C)
+(It is a reaction diagram showing ozonolysis of ethene and 2,3-dimethyl butene to form formaldehyde and acetone respectively)
 
-Carbohydrates occur abundantly in living organisms. They are found in all organisms and in almost all parts of the cell. Cellulose of wood, cotton and paper, starches present in cereals, root tubers, cane sugar and milk sugar are all examples of carbohydrates. Carbohydrates play both structural and functional roles. Simple carbohydrates are the main sources of energy in cells. Some carbohydrates are the main constituents of cell walls in plants and micro-organisms.
+📄 Page 192
+8.3.2 Hydration of Alkyne
+Alkynes when heated with water in the presence of H₂SO₄ and HgSO₄, an acid catalysed addition reaction occur on C ≡ C to form an unstable enol which then on tautomerization, gives aldehyde or ketone.
 
-The word carbohydrate literally means hydrated carbons. They are composed of carbon, hydrogen and oxygen and the ratio of hydrogen and oxygen is the same as in water. Their general formula is Cₓ(H₂O)ᵧ where (x) is the whole number from three to many thousands whereas y may be the same or different whole number. Chemically, carbohydrates are defined as polyhydroxy aldehydes or ketones, or complex substances which on hydrolysis yield polyhydroxy aldehyde or ketone subunits. (Hydrolysis involves the break down of large molecules into smaller ones utilizing water molecules).
+(i) The hydration of ethyne gives acetaldehyde:
 
-The sources of carbohydrates are green plants. These are the primary products of photosynthesis. Other compounds of plants are produced from carbohydrates by various chemical changes.
+(Shown: Reaction of ethyne + H₂O → Enol → Rearrangement → Acetaldehyde)
+(It is a diagram showing hydration of ethyne to form acetaldehyde via enol intermediate)
 
-Carbohydrates in cell combine with proteins and lipids and the resultant compounds are called glycoproteins and glycolipids, respectively. Glycoproteins and glycolipids have structural role in the extracellular matrix of animals and bacterial cell wall. Both these conjugated molecules are components of biological membranes.
+(ii) The hydration of propyne gives propanone:
 
-Page 21
+(Shown: Reaction of propyne + H₂O → Enol → Rearrangement → Acetone)
+(It is a diagram showing hydration of propyne to form acetone via enol intermediate)
 
-Classification of Carbohydrates
+8.3.3 Oxidation of Alcohol
+In the oxidation of alcohols, the –OH functional groups are converted to carbonyl groups (C=O). Primary alcohols are oxidized to aldehydes, and secondary alcohols are oxidized to ketones, which can be achieved using pyridinium chlorochromate (PCC) as an oxidizing agent. However, tertiary alcohols do not undergo oxidation. This controlled process is valuable in obtaining specific carbonyl compounds in organic synthesis.
 
-Carbohydrates are also called 'saccharides' (derived from Greek word 'sakcharon' meaning sugar) and are classified into three groups: (i) Monosaccharides (ii) Oligosaccharides, and (iii) Polysaccharides.
+(Shown: Oxidation reactions of primary alcohol to acetaldehyde and secondary alcohol to acetone using PCC)
+(It is a diagram showing oxidation of alcohols using PCC to form aldehyde and ketone)
 
-Monosaccharides: These are simple sugars. They are sweet in taste, are easily soluble in water, and cannot be hydrolysed into simpler sugars. Chemically they are either polyhydroxy aldehydes or ketones. All carbon atoms in a monosaccharide except one, have a hydroxyl group. The remaining carbon atom is either a part of an aldehyde group or a keto group. The sugar with aldehyde group is called aldo-sugar; and with the keto group as keto-sugar. These are indicated in the case of two trioses sketched below (Fig. 2.2).
+🧠 DO YOU KNOW?
+Formalin is an aqueous solution of formaldehyde, typically containing 37–40% formaldehyde by weight. It is used as a disinfectant and preservative for biological specimens. However, it is a known carcinogen and can cause skin and respiratory irritation and should be handled with caution and appropriate protective measures.
 
-(Fig. 2.2 Structure of glyceraldehyde, a 3C Sugar (C₃H₆O₃). The aldehyde form is glyceraldehyde, whereas ketonic form is dihydroxyacetone.)
+📄 Page 193
+8.3.4 Friedel–Craft Acylation of Aromatic Compounds
+Aromatic ketones can be synthesized through the Friedel Craft acylation method. In this reaction, an acyl chloride reacts with benzene or its derivatives in the presence of a Lewis acid catalyst, typically aluminum chloride (AlCl₃).
 
-In nature monosaccharides with 3 to 7 carbon atoms are found. They are called trioses (3C), tetroses (4C), pentoses (5C), hexoses (6C), and heptoses (7C). They have general formula (CH₂O)n where n is the whole number from three to many thousands.
+(Shown: Reaction of benzene with acyl chloride and AlCl₃ to form acetophenone + HCl)
+(It is a diagram showing Friedel–Craft acylation of benzene to form acetophenone)
 
-Two trioses mentioned above are, intermediates in respiration and photo-synthesis. Tetroses are rare in nature and occur in some bacteria. Pentoses and hexoses are most common. From the biological point of view the most important hexose is glucose. It is an aldose sugar. Structure of ribose and glucose is given below (Fig. 2.3).
+8.4 REACTIVITY OF CARBONYL COMPOUNDS
+The carbon–oxygen bond (C=O) in the carbonyl group is highly polar due to the electronegativity difference between carbon and oxygen. It creates partially negative charge on oxygen and partially positive charge on hydrogen, making the carbon and oxygen atoms in aldehydes and ketones act as electrophiles and nucleophiles. Aldehydes are more reactive than ketones due to less steric hindrance (having one alkyl group) and a greater electron-withdrawing effect of the aldehyde’s hydrogen, which enhances the electrophilicity of its carbonyl carbon, making it more attractive to nucleophiles.
 
-(Fig. 2.3 Structure of Ribose and Glucose.)
+(Diagram showing nucleophilic attack on carbonyl compound with charge separation and intermediate formation)
+(It is a diagram showing the nucleophilic addition mechanism on carbonyl group)
 
-Page 22
+8.5 REACTIONS OF ALDEHYDE AND KETONES
+Aldehyde and Ketone undergo following types of reactions:
+(i) Nucleophilic addition reactions
+(ii) Reduction reaction
+(iii) Oxidation reaction
 
-Most of the monosaccharides form a ring structure when in solution. For example ribose will form a five cornered ring known as ribofuranose, whereas glucose will form six cornered ring known as glucopyranose (Fig. 2.4).
+📄 Page 194
+8.5.1 Nucleophilic addition reaction
+In these reactions, nucleophiles attack the carbonyl carbon of aldehydes and ketones, leading to a change in the hybridization of the carbon atom from sp² to sp³. The pi electron pair of C=O shifts towards the oxygen atom, forming an alkoxide intermediate, which is subsequently protonated to yield the addition product.
 
-(Fig. 2.4 Ribose and glucose form ring shaped structures.)
+(Diagram showing nucleophile attacking carbonyl group forming intermediate and final product)
+(It is a diagram of nucleophilic addition showing mechanism from reactant to alkoxide intermediate to product)
 
-In free state, glucose is present in all fruits, being abundant in grapes, figs, and dates. Our blood normally contains 0.08% glucose. In combined form, it is found in many disaccharides and polysaccharides. Starch, cellulose and glycogen yield glucose on complete hydrolysis. Glucose is naturally produced in green plants which take carbon dioxide from the air and water from the soil to synthesize glucose.
+Nucleophilic addition reactions can be either acid-catalyzed or base-catalyzed, depending on the nature of reactants and the reaction conditions.
 
-6CO₂ + 12H₂O ⟶ C₆H₁₂O₆ + 6O₂ + 6H₂O
-light energy
-chlorophyll
+(i) Acid catalysed Nucleophilic addition reactions
+An acid catalyst is employed in a case where a carbonyl compound reacts with weak nucleophile for addition. The acidic proton attacks the carbonyl atom, resulting in the formation of a protonated carbonyl group. This protonation enhances the electrophilic behavior of the carbonyl carbon making it more responsive to a nucleophile. Thus, a weak nucleophile can easily attack on carbonyl carbon and give the addition product. The general mechanism of acid catalysed nucleophilic addition on aldehyde and ketone is written as:
 
-As indicated in the equation, energy is consumed in this process which is provided by sunlight. This is why the process is called Photosynthesis. It is noteworthy that for the synthesis of 10g of glucose 717.6 Kcal of solar energy is used. This energy is stored in the glucose molecules as chemical energy and becomes available in all organisms when it is oxidized in the body.
+(Diagram showing general mechanism of acid catalysed nucleophilic addition)
+(It is a reaction diagram showing stepwise acid catalysed addition on carbonyl compound)
 
-Oligosaccharides: These are comparatively less sweet in taste, and less soluble in water. On hydrolysis oligosaccharides yield from two to ten monosaccharides. The ones yielding two monosaccharides are known as disaccharides, those yielding three are known as trisaccharides and so on. The covalent bond between two monosaccharides is called glycosidic bond.
+Addition of hydrazine (NH₂–NH₂) and hydroxyl amine (NH₂OH) on aldehyde and ketone is catalyzed by an acid.
 
-Physiologically important disaccharides are maltose, sucrose, and lactose (see Fig. 2.5). Most familiar disaccharide is sucrose (cane sugar) which on hydrolysis yields glucose and fructose, both of which are reducing sugars. Its molecular formula is C₁₂H₂₂O₁₁. Its structural formula is given in Fig. 2.5.
+(Shown: Reactions of propanone with NH₂OH and NH₂NH₂ forming oxime and hydrazone respectively)
+(It is a diagram showing formation of propanone oxime and propanone hydrazone)
 
-Page 23
 
-(Fig. 2.5 A disaccharide. Note carefully the glycosidic linkage between the two monosaccharides.)
+📄 Page 195
+(ii) Base catalysed Nucleophilic addition reaction
+Addition of strong nucleophilic reagents on aldehyde and ketone is catalysed by base. The base first reacts with the reagent to generate a nucleophile. The nucleophile then attacks on carbonyl carbon. The pi electron of C=O is then shifted towards oxygen atom to form tetrahedral alkoxide ion as intermediate. This intermediate captures a proton or the electrophile to give the product.
+General mechanism of base catalysed Nucleophilic addition reaction is given as:
 
-Polysaccharides: Polysaccharides are the most complex and the most abundant carbohydrates in nature. They are usually branched and tasteless. They are formed by several monosaccharide units linked by glycosidic bonds (Fig. 2.6). Polysaccharides have high molecular weights and are only sparingly soluble in water. Some biologically important polysaccharides are starch, glycogen, cellulose, dextrins, agar, pectin, and chitin.
+(Reaction diagram showing general mechanism of base catalysed nucleophilic addition: carbonyl compound → intermediate → addition product)
+(It is a reaction diagram showing stepwise base catalysed addition to a carbonyl group)
 
-Starch: It is found in fruits, grains, seeds, and tubers. It is the main source of carbohydrates for animals. On hydrolysis, it yields glucose molecules. Starches are of two types, amylose and amylopectin. Amylose starches have unbranched chains of glucose and are soluble in hot water. Amylopectin starches have branched chains and are insoluble in hot or cold water. Starches give blue colour with iodine.
+Addition of HCN and Grignard reagent is catalysed by base.
 
-(Fig. 2.6 : Polysaccharides are polymers of monosaccharides.)
+CH₃–CHO + HCN → CH₃–CH(OH)–CN (Acetaldehyde cyanohydrin)
 
-Page 24
+CH₃–C(=O)–H + CH₃MgCl → [Addition Product] → CH₃–CH(CH₃)–OH (Isopropyl alcohol)
 
-Glycogen: It is also called animal starch. It is the chief form of carbohydrate stored in animal body. It is found abundantly in liver and muscles, though found in all animal cells. It is insoluble in water, and gives red colour with iodine. It also yields glucose on hydrolysis.
+(It is a reaction diagram showing acetaldehyde reacting with HCN and Grignard reagent to form cyanohydrin and isopropyl alcohol respectively)
 
-Cellulose: It is the most abundant carbohydrate in nature. Cotton is the pure form of cellulose. It is the main constituent of cell walls of plants and is highly insoluble in water. On hydrolysis it also yields glucose molecules. It is not digested in the human digestive tract. In the herbivores, it is digested because of micro-organisms (bacteria, yeasts, protozoa) in their digestive tract. These micro-organisms secrete an enzyme called cellulase for its digestion. Cellulose gives no colour with iodine.
+📄 Page 196
+8.5.2 Reduction of Aldehyde and Ketone
+The reduction of aldehydes and ketones involves the addition of hydrogen to the carbonyl group resulting in the formation of an alkane or alcohol depending upon the suitable reducing agent used in the reaction.
 
-LIPIDS
+8.5.2.1 Reduction to Hydrocarbon
+The reduction of aldehyde and ketone into saturated hydrocarbons is carried out in a mixture of zinc amalgam and concentrated HCl is used. This is known as Clemmensen reduction.
 
-The lipids are a heterogenous group of compounds related to fatty acids. They are insoluble in water but soluble in organic solvents such as ether, alcohol, chloroform and benzene. Lipids include fats, oils, waxes, cholesterol, and related compounds.
+CH₃CHO + 4[H] → CH₃CH₃ + H₂O
 
-Lipids as hydrophobic compounds, are components of cellular membranes. Lipids are also used to store energy. Because of higher proportion of C-H bonds and very low proportion of oxygen, lipids store double the amount of energy as compared to the same amount of any carbohydrate. Some lipids provide insulation against atmospheric heat and cold and also act as water proof material. Waxes, in the exoskeleton of insects, and cutin, an additional protective layer on the cuticle of epidermis of some plant organs e.g. leaves, fruits, seeds etc., are some of the main examples.
+CH₃COCH₃ + 4[H] → CH₃CH₂CH₃ + H₂O
 
-Lipids have been classified as acylglycerols, waxes, phospholipids, sphingolipids, glycolipids and terpenoid lipids including carotenoids and steroids. The structure of some of these lipids is given below.
+(It is a diagram showing Clemmensen reduction of acetaldehyde and acetone into ethane and propane)
 
-Acylglycerols
+Aldehyde and ketone can also be converted into alkane by using hydrazine (NH₂–NH₂) and potassium hydroxide. This is known as Wolff–Kishner reaction.
 
-Acylglycerols are composed of glycerol and fatty acids (Fig. 2.7). The most widely spread acyl glycerol is triacyl glycerol, also called triglycerides or neutral lipids. Chemically, acylglycerols can be defined as esters of fatty acids and alcohol. An ester is the compound produced as the result of a chemical reaction of an alcohol with an acid and a water molecule is released as shown below:
+(Reaction diagram showing aldehyde/ketone + NH₂–NH₂ → hydrazone → alkane with loss of N₂)
+(It is a diagram of Wolff–Kishner reduction showing hydrazone intermediate and conversion to alkane)
 
-C₃H₅OH + HOOCCH₃ ⟶ C₃H₅OCOCH₃ + H₂O
-alcohol acetic acid an ester
+📄 Page 197
+8.5.2.2 Reduction to Alcohol
+Aldehyde and ketone when treated with strong reducing agents such as NaBH₄ or LiAlH₄, they reduce into primary and secondary alcohols respectively.
 
-As indicated by dotted squares, OH is released from alcohol and H from an acid. H and OH combine and form a water molecule. Fatty acids are one of the most important components of triglycerides.
+CH₃CHO + H₂ → CH₃CH₂OH (Primary alcohol)
 
-Page 25
+CH₃COCH₃ + H₂ → CH₃CH(OH)CH₃ (Secondary alcohol)
 
-(Fig. 2.7 : Triacylglycerol is composed of one glycerol and three fatty acids molecules.)
+(It is a reaction diagram showing LiAlH₄ reduction of acetaldehyde and acetone to alcohols)
 
-Fatty acids contain even numbers (2–30) of carbon atoms in straight chain attached with hydrogen and having an acidic group COOH (carboxylic group). They may contain no double bond (saturated fatty acids) or up to 6 double bonds (unsaturated fatty acids). In animals the fatty acids are straight chains (Fig. 2.8.), while in plants these may be branched or ringed. Solubility of fatty acids in organic solvents and their melting points increase with increasing number of carbon atoms in chain. Palmitic acid (C₁₆) is much more soluble in organic solvent than butyric acid (C₄). The melting point of palmitic acid is 63.1°C as against -8°C for butyric acid.
+8.5.3 Oxidation Reaction
+Aldehydes and ketones undergo oxidation with an oxidizing agent to give carboxylic acid. However, the reactivity of aldehyde towards oxidation reaction is quite easy due to the availability of active hydrogen atom at the carbonyl position, thus:
+i. A variety of mild oxidizing agents such as chromic acid (H₂CrO₄), Tollen’s reagent, Fehling reagent and Benedict reagent can be used to convert aldehyde into corresponding carboxylic acid. Aldehydes can also be oxidized by strong oxidizing agents.
 
-(Fig. 2.8: Some fatty acids with carbon numbers 2–18 are shown. Oleic acid is an unsaturated fatty acid (note a double bond between C₉ and C₁₀). Other fatty acids are saturated.)
+CH₃CHO + [O] → CH₃COOH (Acetic acid)
 
-Fats containing unsaturated fatty acids are usually liquid at room temperature and are said to be oils. Fats containing saturated fatty acids are solids. Animal fats are solid at room temperature, whereas most of the plant fats are liquids. Fats and oils are lighter than water and have a specific gravity of about 0.8. They are not crystalline but some can be crystallized under specific conditions.
+(It is a diagram showing oxidation of aldehyde using H₂CrO₄ to acetic acid)
 
-Page 26
+ii. Oxidation of ketone is relatively slow and it involves the breaking of carbon–carbon sigma bond and it happens only in the presence of strong oxidizing agent.
 
-Waxes
+CH₃COCH₃ + 4[O] → CH₃COOH + CO₂ + H₂O
+(K₂Cr₂O₇ / H₂SO₄)
 
-Waxes are widespread as protective coatings on fruits and leaves. Some insects also secrete wax. Chemically, waxes are mixtures of long chain alkanes (with odd number of carbons ranging from C₂₅ to C₃₅) and alcohols, ketones and esters of long chain fatty acids. Waxes protect plants from water loss and abrasive damage. They also provide water barrier for insects, birds and animals such as sheep.
+(It is a diagram showing oxidation of acetone to acetic acid + carbon dioxide + water using K₂Cr₂O₇)
 
-Phospholipids
+📄 Page 198
+🧪 Self-Assessment
+What reagent can be used to convert an alcohol to aldehydes or ketones without the formation of carboxylic acid?
 
-Phospholipids are derivatives of phosphatidic acid (Fig. 2.9.), which are composed of glycerol, fatty acids and phosphoric acid. Nitrogenous bases such as choline, ethanolamine and serine are important components of phospholipids. They are widespread in bacteria, animal and plant cells and are frequently associated with membranes. Phosphatidylcholine is one of the common phospholipids.
+Laboratory test to distinguish between aldehydes and ketones
+(i) Silver mirror test
+The reagent used for this test is ammoniacal silver nitrate (Tollen’s reagent). Since this reagent has short shelf life, it should be freshly prepared in laboratory by mixing silver nitrate and ammonium hydroxide.
 
-(Fig. 2.9 : Phosphatidic acid is composed of glycerol, 2 fatty acids (on C1 and C2), and a phosphoric acid on C3 of glycerol. In phospholipid a nitrogenous base (e.g. choline) is attached to phosphoric acid in phosphatidic acid.)
+Reaction:
+RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag↓ + 2NH₃ + 2H₂O
 
-Terpenoids
+(It is a diagram showing silver mirror test for aldehyde)
 
-Terpenoids are a very large and important group of compounds which are made up of simple repeating units, isoprenoid units. This unit by condensation in different ways gives rise to compounds such as rubber, carotenoids, steroids, terpenes etc.
+While performing the test, tollen’s reagent is mixed with the given carbonyl compound and heated to boiling. If aldehyde is present, a silver mirror will form on the inside of the test tube.
 
-Lipids constitute major source of energy, and play an important role in the structure of membranes of the cell and of organelles found in the cell. They also provide insulation, mechanical protection and protection from water loss and abrasive damage.
+(ii) Fehling test
+There are two Fehling solutions available in laboratory. Fehling A is an aqueous copper (II) sulphate solution while Fehling B is an aqueous solution of sodium hydroxide (NaOH) with sodium potassium tartrate.
 
-Page 27
+To carry out the Fehling’s test, mix equal volumes of Fehling A and B in a test tube. Heat the mixture to boiling and then add a small amount of aldehyde. If aldehyde is present, the blue colour of the copper solution (Cu²⁺) changes to red precipitate (ppt) of copper (I) oxide.
 
-PROTEINS
+Reaction:
+RCHO + 2Cu²⁺ + 5OH⁻ → RCOO⁻ + Cu₂O↓ + 3H₂O
 
-Proteins are the most abundant organic compounds to be found in cells and comprise over 50% of their total dry weight. They are present in all types of cells and in all parts of the cell.
+(It is a diagram showing Fehling’s test with red ppt formation in aldehyde)
 
-Proteins perform many functions. They build many structures of the cell. All enzymes are proteins and in this way they control the whole metabolism of the cell. As hormones, proteins regulate metabolic processes. Some proteins (e.g. hemoglobin) work as carriers and transport specific substances such as oxygen, lipids, metal ions, etc. Some proteins called antibodies, defend the body against pathogens. Blood clotting proteins prevent the loss of blood from the body after an injury. Movement of organs and organisms, and movement of chromosomes during anaphase of cell division, are caused by proteins.
+🧠 DO YOU KNOW?
+Tollen’s reagent, Fehling reagent and Benedict solution test distinguishes aldehydes from ketones.
 
-Proteins are polymers of amino acids, the compounds containing carbon, nitrogen, oxygen and hydrogen. The number of amino acids varies from a few to 3000 or even more in different proteins.
+Tollen’s reagent is silver nitrate and ammonia.
 
-Amino acids: About 170 types of amino acids have been found to occur in cells and tissues. Of these, about 25 are constituents of proteins. Most of the proteins are however, made of 20 types of amino acids.
+Fehling A is copper sulphate, Fehling B is sodium hydroxide and tartrate salt.
 
-All the amino acids have an amino group (-NH₂) and a carboxyl group (-COOH) attached to the same carbon atom, also known as alpha carbon. They have the general formula as:
+Benedict’s reagent contains copper sulphate, sodium hydroxide and citric acid.
 
-(Amino acid structure diagram: NH₂–CH(R)–COOH)
+📄 Page 199
+8.5.4 Difference between Aldehyde and Ketone
+Basic Structure: Both aldehydes and ketones are carbonyl compounds but in aldehydes, the carbonyl carbon is attached with at least one alkyl or aryl group while in ketones, carbonyl carbon is attached with two alkyl or aryl groups.
 
-R may be a hydrogen atom as in glycine, or CH₃ as in alanine, or any other group. So amino acids mainly differ due to the type or nature of R group.
+Physical Properties: The boiling point of ketones is relatively higher than aldehydes since carbonyl group of ketones is more polarised than aldehydes.
 
-Amino acids are linked together to form polypeptides proteins. The amino group of one amino acid may react with the carboxyl group of another releasing a molecule of water. For example, glycine and alanine may combine as shown in Fig. 2.10.
+Reactivity: The reactivity of aldehydes towards nucleophilic addition is greater than ketones because of less steric hindrance and less electronic effect.
 
-The linkage between the hydroxyl group of carboxyl group of one amino acid and the hydrogen of amino group of another amino acid release H₂O and C–N link to form a bond called peptide bond. The resultant compound glycylalanine, has two amino acid subunits and is a dipeptide. A dipeptide has an amino group at one end and a carboxyl group at the other end of the molecule. So both reactive parts are again available for further peptide bonds to produce tripeptides, tetrapeptides, and pentapeptides etc, leading to polypeptide chains.
+Oxidation into Carboxylic acid: Ketones oxidizes to carboxylic acid with strong oxidizing agent such as potassium dichromate (K₂Cr₂O₇) and potassium permanganate (KMnO₄) while aldehydes can easily be oxidized to carboxylic acid with mild oxidizing agent such as chromic acid (H₂CrO₄), Tollen’s reagent and Fehling solution and Benedict solution.
 
-Page 28
+Reduction into alcohol: Reduction of aldehydes in the presence of strong reducing agents such as lithium aluminum hydride (LiAlH₄) and sodium borohydride (NaBH₄) gives primary alcohol while the reduction of ketones gives secondary alcohol.
 
-(Fig. 2.10 Peptide linkage – formation of peptide bond)
+Table 8.1: Some applications of aldehydes and ketones
 
-STRUCTURE OF PROTEINS
+Application	Aldehydes	Ketones
+Organic Synthesis	Used as key intermediates in various organic reactions.	Important starting materials for creating complex organic compounds
+Flavor and Fragrance	Provide characteristic aroma and taste to many natural and synthetic products, e.g., vanillin and benzaldehyde.	Used as flavoring agents and fragrances in the food, cosmetic, and perfume industries.
+Pharmaceuticals	Serve as building blocks for various pharmaceuticals, such as anti-inflammatory drugs and antihistamines.	Some ketones are used as active pharmaceutical ingredients in medicines.
+Solvents	Formaldehyde is used as a solvent for certain reactions.	Acetone is a widely used solvent for chemical reactions and as a nail polish remover.
 
-Each protein has specific properties which are determined by the number and the specific sequence of amino acids in a molecule, and upon the shape which the molecule assumes as the chain folds into its final, compact form. There are four levels of organization which are described below.
 
-Primary Structure: The primary structure comprises the number and sequence of amino acids in a protein molecule. F. Sanger was the first scientist who determined the sequence of amino acids in a protein molecule. After ten years of careful work, he concluded, that insulin is composed of 51 amino acids in two chains. One of the chains had 21 amino acids and the other had 30 amino acids and they were held together by disulphide bridges. Haemoglobin is composed of four chains, two alpha and two beta chains. Each alpha chain contains 141 amino acids, while each beta chain contains 146 amino acids (Fig. 2.11). The size of a protein molecule is determined by the type of amino acids and the number of amino acids comprising that particular protein molecule.
+📄 Page 200
+🧪 SOCIETY, TECHNOLOGY AND SCIENCE
+Role of Ozonolysis in drinking water
+Ozone is a powerful oxidizing agent, it is successfully used in the treatment of drinking water in the following manners:
+(i) It serves as biocides since it ozonolyses the organic substances present in the cell membrane of microorganisms such as bacteria, viruses and the protozoa and hence killed them.
+(ii) It oxidizes certain metals (Cu, Fe, Mn, etc.) which are present in the excess amount in water that can be easily separated by filtration.
 
-(Fig. 2.11. Polypeptide chains in keratin (fibrous protein) and haemoglobin (globular protein) are held together to form respective functional proteins.)
+🟡 SUMMARY
+Aldehydes and ketones are organic compounds that contain carbonyl functional group (>C=O).
 
-Page 29
+The boiling point of aldehydes and ketones is lower than alcohols since they do not form intermolecular hydrogen bond.
 
-Now we know that there are over 10,000 proteins in the human body which are composed of unique and specific arrangements of 20 types of amino acids. The sequence is determined by the order of nucleotides in the DNA. The arrangement of amino acids in a protein molecule is highly specific for its proper functioning. If any amino acid is not in its normal place, the protein fails to carry on its normal function. The best example is the sickle cell hemoglobin of human beings. In this case only one amino acid in each beta chain out of the 574 amino acids do not occupy the normal place in the proteins (in fact this particular amino acid is replaced by some other amino acid), and the hemoglobin fails to carry any or sufficient oxygen, hence leading to death of the patient.
+The boiling point of aldehydes and ketones is higher than alkanes because of molecular polarity and dipole-dipole attractive forces among their molecules.
 
-Secondary structure: The polypeptide chains in a protein molecule usually do not lie flat. They usually coil into a helix, or into some other regular configuration. One of the common secondary structures is the α-helix. It involves a spiral formation of the basic polypeptide chain. The α-helix is a very uniform geometric structure with 3.6 amino acids in each turn of the helix. The helical structure is kept by the formation of hydrogen bonds among amino acid molecules in successive turns of the spiral. β-pleated sheet is formed by folding back of the polypeptide.
+The chemical reactivity of aldehydes and ketones is attributed to the polar carbonyl group they contain.
 
-Tertiary structure: Usually a polypeptide chain bends and folds upon itself forming a globular shape. This is the protein’s tertiary conformation. It is maintained by three types of bonds, namely ionic, hydrogen, and disulfide (-S-S-). For example, in aqueous environment the most stable tertiary conformation is that in which hydrophobic amino acids are buried inside while the hydrophilic amino acids are on the surface of the molecule.
+The geometry of aldehydes and ketones molecules is trigonal planar since carbon atom of carbonyl group (>C=O) is sp² hybridized.
 
-Quaternary structure: In many highly complex proteins, polypeptide tertiary chains are aggregated and held together by hydrophobic interactions, hydrogen and ionic bonds. This peptide arrangement is the quaternary structure. Haemoglobin, the oxygen carrying protein of red blood cells, exhibits such a structure.
+Preparation of aldehydes and ketones is mostly carried out by ozonolysis of alkenes and hydration of alkyne.
 
-(Fig. 2.12 Three levels of protein structures compared with a telephone wire)
+Reduction of aldehyde and ketone with LiAlH₄ or NaBH₄ gives primary and secondary alcohol respectively.
 
-Page 30
+Aldehydes can be oxidized into carboxylic acid with mild oxidizing agent such as chromic acid (H₂CrO₄), Tollen’s reagent and Fehling solution etc.
 
-Classification of Proteins
+Ketones can be oxidized into carboxylic acid in presence of strong oxidizing agent.
 
-Because of the complexity of structure and diversity in their function, it is very difficult to classify proteins in a single well defined fashion. However, according to their structure, proteins are classified as follows:
+Nucleophilic addition reactions of aldehydes and ketones are catalysed by acid or base depending upon the availability of either weak or strong nucleophilic reagent.
 
-Fibrous proteins: They consist of molecules having one or more polypeptide chains in the form of fibrils. Secondary structure is most important in them. They are insoluble in aqueous media. They are non-crystalline and are elastic in nature. They perform structural roles in cells and organisms. Examples are silk fiber (from silk worm, and spiders’ web) myosin (in muscle cells), fibrin (of blood clot), and keratin (of nails and hair).
+Water, alcohol, and ammonia can undergo nucleophilic addition reactions with aldehyde and ketones, and these reactions are catalysed by acids.
 
-Globular proteins: These are spherical or ellipsoidal due to multiple folding of polypeptide chains. Tertiary structure is most important in them. They are soluble in aqueous media such as salt solution, solution of acids or bases, or aqueous alcohol. They can be crystallized. They disorganize with changes in the physical and physiological environment. Examples are enzymes, antibodies, hormones and hemoglobin.
+Hydrogen cyanide (HCN) and Grignard reagent (RMgX) can react with aldehydes and ketones in the presence of a base catalyst.
 
-Page 31
+Identification of aldehydes in a laboratory can be carried out by Tollen’s reagents or by Fehling solution.
 
-NUCLEIC ACIDS (DNA AND RNA)
+📄 Page 201
+📝 EXERCISE
+Multiple Choice Questions
 
-Nucleic acids were first isolated in 1869 by F. Miescher from the nuclei of pus cells. Due to their isolation from nuclei and their acidic nature, they were named nucleic acids. Nucleic acids are of two types, deoxyribonucleic acid or DNA and ribonucleic acid or RNA. DNA occurs in chromosomes, in the nuclei of the cells and in much lesser amounts in mitochondria and chloroplasts. RNA is present in the nucleolus, in the ribosomes, in the cytosol and in smaller amounts in other parts of the cell.
+(i) Ketones when treated with LiAlH₄, they reduce to:
+(a) Primary alcohol  (b) Secondary alcohol
+(c) Tertiary alcohol  (d) Dihydric alcohol
 
-(Fig. 2.13. Structural formula of ATP (a nucleotide))
+(ii) The reagent used to oxidizes ketones into acids is:
+(a) Ammonia solution  (b) Potassium dichromate
+(c) Fehling solution  (d) Benedict solution
 
-Nucleic acids are complex substances. They are polymers of units called nucleotides. DNA is made up of deoxyribonucleotides, while RNA is composed of ribonucleotides. Each nucleotide is made of three subunits, a 5-carbon monosaccharide (a pentose sugar), a nitrogen containing base, and a phosphoric acid. Pentose sugar in ribonucleotide is ribose, while in deoxyribonucleotide it is deoxyribose. Nitrogenous bases are of two types, single-ringed pyrimidines, and double-ringed purines. Pyrimidines are cytosine (abbreviated as C), thymine (abbreviated as T), and uracil (abbreviated as U). Purines are adenine (abbreviated as A) and guanine (abbreviated as G). Phosphoric acid (H₃PO₄) has the ability to develop ester linkage with OH group of pentose sugar. In a typical nucleotide the nitrogenous base is attached to position 1 of pentose sugar, while phosphoric acid is attached to carbon at position 5 of pentose sugar (Fig. 2.13).
+(iii) The carbon atom of aldehydes and ketones is:
+(a) Sp hybridized  (b) Sp² hybridized
+(c) Sp³ hybridized  (d) dsp³ hybridized
 
-The compound formed by combination of a base and a pentose sugar is called nucleoside. A nucleoside and a phosphoric acid combine to form a nucleotide. Each nucleotide of RNA contains ribose sugar, whereas sugar in each nucleotide of DNA is deoxyribose (one oxygen removed from OH group at carbon number 2). ATP is also an important nucleotide used as an energy currency by the cell (Fig. 2.14).
+(iv) Acetophenone is the member of ketone family, it contains:
+(a) Two alkyl R groups  (b) Two aryl R groups
+(c) One alkyl and one aryl group  (d) One aryl and one hydrogen atom
 
-(Fig. 2.14 : Components of ATP, a nucleotide.)
+(v) The most reactive molecule towards nucleophilic addition in the following is:
+(a) Formaldehyde  (b) Acetaldehyde
+(c) Dimethyl ketone  (d) Acetophenone
 
-Page 32
-
-DNA (Deoxyribonucleic Acid)
-
-DNA is the heredity material. It controls the properties and potential activities of a cell. It is made of four kinds of nucleotides namely d-adenosine monophosphate (d-AMP), d-guanosine monophosphate (d-GMP), d-cytidine monophosphate (d-CMP), and d-thymidine monophosphate (d-TMP). These nucleotides are united with one another through phosphodiester linkages in a specific sequence to form long chains known as polynucleotide chains (Fig. 2.15). Two nucleotides join together to form dinucleotide whereas three join together to form trinucleotide. Nicotinamide adenine dinucleotide, abbreviated as NAD, is an example of dinucleotide. It is an important coenzyme in several oxidation-reduction reactions in the cell.
-
-List of ribonucleotides and deoxyribonucleotides
-
-RNA	DNA
-Nitrogenous base	Nucleosides (ribose + nitrogenous base)	Nucleosides (deoxyribose + nitrogenous base)
-Nucleotides (ribose + nitrogenous base + phosphoric acid)	Nucleotides (deoxyribose + nitrogenous base + phosphoric acid)
-Adenine	Adenosine, AMP, ADP, ATP	d-Adenosine, dAMP, dADP, dATP
-Uracil	Uridine, UMP, UDP, UTP	—
-Guanine	Guanosine, GMP, GDP, GTP	d-Guanosine, dGMP, dGDP, dGTP
-Cytosine	Cytidine, CMP, CDP, CTP	d-Cytidine, dCMP, dCDP, dCTP
-Thymine	—	d-Thymidine, dTMP, dTDP, dTTP
-
-In 1951 Erwin Chargaff provided data about the ratios of different bases present in this molecule. This data suggested that adenine and thymine are equal in ratio and so are guanine and cytosine as shown below in Table 2.2.
-
-Table 2.2: Relative amounts of bases in DNA from various organisms (on percentage basis)
-
-Source of DNA	Adenine	Guanine	Thymine	Cytosine
-Man	30.9	19.9	29.4	19.8
-Sheep	29.3	21.4	28.3	21.0
-Wheat	27.3	22.7	27.1	22.8
-Yeast	31.3	18.7	32.9	17.1
-
-Maurice Wilkins and Rosalind Franklin used the technique of X-ray diffraction to determine the structure of DNA. At the same time James D. Watson and Francis Crick built the scale model of DNA. All the data thus obtained strongly suggested that DNA is made of two polynucleotide chains or strands. The two strands are coiled round each other in the form of a double helix. Coiling of two strands is opposite i.e. they are coiled antiparallel to each other. The two chains are held together by weak bonds (hydrogen bonds). Adenine (A) is always opposite to thymine (T), and guanine (G) and cytosine (C) are opposite to each other. There are two hydrogen bonds between A and T pair, and three hydrogen bonds between G and C pair. The two strands are wound around each other so that there are 10 base pairs in each turn of about 34 Angstrom units (one Angstrom = one 100-millionth of a centimeter) (Fig. 2.15).
-
-Page 33
-
-(Fig. 2.15 Model of DNA. Double helical structure of DNA proposed by Watson & Crick (b). A hypothetical sequence of nucleotides (on the left side) shows hydrogen bonding between the complementary bases. Note a double bond between A and T, and triple bond between C and G (a).)
-
-The amount of DNA is fixed for a particular species, as it depends upon the number of chromosomes. The amount of DNA in germ cells (sperms and ova) is one half to that of somatic cells (Table 2.3).
-
-Table 2.3 Amount of DNA/nucleus in different types of cells of a chicken (bird) and a carp (fish).
-
-Type of cell	Amount of DNA/nucleus (in picogram)
-Chicken
-Red Blood Cells	2.3
-Liver cells	2.4
-Kidney cells	2.4
-Sperm cells	1.3
-
-Page 34
-
-All the information for the structure and functioning of a cell is stored in DNA. For example in the chromosome of the bacterium E.coli, each of the paired strand of DNA contains about 5 million bases arranged in a particular linear order, the information in those bases is divided into units of several hundred bases each. Each unit is a gene, a unit of biological inheritance. The E.coli genome consists of 4,639,221 base pairs, which code for at least 4288 proteins.
-
-Haemophilus influenzae is the first microbe to have the genome completely sequenced and this was published on July 28, 1995.
-
-RNA (Ribonucleic Acid)
-
-Like DNA, RNA is a polymer of ribonucleotides. The RNA molecules occur as single strand, which may be folded back on itself, to give double helical characteristics. The nitrogenous bases form the usual complementary pairing viz. cytosine (C) with guanine (G) and uracil (U) with adenine (A). RNA is synthesized by DNA in a process known as transcription.
-
-Types of RNA
-
-Three main types of RNAs – messenger RNA (abbreviated as mRNA), transfer RNA (abbreviated as tRNA), and ribosomal RNA (abbreviated as rRNA) are recognized. All these three types of RNAs are synthesized from DNA in the nucleus and then are moved out in the cytoplasm to perform their specific functions.
-
-Messenger RNA (mRNA): As the name indicates it takes the genetic message from the nucleus to the ribosomes in the cytoplasm to form particular proteins. Messenger RNA carries the genetic information from DNA to ribosomes, where amino acids are arranged according to the information in mRNA to form specific protein molecule. This type of RNA consists of a single strand of variable length. Its length depends upon the size of the gene as well as the protein for which it is taking the message. For example, for a protein molecule of 1,000 amino acids, mRNA will have the length of 3,000 nucleotides. mRNA is about 3 to 4% of the total RNA in the cell.
-
-Transfer RNA (tRNA): It comprises about 10 to 20% of the cellular RNA. Transfer RNA molecules are small, each with a chain length of 75 to 90 nucleotides. It transfers amino acid molecules to the site where peptide chains are being synthesized. There is one specific tRNA for each amino acid. So the cell will have at least 20 kinds of tRNA molecules. Transfer RNA picks up amino acids and transfers them to ribosomes, where they are linked to each other to form proteins.
-
-Ribosomal RNA (rRNA): It is the major portion of RNA in the cell, and may be up to 80% of the total RNA. It is strongly associated with the ribosomal protein where 40 to 50% of it is present. It acts as a machinery for the synthesis of proteins. On the surface of the ribosome the mRNA and tRNA molecules interact to translate the information from genes into a specific protein.
-
-Page 35
-
-CONJUGATED MOLECULES
-
-Two different molecules, belonging to different categories, usually combine together to form conjugated molecules. Carbohydrates may combine with proteins to form glycoprotein or with lipids to form glycolipids. Most of the cellular secretions are glycoprotein in nature. Both glycoproteins and glycolipids are integral structural components of plasma membranes. Lipoprotein formed by combination of lipids and proteins are basic structural framework of all types of membranes in the cells.
-
-Nucleic acids have special affinity for basic proteins. They are combined together to form nucleoproteins. The nucleohistones are present in chromosomes. These conjugated proteins are not only of structural, but also are of functional significance. They play an important role in regulation of gene expression.
+(vi) Clemmensen reduction is the conversion of aldehydes and ketones into:
+(a) Alkanes  (b) Alkenes

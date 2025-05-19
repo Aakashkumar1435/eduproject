@@ -12,6 +12,7 @@ import feedbackRoutes from '../feedbackRoutes.js';
 import pricingRoutes from '../pricingRoutes.js';
 import courseRoutes from '../courseRoutes.js';
 import summarizeRoutes from '../summarizeRoutes.js';
+import submissionRoute from '../submissionRoute.js';
 
 
 const router = express.Router();
@@ -30,6 +31,6 @@ router.use('/feedback', feedbackRoutes);
 router.use('/pricing', pricingRoutes);
 router.use('/courses', courseRoutes);
 router.use('/summarize', summarizeRoutes);
-
+router.use('/submit', submissionRoute);
 
 export default router;
