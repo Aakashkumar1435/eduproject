@@ -53,29 +53,30 @@ const AboutOurTeam = () => {
       <h2 className="text-center mb-10 text-3xl text-green-800">
         <b>Our Team</b>
       </h2>
-      <div className="overflow-x-auto pb-3">
-        <div className="grid grid-flow-col auto-cols-min md:auto-cols-fr gap-8 min-w-full py-3">
-          {team.map((member, index) => (
-            <div 
-              className="w-80 md:w-auto bg-white rounded-xl overflow-hidden text-center py-8 px-5 shadow-md transition-transform duration-300 hover:-translate-y-1 hover:bg-gradient-to-r hover:from-green-50 hover:to-white" 
-              key={index}
-            >
-              <div className="w-36 h-36 rounded-full overflow-hidden mx-auto mb-5 flex items-center justify-center">
-                <Image
-                  src={member.icon}
-                  alt={member.name}
-                  width={120}
-                  height={120}
-                  className="w-full h-full object-cover rounded-full"
-                />
-              </div>
-              <h3 className="text-xl font-medium">{member.name}</h3>
-              <p className="mt-1">{member.role}</p>
-              <p className="text-gray-600 text-sm mt-1">{member.degree}</p>
-            </div>
-          ))}
+      <div className="overflow-x-auto">
+  <div className="flex gap-6 min-w-full px-1">
+    {team.map((member, index) => (
+      <div
+        key={index}
+        className="min-w-[260px] max-w-[260px] bg-white rounded-xl text-center py-8 px-5 shadow-md transition-transform duration-300 hover:-translate-y-1 hover:bg-gradient-to-r hover:from-green-50 hover:to-white"
+      >
+        <div className="w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 flex items-center justify-center">
+          <Image
+            src={member.icon}
+            alt={member.name}
+            width={112}
+            height={112}
+            className="w-full h-full object-cover rounded-full"
+          />
         </div>
+        <h3 className="text-lg font-medium">{member.name}</h3>
+        <p className="mt-1">{member.role}</p>
+        <p className="text-gray-600 text-sm mt-1">{member.degree}</p>
       </div>
+    ))}
+  </div>
+</div>
+
     </section>
   );
 };

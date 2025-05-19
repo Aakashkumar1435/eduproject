@@ -66,6 +66,13 @@ export const HomeNavbar = () => {
                 <span>Home</span>
               </Link>
               <Link
+                href="/chat"
+                className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
+              >
+                <Home className="mr-2" size={18} />
+                <span>AI Summarizer</span>
+              </Link>
+              <Link
                 href="/Explore"
                 className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
               >
@@ -97,7 +104,7 @@ export const HomeNavbar = () => {
             </button>
             
             {/* Notifications */}
-            <div className="relative">
+            {/* <div className="relative">
               <button className="p-2 hover:bg-emerald-600 rounded-full transition">
                 <Bell size={20} />
                 {notifications > 0 && (
@@ -106,7 +113,7 @@ export const HomeNavbar = () => {
                   </span>
                 )}
               </button>
-            </div>
+            </div> */}
             
             {/* User Profile or Login */}
             {userId ? (
@@ -212,7 +219,7 @@ export const HomeNavbar = () => {
             </Link>
 
             {/* Notifications in mobile menu */}
-            <Link
+            {/* <Link
               href="/notifications"
               className="flex items-center px-3 py-2 text-white hover:bg-emerald-600 rounded-md transition"
             >
@@ -223,7 +230,7 @@ export const HomeNavbar = () => {
                   {notifications}
                 </span>
               )}
-            </Link>
+            </Link> */}
 
             {/* Mobile auth buttons */}
             <div className="pt-2 border-t border-emerald-600">

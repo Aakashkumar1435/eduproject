@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./OtherCourses.module.css";
-import ModalForm from "@/components/pricing/buyForm/BuyForm";
+import ModalForm from "@/app/components/pricing/buyForm/BuyForm";
 
 export default function OtherCourses() {
   const [courses, setCourses] = useState([]);

@@ -108,31 +108,30 @@ const Navbar = () => {
             >
               About
             </Link>
-            <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-green-600 font-medium transition-colors">
-                Courses <ChevronDown className="ml-1 w-4 h-4" />
-              </button>
-              <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                <Link
-                  href="/courses/web-development"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
-                >
-                  Web Development
-                </Link>
-                <Link
-                  href="/courses/data-science"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
-                >
-                  Data Science
-                </Link>
-                <Link
-                  href="/courses/design"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-50 hover:text-green-600"
-                >
-                  Design
-                </Link>
-              </div>
-            </div>
+            <Link
+              href="/pricing"
+              className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+            >
+              Pricing
+            </Link>
+            <Link
+              href="/Mdcat"
+              className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+            >
+              Dashboard
+            </Link>
+            <Link
+              href="/feedback"
+              className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+            >
+              feedback
+            </Link>
+            <Link
+              href="/aggregateCalculator"
+              className="text-gray-700 hover:text-green-600 font-medium transition-colors"
+            >
+              Aggregate Calculator
+            </Link>
             <Link
               href="/contact"
               className="text-gray-700 hover:text-green-600 font-medium transition-colors"

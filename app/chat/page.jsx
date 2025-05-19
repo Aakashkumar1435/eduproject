@@ -1,9 +1,18 @@
-import ChatBox from '@/app/components/chat/ChatBox';
+"use client";
+import ChatBox from "@/app/components/chat/ChatBox";
+import Navbar from "../components/Home/Navbar";
+import Footer from '../components/footer/Footer';
 
 export default function ChatPage() {
   return (
-    <div style={{ backgroundColor: '#121212', minHeight: '100vh', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      <ChatBox />
-    </div>
+    <>
+      <Navbar />
+      <div className="min-h-screen w-full bg-[#f4faed] flex flex-col justify-between pt-20 px-4 overflow-x-hidden">
+        <div className="flex justify-center items-start flex-grow">
+          <ChatBox />
+        </div>
+        <Footer />
+      </div>
+    </>
   );
 }

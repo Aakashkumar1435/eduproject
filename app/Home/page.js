@@ -7,6 +7,7 @@ import OurJourney from '../components/Home/OurJourney';
 import ExploreCourses from '../components/Home/Courses';
 import Choose from '../components/Home/Choose';
 import Navbar from '../components/Home/Navbar';
+import Footer from '../components/footer/Footer';
 
 function HomePage() {
   return (
@@ -20,6 +21,7 @@ function HomePage() {
       <ExploreCourses />
       <OurJourney />
       <FoundersSection />
+      <Footer />
     </main>
     </>
   )

@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "./PricingPage.module.css";
-import BuyForm from "@/components/pricing/buyForm/BuyForm";
+import BuyForm from "@/app/components/pricing/buyForm/BuyForm";
 
 const testTabs = ["All Courses", "MDCAT", "ECAT", "FSC", "IELTS", "GAT"];
 
@@ -9,7 +9,7 @@ export default function PricingPage() {
   const [billing, setBilling] = useState("monthly");
   const [activeTab, setActiveTab] = useState("All Courses");
   const [plans, setPlans] = useState([]);
-  const [selectedPlan, setSelectedPlan] = useState(null); // ⬅️ For BuyForm modal
+  const [selectedPlan, setSelectedPlan] = useState(null); 
 
   useEffect(() => {
     fetch("http://localhost:5000/api/pricing")
