@@ -126,7 +126,7 @@ export default function Hero2() {
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <img src="/api/placeholder/100/100" alt="logo" className="h-16 w-16 rounded-full border-2 border-green-500 object-cover" />
+                  <img src="logo.png" alt="logo" className="h-16 w-16 rounded-full border-2 border-green-500 object-cover" />
                   <div className="ml-4">
                     <h3 className="text-white font-bold text-lg">CrackIt Study Plans</h3>
                     <p className="text-gray-400">Custom-tailored for your needs</p>

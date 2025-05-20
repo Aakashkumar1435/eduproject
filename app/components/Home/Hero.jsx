@@ -16,6 +16,10 @@ export default function Hero() {
     router.push('/Mdcat');
   }
 
+  const handleCourse = () => {
+    router.push('/pricing');
+  }
+
   return (
     // Added padding-top to accommodate the fixed navbar
     <section className={`bg-gradient-to-br from-gray-900 via-gray-800 to-green-900 text-white pt-24 pb-16 relative overflow-hidden transition-all duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
@@ -45,7 +49,7 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl flex items-center justify-center">
+            <button onClick={handleCourse} className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl flex items-center justify-center">
               Explore Courses
               <ChevronRight size={20} className="ml-1" />
             </button>

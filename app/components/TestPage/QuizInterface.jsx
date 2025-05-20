@@ -1,17 +1,17 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { 
-  AlertCircle, 
+import {
+  AlertCircle,
   CheckCircle,
-  Clock, 
-  AlertTriangle, 
-  ChevronLeft, 
+  Clock,
+  AlertTriangle,
+  ChevronLeft,
   ChevronRight,
   Flag,
   LayoutGrid,
   X,
-  LockIcon
+  LockIcon,
 } from "lucide-react";
 
 // Import components
@@ -24,6 +24,7 @@ import NavigationButtons from "./NavigationButtons";
 import QuestionNavigator from "./QuestionNavigator";
 import ExitConfirmationModal from "./ExitConfirmationModal";
 import FinishConfirmationModal from "./FinishConfirmationModal";
+import Swal from "sweetalert2";
 
 export default function QuizInterface() {
   const userId = localStorage.getItem("userId");
@@ -57,7 +58,7 @@ export default function QuizInterface() {
       router.push("/User-Sign-In");
       return;
     }
-    
+
     if (!testID) return;
 
     async function fetchTestData() {
@@ -246,7 +247,9 @@ export default function QuizInterface() {
     try {
       // Calculate total score
       const totalQuestions = mcqs.length;
-      const correctCount = Object.values(correctAnswers).filter(isCorrect => isCorrect).length;
+      const correctCount = Object.values(correctAnswers).filter(
+        (isCorrect) => isCorrect
+      ).length;
       const score = Math.round((correctCount / totalQuestions) * 100);
 
       const submissionData = {
@@ -255,21 +258,71 @@ export default function QuizInterface() {
         timeSpent: timeSpent,
       };
 
-      const response = await fetch(`http://localhost:5000/api/progress/saveProgress?testId=${testID}&userId=${userId}`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      // Show the results in SweetAlert2
+      Swal.fire({
+        title: "Test Submitted!",
+        html: `
+        <div class="text-center">
+          <div class="mb-4">
+            <div class="text-3xl font-bold ${
+              score >= 70
+                ? "text-green-500"
+                : score >= 50
+                ? "text-amber-500"
+                : "text-rose-500"
+            }">
+              ${score}%
+            </div>
+            <div class="text-gray-600 mt-1">Your Score</div>
+          </div>
+          <div class="flex justify-center gap-6 mb-2">
+            <div>
+              <div class="font-semibold text-lg">${correctCount}</div>
+              <div class="text-sm text-gray-500">Correct</div>
+            </div>
+            <div>
+              <div class="font-semibold text-lg">${
+                totalQuestions - correctCount
+              }</div>
+              <div class="text-sm text-gray-500">Incorrect</div>
+            </div>
+            <div>
+              <div class="font-semibold text-lg">${totalQuestions}</div>
+              <div class="text-sm text-gray-500">Total</div>
+            </div>
+          </div>
+        </div>
+      `,
+        icon: score >= 70 ? "success" : score >= 50 ? "info" : "warning",
+        confirmButtonText: "View Details",
+        allowOutsideClick: false,
+        customClass: {
+          confirmButton: "bg-cyan-600 hover:bg-cyan-700",
         },
-        body: JSON.stringify(submissionData),
       });
+
+      const response = await fetch(
+        `http://localhost:5000/api/progress/saveProgress?testId=${testID}&userId=${userId}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(submissionData),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to submit test");
       }
-
-
     } catch (error) {
       console.error("Error submitting test:", error);
+      Swal.fire({
+        title: "Error!",
+        text: "There was a problem submitting your test. Your results may not have been saved.",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
     } finally {
       setSubmitting(false);
     }
@@ -283,7 +336,9 @@ export default function QuizInterface() {
     return (
       <div className="min-h-screen bg-slate-900 flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-4 border-cyan-500 border-t-transparent"></div>
-        <p className="ml-4 text-cyan-400 text-lg font-medium">Loading test...</p>
+        <p className="ml-4 text-cyan-400 text-lg font-medium">
+          Loading test...
+        </p>
       </div>
     );
   }
@@ -292,8 +347,13 @@ export default function QuizInterface() {
     return (
       <div className="min-h-screen bg-slate-900 flex items-center justify-center p-4">
         <div className="max-w-md p-8 bg-slate-800 rounded-xl shadow-xl text-center border border-slate-700">
-          <AlertCircle className="mx-auto text-rose-500 w-12 h-12 mb-4" strokeWidth={1.5} />
-          <h2 className="text-xl font-bold mb-3 text-white">No Questions Available</h2>
+          <AlertCircle
+            className="mx-auto text-rose-500 w-12 h-12 mb-4"
+            strokeWidth={1.5}
+          />
+          <h2 className="text-xl font-bold mb-3 text-white">
+            No Questions Available
+          </h2>
           <p className="text-slate-300 mb-6">
             Unable to load questions for this test.
           </p>
@@ -320,35 +380,43 @@ export default function QuizInterface() {
     <div className="bg-slate-800 border-b border-slate-700 py-3 px-4 md:px-8 sticky top-0 z-10 shadow-lg">
       <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-4">
         <div className="flex items-center">
-          <button 
+          <button
             onClick={handleExit}
             className="mr-4 p-2 rounded-full hover:bg-slate-700 transition-colors text-slate-400 hover:text-white"
             aria-label="Exit test"
           >
             <ChevronLeft size={24} strokeWidth={1.5} />
           </button>
-          
+
           <h1 className="text-lg md:text-xl font-bold text-white truncate max-w-xs md:max-w-md">
             {testData?.name || "Practice Test"}
           </h1>
         </div>
-        
+
         <div className="flex items-center space-x-4 ml-auto">
           {timeRemaining !== null && (
-            <div className={`flex items-center gap-2 ${timeRemaining < 300 ? 'text-rose-400' : 'text-cyan-400'}`}>
+            <div
+              className={`flex items-center gap-2 ${
+                timeRemaining < 300 ? "text-rose-400" : "text-cyan-400"
+              }`}
+            >
               <Clock size={20} strokeWidth={1.5} />
               <span className="font-mono text-lg">
                 {formatTime(timeRemaining)}
               </span>
             </div>
           )}
-          
+
           <button
             onClick={toggleNavigator}
             className="p-2 rounded-full hover:bg-slate-700 transition-colors bg-slate-750 border border-slate-600"
             aria-label="Show question navigator"
           >
-            <LayoutGrid size={20} className="text-slate-300" strokeWidth={1.5} />
+            <LayoutGrid
+              size={20}
+              className="text-slate-300"
+              strokeWidth={1.5}
+            />
           </button>
         </div>
       </div>
@@ -358,7 +426,7 @@ export default function QuizInterface() {
   // Enhanced Progress Bar Component
   const EnhancedProgressBar = () => (
     <div className="h-2 bg-slate-700 relative overflow-hidden">
-      <div 
+      <div
         className="h-full bg-gradient-to-r from-cyan-500 to-cyan-400 transition-all duration-500 ease-out"
         style={{ width: `${progressPercentage}%` }}
       ></div>
@@ -379,7 +447,7 @@ export default function QuizInterface() {
             </span>
           )}
         </div>
-        
+
         {testSubmitted && (
           <div className="flex items-center gap-2 text-amber-400 bg-amber-900/20 py-1 px-3 rounded-full">
             <LockIcon size={14} strokeWidth={1.5} />
@@ -387,7 +455,7 @@ export default function QuizInterface() {
           </div>
         )}
       </div>
-      
+
       <div className="text-lg md:text-xl text-white font-medium leading-relaxed">
         {currentQuestion.question}
       </div>
@@ -400,16 +468,18 @@ export default function QuizInterface() {
     const selectedAnswer = selectedAnswers[currentQuestionIndex];
     const isAnswered = selectedAnswer !== undefined;
     const correctIndex = currentQuestion.correctAnswer;
-    
+
     return (
       <div className="space-y-3 mt-6">
         {options.map((option, index) => {
-          let optionClass = "border border-slate-700 bg-slate-800 hover:border-slate-500";
-          
+          let optionClass =
+            "border border-slate-700 bg-slate-800 hover:border-slate-500";
+
           if (testSubmitted) {
             // If test is submitted, show correct and incorrect answers
             if (index === correctIndex) {
-              optionClass = "border-emerald-500 bg-emerald-900/20 text-emerald-300";
+              optionClass =
+                "border-emerald-500 bg-emerald-900/20 text-emerald-300";
             } else if (selectedAnswer === index) {
               optionClass = "border-rose-500 bg-rose-900/20 text-rose-300";
             } else {
@@ -419,26 +489,42 @@ export default function QuizInterface() {
             // If question is answered but test not submitted
             if (selectedAnswer === index) {
               if (index === correctIndex) {
-                optionClass = "border-emerald-500 bg-emerald-900/20 text-emerald-300";
+                optionClass =
+                  "border-emerald-500 bg-emerald-900/20 text-emerald-300";
               } else {
                 optionClass = "border-rose-500 bg-rose-900/20 text-rose-300";
               }
             } else if (index === correctIndex && answerFeedback) {
-              optionClass = "border-emerald-500 bg-emerald-900/20 text-emerald-300";
+              optionClass =
+                "border-emerald-500 bg-emerald-900/20 text-emerald-300";
             } else {
               optionClass = "border-slate-700 bg-slate-800 opacity-60";
             }
           }
-          
+
           return (
             <button
               key={index}
               onClick={() => handleAnswerSelect(index)}
               disabled={isAnswered || testSubmitted}
-              className={`w-full p-4 md:p-5 rounded-lg text-left transition-all duration-200 flex items-start ${optionClass} ${!isAnswered && !testSubmitted ? "hover:bg-slate-750" : ""}`}
+              className={`w-full p-4 md:p-5 rounded-lg text-left transition-all duration-200 flex items-start ${optionClass} ${
+                !isAnswered && !testSubmitted ? "hover:bg-slate-750" : ""
+              }`}
             >
               <div className="flex-shrink-0 mr-4">
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center border ${isAnswered && selectedAnswer === index ? "border-transparent" : "border-slate-600"} ${selectedAnswer === index ? (index === correctIndex ? "bg-emerald-500" : "bg-rose-500") : "bg-slate-700"}`}>
+                <div
+                  className={`w-8 h-8 rounded-full flex items-center justify-center border ${
+                    isAnswered && selectedAnswer === index
+                      ? "border-transparent"
+                      : "border-slate-600"
+                  } ${
+                    selectedAnswer === index
+                      ? index === correctIndex
+                        ? "bg-emerald-500"
+                        : "bg-rose-500"
+                      : "bg-slate-700"
+                  }`}
+                >
                   <span className="text-white font-medium">
                     {String.fromCharCode(65 + index)}
                   </span>
@@ -458,17 +544,22 @@ export default function QuizInterface() {
       <button
         onClick={goToPreviousQuestion}
         disabled={isFirstQuestion}
-        className={`flex items-center gap-2 py-2.5 px-5 rounded-lg border border-slate-700 transition-colors ${isFirstQuestion ? "opacity-50 cursor-not-allowed" : "hover:bg-slate-700"}`}
+        className={`flex items-center gap-2 py-2.5 px-5 rounded-lg border border-slate-700 transition-colors ${
+          isFirstQuestion
+            ? "opacity-50 cursor-not-allowed"
+            : "hover:bg-slate-700"
+        }`}
       >
         <ChevronLeft size={20} strokeWidth={1.5} />
         <span className="hidden sm:inline">Previous</span>
       </button>
-      
+
       <div className="flex items-center gap-4">
         <div className="text-slate-400 text-sm">
-          <span className="text-cyan-400 font-medium">{answeredCount}</span> of {mcqs.length} answered
+          <span className="text-cyan-400 font-medium">{answeredCount}</span> of{" "}
+          {mcqs.length} answered
         </div>
-        
+
         {!isLastQuestion ? (
           <button
             onClick={goToNextQuestion}
@@ -481,7 +572,9 @@ export default function QuizInterface() {
           <button
             onClick={handleFinishClick}
             disabled={submitting || testSubmitted}
-            className={`bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-5 rounded-lg flex items-center gap-2 transition-colors ${(submitting || testSubmitted) ? "opacity-50 cursor-not-allowed" : ""}`}
+            className={`bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-5 rounded-lg flex items-center gap-2 transition-colors ${
+              submitting || testSubmitted ? "opacity-50 cursor-not-allowed" : ""
+            }`}
           >
             {submitting ? (
               <>
@@ -504,56 +597,67 @@ export default function QuizInterface() {
 
   // Enhanced Question Navigator Component
   const EnhancedQuestionNavigator = () => (
-    <div className={`fixed inset-0 bg-slate-900/95 z-20 transition-opacity duration-300 backdrop-blur-sm ${showNavigator ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+    <div
+      className={`fixed inset-0 bg-slate-900/95 z-20 transition-opacity duration-300 backdrop-blur-sm ${
+        showNavigator ? "opacity-100" : "opacity-0 pointer-events-none"
+      }`}
+    >
       <div className="h-full max-w-xl mx-auto p-6 flex flex-col">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold text-white">Question Navigator</h2>
-          <button 
+          <button
             onClick={toggleNavigator}
             className="p-2 rounded-full hover:bg-slate-700 text-slate-400 hover:text-white"
           >
             <X size={24} strokeWidth={1.5} />
           </button>
         </div>
-        
+
         <div className="bg-slate-800 rounded-xl p-4 mb-4 border border-slate-700">
           <div className="flex items-center justify-between mb-2">
             <span className="text-slate-300">Progress</span>
-            <span className="text-cyan-400 font-medium">{progressPercentage}%</span>
+            <span className="text-cyan-400 font-medium">
+              {progressPercentage}%
+            </span>
           </div>
           <div className="h-2 bg-slate-700 rounded-full overflow-hidden">
-            <div 
+            <div
               className="h-full bg-cyan-500 transition-all duration-500"
               style={{ width: `${progressPercentage}%` }}
             ></div>
           </div>
         </div>
-        
+
         <div className="flex-1 overflow-y-auto">
           <div className="grid grid-cols-5 sm:grid-cols-6 gap-3">
             {mcqs.map((_, index) => {
               const isSelected = currentQuestionIndex === index;
               const isAnswered = selectedAnswers[index] !== undefined;
               const isCorrect = correctAnswers[index];
-              
-              let btnClass = "flex items-center justify-center h-12 rounded-lg font-medium transition-all";
-              
+
+              let btnClass =
+                "flex items-center justify-center h-12 rounded-lg font-medium transition-all";
+
               if (isSelected) {
-                btnClass += " ring-2 ring-cyan-500 ring-offset-2 ring-offset-slate-800";
+                btnClass +=
+                  " ring-2 ring-cyan-500 ring-offset-2 ring-offset-slate-800";
               }
-              
+
               if (isAnswered) {
                 if (isCorrect) {
-                  btnClass += " bg-emerald-900/30 border border-emerald-600 text-emerald-400";
+                  btnClass +=
+                    " bg-emerald-900/30 border border-emerald-600 text-emerald-400";
                 } else {
-                  btnClass += " bg-rose-900/30 border border-rose-600 text-rose-400";
+                  btnClass +=
+                    " bg-rose-900/30 border border-rose-600 text-rose-400";
                 }
               } else {
-                btnClass += " bg-slate-750 border border-slate-700 text-slate-300 hover:border-cyan-600";
+                btnClass +=
+                  " bg-slate-750 border border-slate-700 text-slate-300 hover:border-cyan-600";
               }
-              
+
               return (
-                <button 
+                <button
                   key={index}
                   onClick={() => {
                     goToQuestion(index);
@@ -567,7 +671,7 @@ export default function QuizInterface() {
             })}
           </div>
         </div>
-        
+
         <div className="mt-6 bg-slate-800 p-4 rounded-lg border border-slate-700">
           <div className="flex flex-wrap gap-4">
             <div className="flex items-center gap-2">
@@ -594,14 +698,19 @@ export default function QuizInterface() {
       <div className="bg-slate-800 rounded-xl p-6 max-w-md w-full mx-4 border border-slate-700 shadow-2xl">
         <div className="mb-4 text-center">
           <div className="bg-amber-900/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-            <AlertTriangle size={32} className="text-amber-400" strokeWidth={1.5} />
+            <AlertTriangle
+              size={32}
+              className="text-amber-400"
+              strokeWidth={1.5}
+            />
           </div>
           <h3 className="text-xl font-bold text-white mb-2">Exit Test?</h3>
           <p className="text-slate-300">
-            Your progress will be saved, but you'll need to restart the test from the beginning next time.
+            Your progress will be saved, but you'll need to restart the test
+            from the beginning next time.
           </p>
         </div>
-        
+
         <div className="flex flex-col sm:flex-row gap-3 mt-6">
           <button
             onClick={cancelExit}
@@ -630,19 +739,28 @@ export default function QuizInterface() {
           </div>
           <h3 className="text-xl font-bold text-white mb-2">Submit Test?</h3>
           <p className="text-slate-300">
-            You've answered <span className="text-cyan-400 font-medium">{answeredCount}</span> out of <span className="text-cyan-400 font-medium">{mcqs.length}</span> questions.
+            You've answered{" "}
+            <span className="text-cyan-400 font-medium">{answeredCount}</span>{" "}
+            out of{" "}
+            <span className="text-cyan-400 font-medium">{mcqs.length}</span>{" "}
+            questions.
           </p>
-          
+
           {answeredCount < mcqs.length && (
             <div className="mt-4 bg-amber-900/20 p-3 rounded-lg border border-amber-800/30">
               <p className="text-amber-300 text-sm flex items-start">
-                <AlertCircle size={16} className="mr-2 mt-0.5 flex-shrink-0" strokeWidth={1.5} />
-                You have {mcqs.length - answeredCount} unanswered questions. You won't be able to change your answers after submission.
+                <AlertCircle
+                  size={16}
+                  className="mr-2 mt-0.5 flex-shrink-0"
+                  strokeWidth={1.5}
+                />
+                You have {mcqs.length - answeredCount} unanswered questions. You
+                won't be able to change your answers after submission.
               </p>
             </div>
           )}
         </div>
-        
+
         <div className="flex flex-col sm:flex-row gap-3 mt-6">
           <button
             onClick={cancelFinish}
@@ -673,7 +791,11 @@ export default function QuizInterface() {
       <div className="flex-1 flex flex-col max-w-4xl mx-auto w-full px-4 py-6">
         {error && (
           <div className="mb-4 p-4 bg-rose-900/30 border border-rose-700 rounded-lg text-rose-300 flex items-center">
-            <AlertCircle size={20} className="mr-3 flex-shrink-0" strokeWidth={1.5} />
+            <AlertCircle
+              size={20}
+              className="mr-3 flex-shrink-0"
+              strokeWidth={1.5}
+            />
             <span>{error}</span>
           </div>
         )}
