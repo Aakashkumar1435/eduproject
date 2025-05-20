@@ -11,7 +11,7 @@ export default function ChatPage() {
         <div className="flex justify-center items-start flex-grow">
           <ChatBox />
         </div>
-        <Footer />
+        
       </div>
     </>
   );
