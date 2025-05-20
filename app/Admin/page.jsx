@@ -1,5 +1,6 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import Navbar from '../components/Home/Navbar';
 
 const ACCESS_CODE = '12345';
 
@@ -28,6 +29,22 @@ export default function AdminPage() {
     }
   };
 
+  const handleDelete = async (id) => {
+    if (!confirm("Are you sure you want to delete this submission?")) return;
+
+    try {
+      const res = await fetch(`http://localhost:5000/api/submit/${id}`, {
+        method: "DELETE",
+      });
+      if (!res.ok) throw new Error("Failed to delete");
+
+      setSubmissions((prev) => prev.filter((item) => item._id !== id));
+    } catch (err) {
+      console.error("❌ Delete failed:", err);
+      alert("Failed to delete submission.");
+    }
+  };
+
   return (
     <div className="min-h-screen bg-[#e6f4ea] p-6">
       {!isAuthenticated ? (
@@ -50,22 +67,29 @@ export default function AdminPage() {
         </div>
       ) : (
         <div>
-          <h1 className="text-3xl font-bold mb-6 text-center">Buy Submissions</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center text-green-900">Buy Submissions</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {submissions.map((item, idx) => (
-              <div key={idx} className="bg-white rounded-lg p-4 shadow-md">
+              <div key={idx} className="bg-[#1b5e20] text-white rounded-xl p-4 shadow-lg border border-green-700">
                 <img
                   src={`http://localhost:5000/uploads/${item.screenshot}`}
                   alt="screenshot"
-                  className="w-full h-48 object-contain rounded mb-3 border"
+                  className="w-full h-48 object-contain rounded mb-3 border border-white"
                 />
                 <p><span className="font-semibold">Name:</span> {item.name}</p>
                 <p><span className="font-semibold">Email:</span> {item.email}</p>
                 <p><span className="font-semibold">Title:</span> {item.offerTitle}</p>
                 <p><span className="font-semibold">Category:</span> {item.category || 'Other'}</p>
-                <p className="text-sm text-gray-500 mt-1">
+                <p className="text-sm text-gray-300 mt-1">
                   Submitted: {new Date(item.submittedAt).toLocaleString()}
                 </p>
+
+                <button
+                  onClick={() => handleDelete(item._id)}
+                  className="mt-4 px-4 py-2 bg-red-600 hover:bg-red-700 text-white font-semibold rounded shadow-md transition-all duration-200"
+                >
+                  Delete
+                </button>
               </div>
             ))}
           </div>

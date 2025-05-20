@@ -4,7 +4,7 @@ import upload from "../middleware/upload.js";
 
 const router = express.Router();
 
-// ⬇️ Upload route (already done)
+// ⬇️ Upload route
 router.post("/", upload.single("screenshot"), async (req, res) => {
   try {
     const { name, email, offerTitle, category } = req.body;
@@ -32,6 +32,19 @@ router.get("/", async (req, res) => {
     res.json(submissions);
   } catch (err) {
     res.status(500).json({ error: "Failed to fetch submissions" });
+  }
+});
+
+// 🆕 DELETE a submission by ID
+router.delete("/:id", async (req, res) => {
+  try {
+    const deleted = await BuySubmission.findByIdAndDelete(req.params.id);
+    if (!deleted) {
+      return res.status(404).json({ error: "Submission not found" });
+    }
+    res.json({ message: "Submission deleted successfully" });
+  } catch (err) {
+    res.status(500).json({ error: "Failed to delete submission" });
   }
 });
 
