@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { HomeNavbar } from '../components/Mdcat/PageNavbar';
+
 import {
   Trophy,
   Medal,
@@ -297,8 +299,9 @@ const LeaderboardComponent = () => {
   }, [sortField, sortDirection, activeFilter]);
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-4 md:p-8">
-      <div className="max-w-3xl mx-auto">
+    <div className="min-h-screen bg-gray-900 text-white">
+    <HomeNavbar />
+    <div className="max-w-3xl mx-auto p-4 md:p-8">
         <LeaderboardHeader />
         <LeaderboardStats topperData={users} />
 

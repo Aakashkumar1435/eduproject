@@ -65,7 +65,7 @@ export default function ChatBox() {
           <option value="Punjab">Punjab Board</option>
           <option value="Sindh">Sindh Board</option>
           <option value="Federal">Federal Board</option>
-          <option value="All">All Boards</option>
+          
         </select>
 
         {/* Book Dropdown */}
@@ -77,7 +77,6 @@ export default function ChatBox() {
           <option value="Physics">Physics</option>
           <option value="Chemistry">Chemistry</option>
           <option value="Biology">Biology</option>
-          <option value="All">All Subjects</option>
         </select>
 
         {/* Input */}
