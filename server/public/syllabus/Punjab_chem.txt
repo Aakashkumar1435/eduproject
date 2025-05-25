@@ -1,0 +1,306 @@
+Aldehydes and Ketones
+
+
+📄 Page 188
+Students will be able to:
+
+Explain the physical properties and structure of aldehydes and ketones. (Understanding)
+
+Explain the preparation of aldehydes and ketones by ozonolysis of alkenes, hydration of alkynes, oxidation of alcohols and Friedel Craft’s acylation of aromatics. (Applying)
+
+Describe reactivity of aldehydes and ketones. (Understanding)
+
+Explain acid and base catalysed nucleophilic addition reactions of aldehydes and ketones. (Applying)
+
+Explain reaction of aldehydes and ketones. (Applying)
+
+Describe oxidation reactions of aldehydes and ketones. (Applying)
+
+Compare the aldehyde and ketone with reference to their laboratory test (tabular form). (Understanding)
+
+Enlist the important compounds of Aldehydes and Ketones with their application. (Applying)
+
+📄 Page 189
+INTRODUCTION
+Aldehydes and ketones hold significant importance, with widespread usage in several industries. They are the simplest carbonyl compounds; both contain a carbonyl group, which is a functional group consisting of a carbon atom double-bonded to an oxygen atom.
+
+Aldehydes contain a carbonyl group at the terminal carbon of their carbon chain, whereas ketone have a carbonyl group located on the carbon within their carbon chain. Both types of compounds have unique properties and reactivity due to the presence of the carbonyl group, which makes them useful in a variety of applications.
+
+The typical representatives of this class of compounds are formaldehyde, acetone, benzaldehyde and acetophenone. Formaldehyde is exceptional since it carries two hydrogen atoms instead of alkyl substituents.
+
+(Shown: Diagram with molecular structures of formaldehyde, acetaldehyde, acetone, acetophenone, and benzophenone)
+(It is a diagram showing structures of formaldehyde, acetaldehyde, acetone, acetophenone and benzophenone)
+
+Organic chemistry emphasizes the study of aldehyde and ketones due to their significant applications in various industrial sectors.
+
+For example, formaldehyde is used to produce resins, synthetic plastic and urea formaldehyde. Acetone is used in the preparation of iodoform, chloroform and nail polish remover. Benzaldehyde is used in the manufacturing of dyes etc.
+
+📄 Page 190
+8.1 PHYSICAL PROPERTIES
+
+Physical State: Methanal and ethanal are gases; the other lower aldehydes and ketones are colourless liquids at room temperature. The higher aldehydes and ketones (more than C₁₀) are solids at room temperature.
+
+Odour: Lower aldehydes have a pungent smell whereas ketones and higher aldehydes have a pleasant smell.
+
+Boiling Point: Carbonyl compounds have higher boiling points than alkanes of similar molecular weights due to the polar nature of the carbonyl group, enabling intermolecular forces. However, they have lower boiling points compared to alcohols and carboxylic acids due to the absence of intermolecular hydrogen bonding.
+
+Solubility: Carbonyl compounds are generally polar, and they are soluble in polar solvents such as water and ethanol. However, their solubility decreases as the size of the hydrophobic group (hydrocarbon chain) attached to the carbonyl carbon increases.
+
+8.2 STRUCTURE OF ALDEHYDES AND KETONES
+
+In aldehyde and ketone, the carbonyl group comprises a carbon atom that is double bonded to an oxygen atom. The carbon atom in the carbonyl group is sp² hybridized, with one of its sp² hybrid orbitals participating in sigma bond formation with the oxygen atom, while the other two sp² hybrid orbitals form sigma bonds with other atoms. The unhybrid p orbital of the carbon atom in the carbonyl group forms a pi bond with the oxygen atom. (Fig. 8.1)
+
+(Fig. 8.1: Structure of formaldehyde showing sigma and pi bonding)
+(It is a diagram of formaldehyde structure showing sigma and pi bonding in a carbonyl group)
+
+
+📄 Page 191
+The sp² hybridization of the carbon atom in the carbonyl group allows it to acquire a trigonal planar geometry, with bond angles of approximately 120°.
+
+(Shown: Molecular structures of Formaldehyde, Acetaldehyde, and Acetone)
+(It is a diagram showing the planar structure of formaldehyde, acetaldehyde, and acetone)
+
+8.3 PREPARATION OF ALDEHYDES AND KETONES
+8.3.1 Ozonolysis of Alkenes
+Alkenes can be ozonolyzed to yield aldehydes and ketones. This reaction involves the breaking of C=C of alkene by the use of ozone and reducing agent such as zinc.
+
+(Shown: Reactions of ethene and 2,3-dimethyl butene with ozone forming ozonides, which yield formaldehyde and acetone respectively in presence of Zn/H₂O at 100°C)
+(It is a reaction diagram showing ozonolysis of ethene and 2,3-dimethyl butene to form formaldehyde and acetone respectively)
+
+📄 Page 192
+8.3.2 Hydration of Alkyne
+Alkynes when heated with water in the presence of H₂SO₄ and HgSO₄, an acid catalysed addition reaction occur on C ≡ C to form an unstable enol which then on tautomerization, gives aldehyde or ketone.
+
+(i) The hydration of ethyne gives acetaldehyde:
+
+(Shown: Reaction of ethyne + H₂O → Enol → Rearrangement → Acetaldehyde)
+(It is a diagram showing hydration of ethyne to form acetaldehyde via enol intermediate)
+
+(ii) The hydration of propyne gives propanone:
+
+(Shown: Reaction of propyne + H₂O → Enol → Rearrangement → Acetone)
+(It is a diagram showing hydration of propyne to form acetone via enol intermediate)
+
+8.3.3 Oxidation of Alcohol
+In the oxidation of alcohols, the –OH functional groups are converted to carbonyl groups (C=O). Primary alcohols are oxidized to aldehydes, and secondary alcohols are oxidized to ketones, which can be achieved using pyridinium chlorochromate (PCC) as an oxidizing agent. However, tertiary alcohols do not undergo oxidation. This controlled process is valuable in obtaining specific carbonyl compounds in organic synthesis.
+
+(Shown: Oxidation reactions of primary alcohol to acetaldehyde and secondary alcohol to acetone using PCC)
+(It is a diagram showing oxidation of alcohols using PCC to form aldehyde and ketone)
+
+🧠 DO YOU KNOW?
+Formalin is an aqueous solution of formaldehyde, typically containing 37–40% formaldehyde by weight. It is used as a disinfectant and preservative for biological specimens. However, it is a known carcinogen and can cause skin and respiratory irritation and should be handled with caution and appropriate protective measures.
+
+📄 Page 193
+8.3.4 Friedel–Craft Acylation of Aromatic Compounds
+Aromatic ketones can be synthesized through the Friedel Craft acylation method. In this reaction, an acyl chloride reacts with benzene or its derivatives in the presence of a Lewis acid catalyst, typically aluminum chloride (AlCl₃).
+
+(Shown: Reaction of benzene with acyl chloride and AlCl₃ to form acetophenone + HCl)
+(It is a diagram showing Friedel–Craft acylation of benzene to form acetophenone)
+
+8.4 REACTIVITY OF CARBONYL COMPOUNDS
+The carbon–oxygen bond (C=O) in the carbonyl group is highly polar due to the electronegativity difference between carbon and oxygen. It creates partially negative charge on oxygen and partially positive charge on hydrogen, making the carbon and oxygen atoms in aldehydes and ketones act as electrophiles and nucleophiles. Aldehydes are more reactive than ketones due to less steric hindrance (having one alkyl group) and a greater electron-withdrawing effect of the aldehyde’s hydrogen, which enhances the electrophilicity of its carbonyl carbon, making it more attractive to nucleophiles.
+
+(Diagram showing nucleophilic attack on carbonyl compound with charge separation and intermediate formation)
+(It is a diagram showing the nucleophilic addition mechanism on carbonyl group)
+
+8.5 REACTIONS OF ALDEHYDE AND KETONES
+Aldehyde and Ketone undergo following types of reactions:
+(i) Nucleophilic addition reactions
+(ii) Reduction reaction
+(iii) Oxidation reaction
+
+📄 Page 194
+8.5.1 Nucleophilic addition reaction
+In these reactions, nucleophiles attack the carbonyl carbon of aldehydes and ketones, leading to a change in the hybridization of the carbon atom from sp² to sp³. The pi electron pair of C=O shifts towards the oxygen atom, forming an alkoxide intermediate, which is subsequently protonated to yield the addition product.
+
+(Diagram showing nucleophile attacking carbonyl group forming intermediate and final product)
+(It is a diagram of nucleophilic addition showing mechanism from reactant to alkoxide intermediate to product)
+
+Nucleophilic addition reactions can be either acid-catalyzed or base-catalyzed, depending on the nature of reactants and the reaction conditions.
+
+(i) Acid catalysed Nucleophilic addition reactions
+An acid catalyst is employed in a case where a carbonyl compound reacts with weak nucleophile for addition. The acidic proton attacks the carbonyl atom, resulting in the formation of a protonated carbonyl group. This protonation enhances the electrophilic behavior of the carbonyl carbon making it more responsive to a nucleophile. Thus, a weak nucleophile can easily attack on carbonyl carbon and give the addition product. The general mechanism of acid catalysed nucleophilic addition on aldehyde and ketone is written as:
+
+(Diagram showing general mechanism of acid catalysed nucleophilic addition)
+(It is a reaction diagram showing stepwise acid catalysed addition on carbonyl compound)
+
+Addition of hydrazine (NH₂–NH₂) and hydroxyl amine (NH₂OH) on aldehyde and ketone is catalyzed by an acid.
+
+(Shown: Reactions of propanone with NH₂OH and NH₂NH₂ forming oxime and hydrazone respectively)
+(It is a diagram showing formation of propanone oxime and propanone hydrazone)
+
+
+📄 Page 195
+(ii) Base catalysed Nucleophilic addition reaction
+Addition of strong nucleophilic reagents on aldehyde and ketone is catalysed by base. The base first reacts with the reagent to generate a nucleophile. The nucleophile then attacks on carbonyl carbon. The pi electron of C=O is then shifted towards oxygen atom to form tetrahedral alkoxide ion as intermediate. This intermediate captures a proton or the electrophile to give the product.
+General mechanism of base catalysed Nucleophilic addition reaction is given as:
+
+(Reaction diagram showing general mechanism of base catalysed nucleophilic addition: carbonyl compound → intermediate → addition product)
+(It is a reaction diagram showing stepwise base catalysed addition to a carbonyl group)
+
+Addition of HCN and Grignard reagent is catalysed by base.
+
+CH₃–CHO + HCN → CH₃–CH(OH)–CN (Acetaldehyde cyanohydrin)
+
+CH₃–C(=O)–H + CH₃MgCl → [Addition Product] → CH₃–CH(CH₃)–OH (Isopropyl alcohol)
+
+(It is a reaction diagram showing acetaldehyde reacting with HCN and Grignard reagent to form cyanohydrin and isopropyl alcohol respectively)
+
+📄 Page 196
+8.5.2 Reduction of Aldehyde and Ketone
+The reduction of aldehydes and ketones involves the addition of hydrogen to the carbonyl group resulting in the formation of an alkane or alcohol depending upon the suitable reducing agent used in the reaction.
+
+8.5.2.1 Reduction to Hydrocarbon
+The reduction of aldehyde and ketone into saturated hydrocarbons is carried out in a mixture of zinc amalgam and concentrated HCl is used. This is known as Clemmensen reduction.
+
+CH₃CHO + 4[H] → CH₃CH₃ + H₂O
+
+CH₃COCH₃ + 4[H] → CH₃CH₂CH₃ + H₂O
+
+(It is a diagram showing Clemmensen reduction of acetaldehyde and acetone into ethane and propane)
+
+Aldehyde and ketone can also be converted into alkane by using hydrazine (NH₂–NH₂) and potassium hydroxide. This is known as Wolff–Kishner reaction.
+
+(Reaction diagram showing aldehyde/ketone + NH₂–NH₂ → hydrazone → alkane with loss of N₂)
+(It is a diagram of Wolff–Kishner reduction showing hydrazone intermediate and conversion to alkane)
+
+📄 Page 197
+8.5.2.2 Reduction to Alcohol
+Aldehyde and ketone when treated with strong reducing agents such as NaBH₄ or LiAlH₄, they reduce into primary and secondary alcohols respectively.
+
+CH₃CHO + H₂ → CH₃CH₂OH (Primary alcohol)
+
+CH₃COCH₃ + H₂ → CH₃CH(OH)CH₃ (Secondary alcohol)
+
+(It is a reaction diagram showing LiAlH₄ reduction of acetaldehyde and acetone to alcohols)
+
+8.5.3 Oxidation Reaction
+Aldehydes and ketones undergo oxidation with an oxidizing agent to give carboxylic acid. However, the reactivity of aldehyde towards oxidation reaction is quite easy due to the availability of active hydrogen atom at the carbonyl position, thus:
+i. A variety of mild oxidizing agents such as chromic acid (H₂CrO₄), Tollen’s reagent, Fehling reagent and Benedict reagent can be used to convert aldehyde into corresponding carboxylic acid. Aldehydes can also be oxidized by strong oxidizing agents.
+
+CH₃CHO + [O] → CH₃COOH (Acetic acid)
+
+(It is a diagram showing oxidation of aldehyde using H₂CrO₄ to acetic acid)
+
+ii. Oxidation of ketone is relatively slow and it involves the breaking of carbon–carbon sigma bond and it happens only in the presence of strong oxidizing agent.
+
+CH₃COCH₃ + 4[O] → CH₃COOH + CO₂ + H₂O
+(K₂Cr₂O₇ / H₂SO₄)
+
+(It is a diagram showing oxidation of acetone to acetic acid + carbon dioxide + water using K₂Cr₂O₇)
+
+📄 Page 198
+🧪 Self-Assessment
+What reagent can be used to convert an alcohol to aldehydes or ketones without the formation of carboxylic acid?
+
+Laboratory test to distinguish between aldehydes and ketones
+(i) Silver mirror test
+The reagent used for this test is ammoniacal silver nitrate (Tollen’s reagent). Since this reagent has short shelf life, it should be freshly prepared in laboratory by mixing silver nitrate and ammonium hydroxide.
+
+Reaction:
+RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag↓ + 2NH₃ + 2H₂O
+
+(It is a diagram showing silver mirror test for aldehyde)
+
+While performing the test, tollen’s reagent is mixed with the given carbonyl compound and heated to boiling. If aldehyde is present, a silver mirror will form on the inside of the test tube.
+
+(ii) Fehling test
+There are two Fehling solutions available in laboratory. Fehling A is an aqueous copper (II) sulphate solution while Fehling B is an aqueous solution of sodium hydroxide (NaOH) with sodium potassium tartrate.
+
+To carry out the Fehling’s test, mix equal volumes of Fehling A and B in a test tube. Heat the mixture to boiling and then add a small amount of aldehyde. If aldehyde is present, the blue colour of the copper solution (Cu²⁺) changes to red precipitate (ppt) of copper (I) oxide.
+
+Reaction:
+RCHO + 2Cu²⁺ + 5OH⁻ → RCOO⁻ + Cu₂O↓ + 3H₂O
+
+(It is a diagram showing Fehling’s test with red ppt formation in aldehyde)
+
+🧠 DO YOU KNOW?
+Tollen’s reagent, Fehling reagent and Benedict solution test distinguishes aldehydes from ketones.
+
+Tollen’s reagent is silver nitrate and ammonia.
+
+Fehling A is copper sulphate, Fehling B is sodium hydroxide and tartrate salt.
+
+Benedict’s reagent contains copper sulphate, sodium hydroxide and citric acid.
+
+📄 Page 199
+8.5.4 Difference between Aldehyde and Ketone
+Basic Structure: Both aldehydes and ketones are carbonyl compounds but in aldehydes, the carbonyl carbon is attached with at least one alkyl or aryl group while in ketones, carbonyl carbon is attached with two alkyl or aryl groups.
+
+Physical Properties: The boiling point of ketones is relatively higher than aldehydes since carbonyl group of ketones is more polarised than aldehydes.
+
+Reactivity: The reactivity of aldehydes towards nucleophilic addition is greater than ketones because of less steric hindrance and less electronic effect.
+
+Oxidation into Carboxylic acid: Ketones oxidizes to carboxylic acid with strong oxidizing agent such as potassium dichromate (K₂Cr₂O₇) and potassium permanganate (KMnO₄) while aldehydes can easily be oxidized to carboxylic acid with mild oxidizing agent such as chromic acid (H₂CrO₄), Tollen’s reagent and Fehling solution and Benedict solution.
+
+Reduction into alcohol: Reduction of aldehydes in the presence of strong reducing agents such as lithium aluminum hydride (LiAlH₄) and sodium borohydride (NaBH₄) gives primary alcohol while the reduction of ketones gives secondary alcohol.
+
+Table 8.1: Some applications of aldehydes and ketones
+
+Application	Aldehydes	Ketones
+Organic Synthesis	Used as key intermediates in various organic reactions.	Important starting materials for creating complex organic compounds
+Flavor and Fragrance	Provide characteristic aroma and taste to many natural and synthetic products, e.g., vanillin and benzaldehyde.	Used as flavoring agents and fragrances in the food, cosmetic, and perfume industries.
+Pharmaceuticals	Serve as building blocks for various pharmaceuticals, such as anti-inflammatory drugs and antihistamines.	Some ketones are used as active pharmaceutical ingredients in medicines.
+Solvents	Formaldehyde is used as a solvent for certain reactions.	Acetone is a widely used solvent for chemical reactions and as a nail polish remover.
+
+
+📄 Page 200
+🧪 SOCIETY, TECHNOLOGY AND SCIENCE
+Role of Ozonolysis in drinking water
+Ozone is a powerful oxidizing agent, it is successfully used in the treatment of drinking water in the following manners:
+(i) It serves as biocides since it ozonolyses the organic substances present in the cell membrane of microorganisms such as bacteria, viruses and the protozoa and hence killed them.
+(ii) It oxidizes certain metals (Cu, Fe, Mn, etc.) which are present in the excess amount in water that can be easily separated by filtration.
+
+🟡 SUMMARY
+Aldehydes and ketones are organic compounds that contain carbonyl functional group (>C=O).
+
+The boiling point of aldehydes and ketones is lower than alcohols since they do not form intermolecular hydrogen bond.
+
+The boiling point of aldehydes and ketones is higher than alkanes because of molecular polarity and dipole-dipole attractive forces among their molecules.
+
+The chemical reactivity of aldehydes and ketones is attributed to the polar carbonyl group they contain.
+
+The geometry of aldehydes and ketones molecules is trigonal planar since carbon atom of carbonyl group (>C=O) is sp² hybridized.
+
+Preparation of aldehydes and ketones is mostly carried out by ozonolysis of alkenes and hydration of alkyne.
+
+Reduction of aldehyde and ketone with LiAlH₄ or NaBH₄ gives primary and secondary alcohol respectively.
+
+Aldehydes can be oxidized into carboxylic acid with mild oxidizing agent such as chromic acid (H₂CrO₄), Tollen’s reagent and Fehling solution etc.
+
+Ketones can be oxidized into carboxylic acid in presence of strong oxidizing agent.
+
+Nucleophilic addition reactions of aldehydes and ketones are catalysed by acid or base depending upon the availability of either weak or strong nucleophilic reagent.
+
+Water, alcohol, and ammonia can undergo nucleophilic addition reactions with aldehyde and ketones, and these reactions are catalysed by acids.
+
+Hydrogen cyanide (HCN) and Grignard reagent (RMgX) can react with aldehydes and ketones in the presence of a base catalyst.
+
+Identification of aldehydes in a laboratory can be carried out by Tollen’s reagents or by Fehling solution.
+
+📄 Page 201
+📝 EXERCISE
+Multiple Choice Questions
+
+(i) Ketones when treated with LiAlH₄, they reduce to:
+(a) Primary alcohol  (b) Secondary alcohol
+(c) Tertiary alcohol  (d) Dihydric alcohol
+
+(ii) The reagent used to oxidizes ketones into acids is:
+(a) Ammonia solution  (b) Potassium dichromate
+(c) Fehling solution  (d) Benedict solution
+
+(iii) The carbon atom of aldehydes and ketones is:
+(a) Sp hybridized  (b) Sp² hybridized
+(c) Sp³ hybridized  (d) dsp³ hybridized
+
+(iv) Acetophenone is the member of ketone family, it contains:
+(a) Two alkyl R groups  (b) Two aryl R groups
+(c) One alkyl and one aryl group  (d) One aryl and one hydrogen atom
+
+(v) The most reactive molecule towards nucleophilic addition in the following is:
+(a) Formaldehyde  (b) Acetaldehyde
+(c) Dimethyl ketone  (d) Acetophenone
+
+(vi) Clemmensen reduction is the conversion of aldehydes and ketones into:
+(a) Alkanes  (b) Alkenes
