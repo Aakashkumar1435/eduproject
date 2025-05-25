@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./FAQ.module.css";
+import { ChevronDown } from "lucide-react";
 
 const faqData = [
   {
@@ -33,26 +33,51 @@ export default function FAQ() {
   };
 
   return (
-    <div className={styles.faq}>
-      <h2>Frequently Asked Questions</h2>
-      {faqData.map((item, index) => (
-        <div
-          className={`${styles.faqItem} ${
-            openIndex === index ? styles.active : ""
-          }`}
-          key={index}
-        >
+    <div className="max-w-3xl mx-auto py-12 px-4">
+      <h2 className="text-3xl font-bold text-white text-center mb-10">Frequently Asked Questions</h2>
+      
+      <div className="space-y-4">
+        {faqData.map((item, index) => (
           <div
-            className={styles.faqQuestion}
-            onClick={() => toggleFAQ(index)}
+            className={`bg-gray-800 rounded-lg overflow-hidden border ${
+              openIndex === index ? "border-green-500" : "border-gray-700"
+            } transition-all duration-200`}
+            key={index}
           >
-            {item.question}
+            <button
+              className="w-full text-left p-5 flex justify-between items-center focus:outline-none"
+              onClick={() => toggleFAQ(index)}
+            >
+              <span className="text-lg font-medium text-white">{item.question}</span>
+              <ChevronDown 
+                className={`text-green-500 transition-transform duration-300 ${
+                  openIndex === index ? "transform rotate-180" : ""
+                }`}
+                size={20}
+              />
+            </button>
+            
+            <div 
+              className={`overflow-hidden transition-all duration-300 ${
+                openIndex === index ? "max-h-40" : "max-h-0"
+              }`}
+            >
+              <div className="p-5 pt-0 text-gray-300 border-t border-gray-700">
+                {item.answer}
+              </div>
+            </div>
           </div>
-          <div className={styles.faqAnswer}>
-            <p>{item.answer}</p>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
+      
+      <div className="mt-10 text-center">
+        <p className="text-gray-400">
+          Still have questions?{" "}
+          <a href="/contact" className="text-green-500 hover:text-green-400 underline transition-colors">
+            Contact our support team
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
