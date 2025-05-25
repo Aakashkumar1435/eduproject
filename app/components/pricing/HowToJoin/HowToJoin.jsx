@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import styles from "./HowToJoin.module.css";
 
 const steps = [
   {
@@ -27,21 +26,37 @@ const steps = [
 
 export default function HowToJoin() {
   return (
-    <section className={styles.joinProcess}>
-      <h2>How to Join CrackIt</h2>
+    <section className="bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-12 text-green-400">
+          How to Join CrackIt
+        </h2>
 
-      <div className={styles.stepsContainer}>
-        {steps.map((step, index) => (
-          <div className={styles.step} key={index}>
-            <div className={styles.stepNumber}>{step.number}</div>
-            <h3>{step.title}</h3>
-            <p>{step.description}</p>
-          </div>
-        ))}
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {steps.map((step, index) => (
+            <div 
+              key={index} 
+              className="bg-gray-800 rounded-lg p-6 text-center transition-transform duration-300 hover:transform hover:scale-105 relative overflow-hidden"
+            >
+              <div className="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                {step.number}
+              </div>
+              <h3 className="text-xl font-semibold mb-2 text-green-400">{step.title}</h3>
+              <p className="text-gray-400">{step.description}</p>
+              
+              {/* Connecting line between steps (except the last one) */}
+              {index < steps.length - 1 && (
+                <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-green-600"></div>
+              )}
+            </div>
+          ))}
+        </div>
 
-      <div className={styles.joinNowContainer}>
-        <button className={styles.joinNowBtn}>Join Now</button>
+        <div className="flex justify-center mt-12">
+          <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-md transition-colors duration-300 text-lg shadow-lg hover:shadow-xl">
+            Join Now
+          </button>
+        </div>
       </div>
     </section>
   );

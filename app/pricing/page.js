@@ -8,9 +8,9 @@ import Footer from '../components/footer/Footer';
 
 export default function Page() {
   return (
-    <>
+    <div className="bg-gray-900 text-gray-100">
       <Navbar />
-      <main className="bg-[#e6f4ea] min-h-screen w-full pt-16">
+      <main className="min-h-screen w-full pt-16">
         <section className="max-w-7xl mx-auto px-4 py-10">
           <PricingPage />
         </section>
@@ -19,7 +19,7 @@ export default function Page() {
           <FAQ />
         </section>
 
-        <section className="max-w-7xl mx-auto px-4 py-10">
+        <section className="max-w-7xl mx-auto px-4 py-10 bg-gray-800 rounded-xl">
           <OtherCourses />
         </section>
 
@@ -28,6 +28,6 @@ export default function Page() {
         </section>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
